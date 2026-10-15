@@ -1737,3 +1737,269 @@ img {
     grid-template-columns: 1fr;
   }
 }
+
+/* ============ Elastomers page ============ */
+.elastomers__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 26px;
+}
+
+.elastomer-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 26px;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.elastomer-card:hover {
+  box-shadow: var(--shadow);
+  transform: translateY(-3px);
+  border-color: var(--yellow-deep);
+}
+
+.elastomer-card__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 6px;
+}
+
+.elastomer-card__head h3 {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--navy);
+}
+
+.elastomer-card__range {
+  font-family: var(--font-head);
+  font-weight: 800;
+  font-size: 14px;
+  color: var(--yellow-deep);
+  white-space: nowrap;
+}
+
+.elastomer-card__chem {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--gray-light);
+  letter-spacing: 0.3px;
+  margin-bottom: 10px;
+}
+
+.elastomer-card__desc {
+  font-size: 15px;
+  color: var(--muted);
+  margin-bottom: 16px;
+}
+
+@media (max-width: 700px) {
+  .elastomers__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ============ Aerospace / industry page ============ */
+.hero__badges {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 22px;
+  flex-wrap: wrap;
+}
+
+.hero__badges span:not(.dot) {
+  font-family: var(--font-head);
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--yellow);
+  background: rgba(255, 221, 0, 0.12);
+  border: 1px solid rgba(255, 221, 0, 0.45);
+  padding: 7px 14px;
+  border-radius: 999px;
+}
+
+.hero__badges .dot {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 900;
+}
+
+.industry-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: start;
+}
+
+.industry-col__p {
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--muted);
+  margin-bottom: 24px;
+}
+
+.stat-grid--4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.stat-box {
+  background: var(--bg-soft);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 16px 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-box__num {
+  font-family: var(--font-head);
+  font-weight: 900;
+  font-size: 22px;
+  color: var(--navy);
+  line-height: 1.1;
+}
+
+.stat-box__label {
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 4px;
+}
+
+.industry-approvals__eyebrow {
+  font-family: var(--font-head);
+  font-weight: 800;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: var(--yellow-deep);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.approval-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.approval-tag {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--navy);
+  background: #fff;
+  border: 1px solid var(--line);
+  padding: 5px 11px;
+  border-radius: 6px;
+}
+
+.industry-cta {
+  font-size: 15px;
+  color: var(--muted);
+}
+
+.inline-link {
+  color: var(--navy);
+  font-weight: 700;
+  font-family: var(--font-head);
+}
+
+.inline-link:hover {
+  color: var(--yellow-deep);
+}
+
+.cap-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.cap-list li {
+  display: flex;
+  gap: 12px;
+  font-size: 16px;
+  color: var(--navy);
+  padding-left: 26px;
+  position: relative;
+  line-height: 1.5;
+}
+
+.cap-list li::before {
+  content: '';
+  position: absolute;
+  left: 2px;
+  top: 9px;
+  width: 9px;
+  height: 9px;
+  background: var(--yellow);
+  border-radius: 2px;
+}
+
+.materials-chip-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.material-chip {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.material-chip strong {
+  font-family: var(--font-head);
+  font-weight: 800;
+  font-size: 16px;
+  color: var(--navy);
+  margin-bottom: 4px;
+}
+
+.material-chip span {
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.app-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px 32px;
+}
+
+.app-list li {
+  position: relative;
+  padding-left: 26px;
+  font-size: 16px;
+  color: var(--navy);
+  line-height: 1.5;
+}
+
+.app-list li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--yellow-deep);
+  font-weight: 900;
+}
+
+@media (max-width: 760px) {
+  .industry-split {
+    grid-template-columns: 1fr;
+    gap: 34px;
+  }
+  .materials-chip-grid,
+  .app-list {
+    grid-template-columns: 1fr;
+  }
+}

@@ -137,9 +137,9 @@ export default function Header() {
           </div>
 
           <div className="item">
-            <a href="#materials" className="nav__link" onClick={() => toggleMenu('elastomers')}>
+            <Link to="/elastomers" className="nav__link" onClick={() => toggleMenu('elastomers')}>
               Elastomers <span className="chev">▾</span>
-            </a>
+            </Link>
             <div className={`menu ${openMenu === 'elastomers' ? 'is-open' : ''}`}>
               <a href="#materials">EPDM</a>
               <a href="#materials">Silicone</a>
@@ -161,7 +161,7 @@ export default function Header() {
               Industries <span className="chev">▾</span>
             </a>
             <div className={`menu menu--wide ${openMenu === 'industries' ? 'is-open' : ''}`}>
-              <a href="#industries">Aerospace</a>
+              <Link to="/industries/aerospace">Aerospace</Link>
               <a href="#industries">Automotive</a>
               <a href="#industries">Oil &amp; Gas</a>
               <a href="#industries">Medical &amp; Pharma</a>
