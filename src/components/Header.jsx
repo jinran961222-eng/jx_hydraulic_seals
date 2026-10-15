@@ -85,9 +85,9 @@ export default function Header() {
           </div>
 
           <div className="item">
-            <a href="#contact" className="nav__link" onClick={() => toggleMenu('knowledge')}>
+            <Link to="/knowledge" className="nav__link" onClick={() => toggleMenu('knowledge')}>
               Knowledge <span className="chev">▾</span>
-            </a>
+            </Link>
             <div className={`menu menu--kmenu ${openMenu === 'knowledge' ? 'is-open' : ''}`}>
               <div className="kcol">
                 <div className="kgroup">

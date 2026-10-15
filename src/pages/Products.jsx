@@ -129,6 +129,76 @@ export default function Products() {
             <a href="#contact" className="btn btn--yellow">Request a Quote →</a>
           </div>
         </section>
+
+        {/* More about our products */}
+        <section className="section about" id="more-products">
+          <div className="container">
+            <div className="section__head section__head--center">
+              <p className="section__eyebrow">MORE ABOUT OUR PRODUCTS</p>
+            </div>
+            <div className="about__body">
+              <div className="about__block">
+                <h3 className="about__h2">
+                  ARC: Your Source for Diverse, High-Performance Rubber Components and Extruded
+                  Profiles
+                </h3>
+                <p>
+                  With years of expertise in natural and synthetic elastomer compounds, American
+                  Rubber Corp (ARC) manufactures a wide variety of rubber gaskets, seals, O-rings,
+                  extruded rubber cords, extruded rubber profiles, custom profiles, hoses, grommets,
+                  bellows, plugs, diaphragms, and caps. Every part is custom-to-spec and made to your
+                  print, engineered and compounded in-house rather than pulled from stock. Our team
+                  has been crafting superior rubber solutions for two decades, and our engineers work
+                  with you from material selection through manufacturing to solve sealing problems
+                  others can’t.
+                </p>
+              </div>
+
+              <div className="about__block">
+                <h3>The Elastomers We Work With</h3>
+                <p>
+                  We compound and manufacture components from a broad range of natural and synthetic
+                  elastomers and thermoplastics, selecting the right material for your technical,
+                  mechanical, electrical, and chemical requirements:
+                </p>
+                <ul className="about__list">
+                  <li>EPDM</li>
+                  <li>Silicone</li>
+                  <li>Fluorosilicone</li>
+                  <li>FKM (Viton)</li>
+                  <li>NBR (Nitrile, Buna-N)</li>
+                  <li>HNBR</li>
+                  <li>Neoprene</li>
+                  <li>SBR</li>
+                  <li>Kalrez</li>
+                  <li>Santoprene (TPV)</li>
+                  <li>PTFE (Polytetrafluoroethylene), a synthetic fluoropolymer of tetrafluoroethylene</li>
+                </ul>
+              </div>
+
+              <div className="about__block">
+                <h3>Unmatched Variety, Customization, and Expertise</h3>
+                <p>
+                  Every application is different, which is why we work with you to customize parts
+                  for your particular needs. Whether you require rubber gaskets, seals, O-rings,
+                  cords, profiles, hoses, diaphragms, or specialized components, we design and
+                  manufacture to your specification. Rubber diaphragms, for example, are versatile,
+                  flexible sealing components used across many industries, and we produce them
+                  alongside our full range of molded and extruded products.
+                </p>
+                <p>
+                  Our expertise spans material selection, tooling and die design, molding, and
+                  extrusion, backed by two decades of engineering-led manufacturing in the USA. We
+                  support you with uncompromising standards for quality and precision, and our
+                  engineers help you specify the compounds and properties that best fit your
+                  performance needs and budget. As a custom manufacturer, we do not sell from stock
+                  or online; instead, we build the exact rubber solution your application requires
+                  and stand behind it as your trusted manufacturing partner.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
       <Footer />
       <FloatingCta />
