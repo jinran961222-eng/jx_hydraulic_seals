@@ -337,12 +337,14 @@ img {
 }
 
 .menu--kmenu {
-  width: 720px;
-  left: auto;
-  right: -20px;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 2px 22px;
-  padding: 20px 22px;
+  width: auto;
+  left: -320px;
+  right: auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 22px 26px;
+  overflow: hidden;
 }
 
 .menu a {
@@ -432,6 +434,11 @@ img {
 
 .kcol .kgroup {
   margin-bottom: 14px;
+}
+
+.kcol {
+  flex: 0 0 auto;
+  min-width: 200px;
 }
 
 .kgh {
