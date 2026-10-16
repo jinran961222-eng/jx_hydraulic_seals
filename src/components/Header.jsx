@@ -76,7 +76,7 @@ export default function Header() {
                 </div>
               </div>
               <Link to="/products/oil-seals">Oil Seals</Link>
-              <a href="#products">Rubber Diaphragms</a>
+              <Link to="/products/rubber-diaphragms">Rubber Diaphragms</Link>
               <Link to="/products/extruded-rubber">Extruded Rubber</Link>
               <a href="#products">Rubber Molded Parts</a>
               <Link to="/products/inflatable-seals">Inflatable Seals</Link>
