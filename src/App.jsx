@@ -25,6 +25,8 @@ import Certifications from './pages/Certifications.jsx'
 import ChemicalCompatibility from './pages/ChemicalCompatibility.jsx'
 import As568SizeChart from './pages/As568SizeChart.jsx'
 import Iso3601 from './pages/Iso3601.jsx'
+import Epdm from './pages/Epdm.jsx'
+import { Silicone, Fluorosilicone, Fkm, Nbr, Hnbr, Ffkm, Neoprene, Sbr, Tpv, Aflas, Ptfe } from './pages/ElastomersAll.jsx'
 import { Bs1806, Bs4518, Din3771, Nft47501, Sms1586, Iso6149, Generic, CrossReference, Jis2401 } from './pages/SizeCharts.jsx'
 
 export default function App() {
@@ -51,6 +53,18 @@ export default function App() {
       <Route path="/material-selection-guide" element={<MaterialSelectionGuide />} />
       <Route path="/chemical-compatibility" element={<ChemicalCompatibility />} />
       <Route path="/products/standard-o-rings/as568-o-ring-size-chart" element={<As568SizeChart />} />
+      <Route path="/elastomers/epdm" element={<Epdm />} />
+      <Route path="/elastomers/silicone" element={<Silicone />} />
+      <Route path="/elastomers/fluorosilicone" element={<Fluorosilicone />} />
+      <Route path="/elastomers/fkm-viton" element={<Fkm />} />
+      <Route path="/elastomers/nbr-nitrile" element={<Nbr />} />
+      <Route path="/elastomers/hnbr" element={<Hnbr />} />
+      <Route path="/elastomers/ffkm-kalrez" element={<Ffkm />} />
+      <Route path="/elastomers/neoprene" element={<Neoprene />} />
+      <Route path="/elastomers/sbr" element={<Sbr />} />
+      <Route path="/elastomers/tpv-santoprene" element={<Tpv />} />
+      <Route path="/elastomers/aflas" element={<Aflas />} />
+      <Route path="/elastomers/ptfe" element={<Ptfe />} />
       <Route path="/products/standard-o-rings/iso-3601-metric-o-rings" element={<Iso3601 />} />
       <Route path="/products/standard-o-rings/metric-o-ring-size-cross-reference-table" element={<CrossReference />} />
       <Route path="/products/standard-o-rings/iso-6149-metric-o-rings-size-chart" element={<Iso6149 />} />

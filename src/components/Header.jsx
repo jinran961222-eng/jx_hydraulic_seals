@@ -147,18 +147,18 @@ export default function Header() {
               Elastomers <span className="chev">▾</span>
             </Link>
             <div className={`menu ${openMenu === 'elastomers' ? 'is-open' : ''}`}>
-              <a href="#materials">EPDM</a>
-              <a href="#materials">Silicone</a>
-              <a href="#materials">Fluorosilicone</a>
-              <a href="#materials">FKM / Viton</a>
-              <a href="#materials">NBR / Nitrile</a>
-              <a href="#materials">HNBR</a>
-              <a href="#materials">FFKM / Kalrez</a>
-              <a href="#materials">Neoprene</a>
-              <a href="#materials">SBR</a>
-              <a href="#materials">TPV / Santoprene</a>
-              <a href="#materials">AFLAS</a>
-              <a href="#materials">PTFE</a>
+              <Link to="/elastomers/epdm">EPDM</Link>
+              <Link to="/elastomers/silicone">Silicone</Link>
+              <Link to="/elastomers/fluorosilicone">Fluorosilicone</Link>
+              <Link to="/elastomers/fkm-viton">FKM / Viton</Link>
+              <Link to="/elastomers/nbr-nitrile">NBR / Nitrile</Link>
+              <Link to="/elastomers/hnbr">HNBR</Link>
+              <Link to="/elastomers/ffkm-kalrez">FFKM / Kalrez</Link>
+              <Link to="/elastomers/neoprene">Neoprene</Link>
+              <Link to="/elastomers/sbr">SBR</Link>
+              <Link to="/elastomers/tpv-santoprene">TPV / Santoprene</Link>
+              <Link to="/elastomers/aflas">AFLAS</Link>
+              <Link to="/elastomers/ptfe">PTFE</Link>
             </div>
           </div>
 
