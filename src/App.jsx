@@ -10,6 +10,7 @@ import Orings from './pages/Orings.jsx'
 import Oilseals from './pages/Oilseals.jsx'
 import Extruded from './pages/Extruded.jsx'
 import Inflatable from './pages/Inflatable.jsx'
+import Diecut from './pages/Diecut.jsx'
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
       <Route path="/products/oil-seals" element={<Oilseals />} />
       <Route path="/products/extruded-rubber" element={<Extruded />} />
       <Route path="/products/inflatable-seals" element={<Inflatable />} />
+      <Route path="/products/die-cut-gaskets" element={<Diecut />} />
     </Routes>
   )
 }
