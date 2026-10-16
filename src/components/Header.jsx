@@ -79,7 +79,7 @@ export default function Header() {
               <a href="#products">Rubber Diaphragms</a>
               <Link to="/products/extruded-rubber">Extruded Rubber</Link>
               <a href="#products">Rubber Molded Parts</a>
-              <a href="#products">Inflatable Seals</a>
+              <Link to="/products/inflatable-seals">Inflatable Seals</Link>
               <a href="#products">PTFE Products</a>
               <a href="#products">Die-Cut Gaskets</a>
               <a href="#products">Rubber Sheets &amp; Fabrics</a>

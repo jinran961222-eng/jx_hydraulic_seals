@@ -2250,3 +2250,19 @@ img {
   color: var(--yellow-deep);
   font-weight: 900;
 }
+
+/* Labeled bullet group inside about blocks */
+.about__group {
+  margin-bottom: 14px;
+}
+
+.about__group > strong {
+  font-family: var(--font-head);
+  font-weight: 800;
+  font-size: 15px;
+  color: var(--navy);
+}
+
+.about__group .about__bullets {
+  margin: 8px 0 0;
+}
