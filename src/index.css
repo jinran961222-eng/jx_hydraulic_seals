@@ -2187,3 +2187,66 @@ img {
     grid-template-columns: 1fr;
   }
 }
+
+/* ============ O-rings page ============ */
+.gallery__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.gallery__grid .img-slot {
+  aspect-ratio: 4 / 3;
+}
+
+.industry-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.industry-tag {
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--navy);
+  background: #fff;
+  border: 1px solid var(--line);
+  padding: 9px 18px;
+  border-radius: 999px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.industry-tag:hover {
+  background: var(--navy);
+  color: var(--yellow);
+}
+
+@media (max-width: 700px) {
+  .gallery__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Bulleted list inside about blocks (In Depth) */
+.about__bullets {
+  list-style: none;
+  margin: 12px 0;
+}
+
+.about__bullets li {
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 12px;
+  font-size: 15.5px;
+  line-height: 1.75;
+  color: var(--muted);
+}
+
+.about__bullets li::before {
+  content: '•';
+  position: absolute;
+  left: 4px;
+  color: var(--yellow-deep);
+  font-weight: 900;
+}

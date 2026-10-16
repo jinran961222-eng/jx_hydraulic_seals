@@ -63,9 +63,9 @@ export default function Header() {
             </Link>
             <div className={`menu menu--wide ${openMenu === 'products' ? 'is-open' : ''}`}>
               <div className="pgroup">
-                <a href="#products" className="pgroup__head">
+                <Link to="/products/o-rings" className="pgroup__head">
                   O-Rings <span className="pchev">›</span>
-                </a>
+                </Link>
                 <div className={`pflyout ${openFlyout === 'o-rings' ? 'is-open' : ''}`}
                   onMouseEnter={() => setOpenFlyout('o-rings')}
                   onMouseLeave={() => setOpenFlyout('')}>
@@ -73,7 +73,7 @@ export default function Header() {
                   <a href="#products">Standard O-Rings</a>
                 </div>
               </div>
-              <a href="#products">Oil Seals</a>
+              <Link to="/products/oil-seals">Oil Seals</Link>
               <a href="#products">Rubber Diaphragms</a>
               <a href="#products">Extruded Rubber</a>
               <a href="#products">Rubber Molded Parts</a>

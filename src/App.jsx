@@ -6,6 +6,8 @@ import Knowledge from './pages/Knowledge.jsx'
 import Elastomers from './pages/Elastomers.jsx'
 import Aerospace from './pages/Aerospace.jsx'
 import Contact from './pages/Contact.jsx'
+import Orings from './pages/Orings.jsx'
+import Oilseals from './pages/Oilseals.jsx'
 
 export default function App() {
   return (
@@ -18,6 +20,8 @@ export default function App() {
       <Route path="/elastomers" element={<Elastomers />} />
       <Route path="/industries/aerospace" element={<Aerospace />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/products/o-rings" element={<Orings />} />
+      <Route path="/products/oil-seals" element={<Oilseals />} />
     </Routes>
   )
 }
