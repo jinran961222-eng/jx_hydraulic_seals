@@ -96,7 +96,7 @@ export default function Header() {
               <div className="kcol">
                 <div className="kgroup">
                   <span className="kgh">Calculators</span>
-                  <a href="#contact">Metric O-Ring Size Calculator</a>
+                  <Link to="/products/standard-o-rings/metric-o-ring-tolerances-calculator">Metric O-Ring Size Calculator</Link>
                 </div>
                 <div className="kgroup">
                   <span className="kgh">Guides &amp; reference</span>

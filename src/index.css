@@ -2266,3 +2266,275 @@ img {
 .about__group .about__bullets {
   margin: 8px 0 0;
 }
+
+/* ===== Metric O-Ring Tolerance Calculator page ===== */
+.calc-hero {
+  background: var(--navy);
+  color: #fff;
+  padding: 60px 0 72px;
+}
+
+.breadcrumb {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 34px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.breadcrumb a {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  color: var(--yellow);
+}
+
+.breadcrumb .current {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.calc-hero__eyebrow {
+  font-family: var(--font-head);
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--yellow);
+  margin-bottom: 16px;
+}
+
+.calc-hero__title {
+  font-size: 44px;
+  line-height: 1.08;
+  font-weight: 800;
+  margin-bottom: 18px;
+  color: #fff;
+}
+
+.calc-hero__desc {
+  font-size: 17px;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.85);
+  max-width: 640px;
+  margin-bottom: 30px;
+}
+
+.calc-hero__actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.calc-hero__actions .btn--ghost {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.45);
+}
+
+.calc-hero__actions .btn--ghost:hover {
+  border-color: var(--yellow);
+  color: var(--yellow);
+}
+
+.body-copy {
+  font-size: 16px;
+  line-height: 1.85;
+  color: var(--muted);
+  margin-bottom: 20px;
+}
+
+.section--soft .section__title {
+  margin-bottom: 18px;
+}
+
+.calc-note {
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: var(--muted);
+  background: #fff7d6;
+  border: 1px solid #f0e2a0;
+  border-radius: var(--radius);
+  padding: 14px 18px;
+  margin-bottom: 26px;
+}
+
+.calc-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: 0 1px 2px rgba(13, 34, 64, 0.08);
+}
+
+.calc-table th {
+  text-align: left;
+  padding: 14px 18px;
+  background: var(--navy);
+  color: #fff;
+  font-family: var(--font-head);
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.calc-table td {
+  padding: 13px 18px;
+  border-top: 1px solid var(--line);
+  font-size: 15px;
+  color: var(--navy);
+}
+
+.calc-table__label {
+  font-family: var(--font-head);
+  font-weight: 700;
+}
+
+.calc-table input {
+  width: 140px;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font-size: 15px;
+  color: var(--navy);
+}
+
+.calc-table input:focus {
+  outline: none;
+  border-color: var(--yellow-deep);
+}
+
+.calc-table__computed {
+  font-weight: 700;
+  color: var(--navy);
+}
+
+.calc-table__global {
+  font-weight: 800;
+  color: var(--yellow-deep);
+  font-family: var(--font-head);
+}
+
+.calc-table__blank {
+  border-top: 1px solid var(--line);
+}
+
+.tolerance-layout {
+  display: grid;
+  grid-template-columns: 1fr 260px;
+  gap: 40px;
+  align-items: start;
+  margin-bottom: 48px;
+}
+
+.search-input {
+  padding: 8px 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font-size: 14px;
+  width: 220px;
+  color: var(--navy);
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--yellow-deep);
+}
+
+.tol-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 14px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.tol-table th {
+  text-align: left;
+  padding: 11px 16px;
+  background: #eef2f8;
+  color: var(--navy);
+  font-family: var(--font-head);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.tol-table td {
+  padding: 9px 16px;
+  border-top: 1px solid var(--line);
+  font-size: 14px;
+  color: var(--navy);
+}
+
+.tol-table-wrap .search-input {
+  display: block;
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+
+.oring-diagram {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.oring-diagram__svg {
+  width: 200px;
+  height: 200px;
+}
+
+.oring-diagram__label {
+  font-family: var(--font-head);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  color: var(--navy);
+  margin-top: 8px;
+  line-height: 1.3;
+}
+
+.related-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.related-tag {
+  display: inline-block;
+  padding: 9px 18px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--navy);
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.related-tag:hover {
+  border-color: var(--yellow-deep);
+  background: var(--yellow);
+  color: var(--navy);
+}
+
+@media (max-width: 860px) {
+  .tolerance-layout {
+    grid-template-columns: 1fr;
+  }
+  .calc-hero__title {
+    font-size: 32px;
+  }
+  .search-input {
+    width: 100%;
+  }
+  .calc-table__label {
+    min-width: 150px;
+  }
+}
+
