@@ -57,7 +57,9 @@ export default function Header() {
         <nav className={`nav ${open ? 'nav--open' : ''}`}>
           <Link to="/" className="nav__link nav__link--cur">Home</Link>
 
-          <div className="item">
+          <div className="item"
+            onMouseEnter={() => setOpenMenu('products')}
+            onMouseLeave={() => setOpenMenu('')}>
             <Link to="/products" className="nav__link" onClick={() => toggleMenu('products')}>
               Products <span className="chev">▾</span>
             </Link>
@@ -75,7 +77,7 @@ export default function Header() {
               </div>
               <Link to="/products/oil-seals">Oil Seals</Link>
               <a href="#products">Rubber Diaphragms</a>
-              <a href="#products">Extruded Rubber</a>
+              <Link to="/products/extruded-rubber">Extruded Rubber</Link>
               <a href="#products">Rubber Molded Parts</a>
               <a href="#products">Inflatable Seals</a>
               <a href="#products">PTFE Products</a>
@@ -84,7 +86,9 @@ export default function Header() {
             </div>
           </div>
 
-          <div className="item">
+          <div className="item"
+            onMouseEnter={() => setOpenMenu('knowledge')}
+            onMouseLeave={() => setOpenMenu('')}>
             <Link to="/knowledge" className="nav__link" onClick={() => toggleMenu('knowledge')}>
               Knowledge <span className="chev">▾</span>
             </Link>
@@ -136,7 +140,9 @@ export default function Header() {
             </div>
           </div>
 
-          <div className="item">
+          <div className="item"
+            onMouseEnter={() => setOpenMenu('elastomers')}
+            onMouseLeave={() => setOpenMenu('')}>
             <Link to="/elastomers" className="nav__link" onClick={() => toggleMenu('elastomers')}>
               Elastomers <span className="chev">▾</span>
             </Link>
@@ -156,7 +162,9 @@ export default function Header() {
             </div>
           </div>
 
-          <div className="item">
+          <div className="item"
+            onMouseEnter={() => setOpenMenu('industries')}
+            onMouseLeave={() => setOpenMenu('')}>
             <a href="#industries" className="nav__link" onClick={() => toggleMenu('industries')}>
               Industries <span className="chev">▾</span>
             </a>
