@@ -12,6 +12,9 @@ import Extruded from './pages/Extruded.jsx'
 import Inflatable from './pages/Inflatable.jsx'
 import Diecut from './pages/Diecut.jsx'
 import Diaphragms from './pages/Diaphragms.jsx'
+import Molded from './pages/Molded.jsx'
+import Pffe from './pages/Pffe.jsx'
+import RubberSheets from './pages/RubberSheets.jsx'
 
 export default function App() {
   return (
@@ -30,6 +33,9 @@ export default function App() {
       <Route path="/products/inflatable-seals" element={<Inflatable />} />
       <Route path="/products/die-cut-gaskets" element={<Diecut />} />
       <Route path="/products/rubber-diaphragms" element={<Diaphragms />} />
+      <Route path="/products/custom-rubber-molded-parts" element={<Molded />} />
+      <Route path="/products/ptfe-products" element={<Pffe />} />
+      <Route path="/rubber-sheets-native" element={<RubberSheets />} />
     </Routes>
   )
 }
