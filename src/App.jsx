@@ -5,6 +5,7 @@ import Products from './pages/Products.jsx'
 import Knowledge from './pages/Knowledge.jsx'
 import Elastomers from './pages/Elastomers.jsx'
 import Aerospace from './pages/Aerospace.jsx'
+import Contact from './pages/Contact.jsx'
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <Route path="/knowledge" element={<Knowledge />} />
       <Route path="/elastomers" element={<Elastomers />} />
       <Route path="/industries/aerospace" element={<Aerospace />} />
+      <Route path="/contact" element={<Contact />} />
     </Routes>
   )
 }

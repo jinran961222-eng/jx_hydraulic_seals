@@ -175,7 +175,7 @@ export default function Header() {
           </div>
 
           <Link to="/about" className="nav__link">About Us</Link>
-          <Link to="/" className="nav__link">Contact Us</Link>
+          <Link to="/contact" className="nav__link">Contact Us</Link>
 
           <Link to="/" className="nav__cta" onClick={() => setOpen(false)}>
             Request a Quote →
