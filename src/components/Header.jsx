@@ -100,41 +100,41 @@ export default function Header() {
                 </div>
                 <div className="kgroup">
                   <span className="kgh">Guides &amp; reference</span>
-                  <a href="#contact">Material Selection Guide</a>
-                  <a href="#contact">Chemical Compatibility</a>
-                  <a href="#contact">RMA Tolerance Chart</a>
-                  <a href="#contact">Custom Molding Guide</a>
-                  <a href="#contact">Oil Seal Size Chart</a>
-                  <a href="#contact">Diaphragm Design Guide</a>
+                  <Link to="/material-selection-guide">Material Selection Guide</Link>
+                  <Link to="/chemical-compatibility">Chemical Compatibility</Link>
+                  <Link to="/rma-tolerance-chart">RMA Tolerance Chart</Link>
+                  <Link to="/products/custom-rubber-molded-parts/custom-molding-guide">Custom Molding Guide</Link>
+                  <Link to="/products/oil-seals/oil-seal-size-chart">Oil Seal Size Chart</Link>
+                  <Link to="/products/rubber-diaphragms/diaphragm-design-guide">Diaphragm Design Guide</Link>
                 </div>
               </div>
               <div className="kcol">
                 <div className="kgroup">
                   <span className="kgh">O-Ring size charts</span>
-                  <a href="#contact">AS568 O-Ring Size Chart</a>
-                  <a href="#contact">Metric Size Cross-Reference</a>
-                  <a href="#contact">ISO 3601 Metric</a>
-                  <a href="#contact">ISO 6149 Metric</a>
-                  <a href="#contact">BS 1806 Metric</a>
-                  <a href="#contact">BS 4518 Metric</a>
-                  <a href="#contact">DIN 3771 Metric</a>
-                  <a href="#contact">JIS B 2401 Metric</a>
-                  <a href="#contact">NF T 47-501 Metric</a>
-                  <a href="#contact">SMS 1586 Metric</a>
-                  <a href="#contact">Generic Metric O-Rings</a>
+                  <Link to="/products/standard-o-rings/as568-o-ring-size-chart">AS568 O-Ring Size Chart</Link>
+                  <Link to="/products/standard-o-rings/metric-o-ring-size-cross-reference-table">Metric Size Cross-Reference</Link>
+                  <Link to="/products/standard-o-rings/iso-3601-metric-o-rings">ISO 3601 Metric</Link>
+                  <Link to="/products/standard-o-rings/iso-6149-metric-o-rings-size-chart">ISO 6149 Metric</Link>
+                  <Link to="/products/standard-o-rings/bs-1806-metric-sizes">BS 1806 Metric</Link>
+                  <Link to="/products/standard-o-rings/bs-4518-metric-o-rings">BS 4518 Metric</Link>
+                  <Link to="/products/standard-o-rings/din-3771-metric-o-rings">DIN 3771 Metric</Link>
+                  <Link to="/products/standard-o-rings/jis-b-2401-metric-o-rings">JIS B 2401 Metric</Link>
+                  <Link to="/products/standard-o-rings/nf-t-47-501-metric-o-rings">NF T 47-501 Metric</Link>
+                  <Link to="/products/standard-o-rings/sms-1586-metric-o-rings">SMS 1586 Metric</Link>
+                  <Link to="/products/standard-o-rings/generic-metric-o-rings">Generic Metric O-Rings</Link>
                 </div>
               </div>
               <div className="kcol">
                 <div className="kgroup">
                   <span className="kgh">Catalogs</span>
-                  <a href="#contact">Pneumatic Seals Catalog</a>
-                  <a href="#contact">Rotary &amp; Oil Seals Catalog</a>
-                  <a href="#contact">Company Brochure</a>
+                  <a href="/wp-content/uploads/2023/08/ARC_Pneumatic_Seals_Catalog_08102023.pdf" target="_blank" rel="noreferrer">Pneumatic Seals Catalog</a>
+                  <a href="/wp-content/uploads/2023/08/ARC_Rotary_and_Oil_Seals_Catalog_08102023.pdf" target="_blank" rel="noreferrer">Rotary &amp; Oil Seals Catalog</a>
+                  <a href="/wp-content/uploads/2021/12/ARC_brochure_2022.pdf" target="_blank" rel="noreferrer">Company Brochure</a>
                 </div>
                 <div className="kgroup">
                   <span className="kgh">Certifications</span>
-                  <a href="#contact">ISO &amp; IATF Certificates</a>
-                  <a href="#contact">All Knowledge &amp; Tools</a>
+                  <Link to="/certifications">ISO &amp; IATF Certificates</Link>
+                  <Link to="/knowledge">All Knowledge &amp; Tools</Link>
                 </div>
               </div>
             </div>

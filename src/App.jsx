@@ -16,6 +16,16 @@ import Molded from './pages/Molded.jsx'
 import Pffe from './pages/Pffe.jsx'
 import RubberSheets from './pages/RubberSheets.jsx'
 import MetricToleranceCalculator from './pages/MetricToleranceCalculator.jsx'
+import MaterialSelectionGuide from './pages/MaterialSelectionGuide.jsx'
+import CustomMoldingGuide from './pages/CustomMoldingGuide.jsx'
+import DiaphragmDesignGuide from './pages/DiaphragmDesignGuide.jsx'
+import OilSealSizeChart from './pages/OilSealSizeChart.jsx'
+import RmaToleranceChart from './pages/RmaToleranceChart.jsx'
+import Certifications from './pages/Certifications.jsx'
+import ChemicalCompatibility from './pages/ChemicalCompatibility.jsx'
+import As568SizeChart from './pages/As568SizeChart.jsx'
+import Iso3601 from './pages/Iso3601.jsx'
+import { Bs1806, Bs4518, Din3771, Nft47501, Sms1586, Iso6149, Generic, CrossReference, Jis2401 } from './pages/SizeCharts.jsx'
 
 export default function App() {
   return (
@@ -38,6 +48,24 @@ export default function App() {
       <Route path="/products/ptfe-products" element={<Pffe />} />
       <Route path="/rubber-sheets-native" element={<RubberSheets />} />
       <Route path="/products/standard-o-rings/metric-o-ring-tolerances-calculator" element={<MetricToleranceCalculator />} />
+      <Route path="/material-selection-guide" element={<MaterialSelectionGuide />} />
+      <Route path="/chemical-compatibility" element={<ChemicalCompatibility />} />
+      <Route path="/products/standard-o-rings/as568-o-ring-size-chart" element={<As568SizeChart />} />
+      <Route path="/products/standard-o-rings/iso-3601-metric-o-rings" element={<Iso3601 />} />
+      <Route path="/products/standard-o-rings/metric-o-ring-size-cross-reference-table" element={<CrossReference />} />
+      <Route path="/products/standard-o-rings/iso-6149-metric-o-rings-size-chart" element={<Iso6149 />} />
+      <Route path="/products/standard-o-rings/bs-1806-metric-sizes" element={<Bs1806 />} />
+      <Route path="/products/standard-o-rings/bs-4518-metric-o-rings" element={<Bs4518 />} />
+      <Route path="/products/standard-o-rings/din-3771-metric-o-rings" element={<Din3771 />} />
+      <Route path="/products/standard-o-rings/jis-b-2401-metric-o-rings" element={<Jis2401 />} />
+      <Route path="/products/standard-o-rings/nf-t-47-501-metric-o-rings" element={<Nft47501 />} />
+      <Route path="/products/standard-o-rings/sms-1586-metric-o-rings" element={<Sms1586 />} />
+      <Route path="/products/standard-o-rings/generic-metric-o-rings" element={<Generic />} />
+      <Route path="/rma-tolerance-chart" element={<RmaToleranceChart />} />
+      <Route path="/products/custom-rubber-molded-parts/custom-molding-guide" element={<CustomMoldingGuide />} />
+      <Route path="/products/oil-seals/oil-seal-size-chart" element={<OilSealSizeChart />} />
+      <Route path="/products/rubber-diaphragms/diaphragm-design-guide" element={<DiaphragmDesignGuide />} />
+      <Route path="/certifications" element={<Certifications />} />
     </Routes>
   )
 }
