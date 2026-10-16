@@ -170,15 +170,15 @@ export default function Header() {
             </a>
             <div className={`menu menu--wide ${openMenu === 'industries' ? 'is-open' : ''}`}>
               <Link to="/industries/aerospace">Aerospace</Link>
-              <a href="#industries">Automotive</a>
-              <a href="#industries">Oil &amp; Gas</a>
-              <a href="#industries">Medical &amp; Pharma</a>
-              <a href="#industries">Food &amp; Dairy</a>
-              <a href="#industries">Marine</a>
-              <a href="#industries">Defense</a>
-              <a href="#industries">Agriculture</a>
-              <a href="#industries">Railways</a>
-              <a href="#industries">Renewable Energy</a>
+              <Link to="/industries/automotive">Automotive</Link>
+              <Link to="/industries/oil-gas">Oil &amp; Gas</Link>
+              <Link to="/industries/medical-pharma">Medical &amp; Pharma</Link>
+              <Link to="/industries/food-dairy">Food &amp; Dairy</Link>
+              <Link to="/industries/marine">Marine</Link>
+              <Link to="/industries/defense">Defense</Link>
+              <Link to="/industries/agriculture">Agriculture</Link>
+              <Link to="/industries/railways">Railways</Link>
+              <Link to="/industries/renewable-energy">Renewable Energy</Link>
             </div>
           </div>
 

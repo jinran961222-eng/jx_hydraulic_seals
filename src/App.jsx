@@ -27,6 +27,7 @@ import As568SizeChart from './pages/As568SizeChart.jsx'
 import Iso3601 from './pages/Iso3601.jsx'
 import Epdm from './pages/Epdm.jsx'
 import { Silicone, Fluorosilicone, Fkm, Nbr, Hnbr, Ffkm, Neoprene, Sbr, Tpv, Aflas, Ptfe } from './pages/ElastomersAll.jsx'
+import { Automotive, OilGas, MedicalPharma, FoodDairy, Marine, Defense, Agriculture, Railways, RenewableEnergy } from './pages/IndustriesAll.jsx'
 import { Bs1806, Bs4518, Din3771, Nft47501, Sms1586, Iso6149, Generic, CrossReference, Jis2401 } from './pages/SizeCharts.jsx'
 
 export default function App() {
@@ -39,6 +40,15 @@ export default function App() {
       <Route path="/knowledge" element={<Knowledge />} />
       <Route path="/elastomers" element={<Elastomers />} />
       <Route path="/industries/aerospace" element={<Aerospace />} />
+      <Route path="/industries/automotive" element={<Automotive />} />
+      <Route path="/industries/oil-gas" element={<OilGas />} />
+      <Route path="/industries/medical-pharma" element={<MedicalPharma />} />
+      <Route path="/industries/food-dairy" element={<FoodDairy />} />
+      <Route path="/industries/marine" element={<Marine />} />
+      <Route path="/industries/defense" element={<Defense />} />
+      <Route path="/industries/agriculture" element={<Agriculture />} />
+      <Route path="/industries/railways" element={<Railways />} />
+      <Route path="/industries/renewable-energy" element={<RenewableEnergy />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/products/o-rings" element={<Orings />} />
       <Route path="/products/oil-seals" element={<Oilseals />} />
