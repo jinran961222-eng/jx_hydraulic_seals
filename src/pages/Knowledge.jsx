@@ -1,7 +1,6 @@
 import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 import FloatingCta from '../components/FloatingCta.jsx'
-import ImageSlot from '../components/ImageSlot.jsx'
 
 const sizeCharts = [
   'AS568 O-Ring Size Chart',
@@ -77,7 +76,6 @@ export default function Knowledge() {
       <main>
         {/* Hero */}
         <section className="hero">
-          <ImageSlot tag="IMG-01" ratio="cover" />
           <div className="container">
             <div className="hero__inner">
               <p className="hero__eyebrow">KNOWLEDGE &amp; TOOLS</p>

@@ -1,7 +1,6 @@
 import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 import FloatingCta from '../components/FloatingCta.jsx'
-import ImageSlot from '../components/ImageSlot.jsx'
 
 const infoItems = [
   { label: 'CALL', value: '+1 (317) 548-8455' },
@@ -25,7 +24,6 @@ export default function Contact() {
       <main>
         {/* Hero */}
         <section className="hero">
-          <ImageSlot tag="IMG-01" ratio="cover" />
           <div className="container">
             <div className="hero__inner">
               <p className="hero__eyebrow">CONTACT US</p>

@@ -1,5 +1,4 @@
 import { useState, useEffect, useCallback } from 'react'
-import ImageSlot from './ImageSlot.jsx'
 
 const slides = [
   {
@@ -34,7 +33,6 @@ export default function HeroSlider() {
 
   return (
     <section className="hero" id="home">
-      <ImageSlot tag={slides[idx].img} ratio="cover" />
       <div className="container">
         <div className="hero__inner">
           <div className="hero__slide">

@@ -1,7 +1,6 @@
 import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 import FloatingCta from '../components/FloatingCta.jsx'
-import ImageSlot from '../components/ImageSlot.jsx'
 
 const whoStats = [
   { value: '20', suffix: '+', label: 'Years manufacturing rubber' },
@@ -94,7 +93,6 @@ export default function About() {
       <main>
         {/* Hero */}
         <section className="hero hero--about">
-          <ImageSlot tag="IMG-13" ratio="cover" />
           <div className="container">
             <div className="hero__inner">
               <p className="hero__eyebrow">CUSTOM RUBBER ENGINEERING</p>

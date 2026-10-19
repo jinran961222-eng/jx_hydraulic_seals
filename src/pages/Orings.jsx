@@ -115,7 +115,6 @@ export default function Orings() {
       <main>
         {/* Hero */}
         <section className="hero">
-          <ImageSlot tag="IMG-01" ratio="cover" />
           <div className="container">
             <div className="hero__inner">
               <p className="hero__eyebrow">PRODUCT FAMILY</p>

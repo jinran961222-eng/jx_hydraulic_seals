@@ -101,6 +101,23 @@ img {
   z-index: 0;
 }
 
+/* On dark hero sections, keep the placeholder translucent so the navy
+   gradient + grid background show through instead of a solid light block. */
+.hero .imgslot--cover {
+  background: rgba(10, 26, 51, 0.38);
+  border-color: rgba(255, 255, 255, 0.16);
+}
+.hero .imgslot--cover .imgslot__tag {
+  color: rgba(255, 255, 255, 0.6);
+}
+.hero .imgslot--cover .imgslot__hint {
+  color: rgba(255, 255, 255, 0.55);
+}
+.hero .imgslot--cover .imgslot__hint code {
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--navy-deep);
+}
+
 /* ---------- Top utility bar ---------- */
 .topbar {
   background: linear-gradient(rgba(6, 16, 32, 0.82), rgba(6, 16, 32, 0.6));
@@ -599,6 +616,19 @@ img {
   height: 520px;
   border-radius: 50%;
   background: radial-gradient(circle at 50% 50%, rgba(255, 221, 0, 0.1), transparent 62%);
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(122, 160, 214, .13) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(122, 160, 214, .13) 1px, transparent 1px);
+  background-size: 36px 36px;
+  -webkit-mask-image: radial-gradient(120% 130% at 82% 18%, #000 28%, transparent 78%);
+  mask-image: radial-gradient(120% 130% at 82% 18%, #000 28%, transparent 78%);
+  pointer-events: none;
 }
 
 .hero__inner {
@@ -2276,9 +2306,29 @@ img {
 
 /* ===== Metric O-Ring Tolerance Calculator page ===== */
 .calc-hero {
+  position: relative;
   background: var(--navy);
   color: #fff;
   padding: 60px 0 72px;
+  overflow: hidden;
+}
+
+.calc-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(122, 160, 214, .13) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(122, 160, 214, .13) 1px, transparent 1px);
+  background-size: 36px 36px;
+  -webkit-mask-image: radial-gradient(120% 130% at 82% 18%, #000 28%, transparent 78%);
+  mask-image: radial-gradient(120% 130% at 82% 18%, #000 28%, transparent 78%);
+  pointer-events: none;
+}
+
+.calc-hero .container {
+  position: relative;
+  z-index: 1;
 }
 
 .breadcrumb {

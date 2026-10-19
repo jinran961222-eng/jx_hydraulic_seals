@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom'
 import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 import FloatingCta from '../components/FloatingCta.jsx'
-import ImageSlot from '../components/ImageSlot.jsx'
 
 const stats = [
   { num: '20+', label: 'years to spec' },
@@ -23,7 +22,6 @@ export default function IndustryPage({
       <Header />
       <main>
         <section className="hero">
-          <ImageSlot tag="IMG-01" ratio="cover" />
           <div className="container">
             <div className="hero__inner">
               <p className="hero__eyebrow">INDUSTRIES WE SERVE</p>
