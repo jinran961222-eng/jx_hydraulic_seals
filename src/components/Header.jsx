@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false)
@@ -7,6 +7,30 @@ export default function Header() {
   const [openMenu, setOpenMenu] = useState('')
   const [openFlyout, setOpenFlyout] = useState('')
   const ref = useRef(null)
+  const { pathname } = useLocation()
+
+  // Determine which top-level nav section the current route belongs to.
+  // Note: size charts / guides live under /products/... in the URL but are
+  // grouped under the Knowledge dropdown in the nav, so they must map here too.
+  const active =
+    pathname === '/' ? 'home'
+    : pathname.startsWith('/elastomers') ? 'elastomers'
+    : pathname.startsWith('/industries') ? 'industries'
+    : pathname === '/about' ? 'about'
+    : pathname === '/contact' ? 'contact'
+    : pathname === '/knowledge'
+      || pathname === '/material-selection-guide'
+      || pathname === '/chemical-compatibility'
+      || pathname === '/rma-tolerance-chart'
+      || pathname === '/certifications'
+      || pathname.includes('/custom-molding-guide')
+      || pathname.includes('/oil-seal-size-chart')
+      || pathname.includes('/diaphragm-design-guide')
+      || pathname.startsWith('/products/standard-o-rings') ? 'knowledge'
+    : pathname.startsWith('/products') || pathname === '/rubber-sheets-native' ? 'products'
+    : ''
+
+  const cur = (key) => `nav__link${active === key ? ' nav__link--cur' : ''}`
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.pageYOffset > 60)
@@ -55,12 +79,12 @@ export default function Header() {
         </Link>
 
         <nav className={`nav ${open ? 'nav--open' : ''}`}>
-          <Link to="/" className="nav__link nav__link--cur">Home</Link>
+          <Link to="/" className={cur('home')}>Home</Link>
 
           <div className="item"
             onMouseEnter={() => setOpenMenu('products')}
             onMouseLeave={() => setOpenMenu('')}>
-            <Link to="/products" className="nav__link" onClick={() => toggleMenu('products')}>
+            <Link to="/products" className={cur('products')} onClick={() => toggleMenu('products')}>
               Products <span className="chev">▾</span>
             </Link>
             <div className={`menu menu--wide ${openMenu === 'products' ? 'is-open' : ''}`}>
@@ -89,7 +113,7 @@ export default function Header() {
           <div className="item"
             onMouseEnter={() => setOpenMenu('knowledge')}
             onMouseLeave={() => setOpenMenu('')}>
-            <Link to="/knowledge" className="nav__link" onClick={() => toggleMenu('knowledge')}>
+            <Link to="/knowledge" className={cur('knowledge')} onClick={() => toggleMenu('knowledge')}>
               Knowledge <span className="chev">▾</span>
             </Link>
             <div className={`menu menu--kmenu ${openMenu === 'knowledge' ? 'is-open' : ''}`}>
@@ -143,7 +167,7 @@ export default function Header() {
           <div className="item"
             onMouseEnter={() => setOpenMenu('elastomers')}
             onMouseLeave={() => setOpenMenu('')}>
-            <Link to="/elastomers" className="nav__link" onClick={() => toggleMenu('elastomers')}>
+            <Link to="/elastomers" className={cur('elastomers')} onClick={() => toggleMenu('elastomers')}>
               Elastomers <span className="chev">▾</span>
             </Link>
             <div className={`menu ${openMenu === 'elastomers' ? 'is-open' : ''}`}>
@@ -165,7 +189,7 @@ export default function Header() {
           <div className="item"
             onMouseEnter={() => setOpenMenu('industries')}
             onMouseLeave={() => setOpenMenu('')}>
-            <a href="#industries" className="nav__link" onClick={() => toggleMenu('industries')}>
+            <a href="#industries" className={cur('industries')} onClick={() => toggleMenu('industries')}>
               Industries <span className="chev">▾</span>
             </a>
             <div className={`menu menu--wide ${openMenu === 'industries' ? 'is-open' : ''}`}>
@@ -182,8 +206,8 @@ export default function Header() {
             </div>
           </div>
 
-          <Link to="/about" className="nav__link">About Us</Link>
-          <Link to="/contact" className="nav__link">Contact Us</Link>
+          <Link to="/about" className={cur('about')}>About Us</Link>
+          <Link to="/contact" className={cur('contact')}>Contact Us</Link>
 
           <Link to="/" className="nav__cta" onClick={() => setOpen(false)}>
             Request a Quote →

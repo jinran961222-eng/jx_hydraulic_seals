@@ -157,12 +157,12 @@ img {
   top: 0;
   z-index: 100;
   transition: background 0.3s, box-shadow 0.3s;
-  background: linear-gradient(180deg, rgba(8, 20, 38, 0.74), rgba(8, 20, 38, 0.3) 62%, rgba(8, 20, 38, 0));
+  background: var(--navy);
 }
 
 .header--scrolled {
-  background: #fff;
-  box-shadow: 0 4px 20px rgba(13, 34, 64, 0.1);
+  background: var(--navy);
+  box-shadow: 0 4px 22px rgba(8, 16, 32, 0.4);
 }
 
 .header--scrolled .topbar {
@@ -222,11 +222,11 @@ img {
 }
 
 .header--scrolled .brand__text strong {
-  color: var(--navy);
+  color: #fff;
 }
 
 .header--scrolled .brand__text small {
-  color: var(--gray-light);
+  color: #a9bfd6;
 }
 
 .nav {
@@ -250,7 +250,7 @@ img {
 }
 
 .header--scrolled .nav__link {
-  color: var(--navy);
+  color: #fff;
 }
 
 .nav__link::after {
@@ -310,7 +310,7 @@ img {
 }
 
 .header--scrolled .burger span {
-  background: var(--navy);
+  background: #fff;
 }
 
 /* ---------- Dropdown menus ---------- */
@@ -603,7 +603,7 @@ img {
   position: relative;
   background: linear-gradient(120deg, var(--navy-deep) 0%, var(--navy) 55%, #124a80 100%);
   color: #fff;
-  padding: 120px 0 130px;
+  padding: 64px 0 76px;
   overflow: hidden;
 }
 
