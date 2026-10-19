@@ -34,7 +34,16 @@ const products = [
   { name: 'Clamping Bladders', desc: 'Inflatable bladders for holding, gripping and expanding mandrels.' },
 ]
 
-const gallerySlots = ['IMG-32', 'IMG-33', 'IMG-34']
+const galleryImages = [
+  'https://i.postimg.cc/ZqV40W45/Inflatable-Seal-(1).jpg',
+  'https://i.postimg.cc/W3zjZs1X/Inflatable-seal-valve.jpg',
+  'https://i.postimg.cc/HWt4nH72/Air-Inflatable-seals.jpg',
+  'https://i.postimg.cc/d1PmkV6v/aerospace.png',
+  'https://i.postimg.cc/3JJjD6Xp/anchor.png',
+  'https://i.postimg.cc/N0fLNq0Y/power-generation.png',
+  'https://i.postimg.cc/Rhv7dp2D/air-conditioning.png',
+  'https://i.postimg.cc/QCMBV2Rf/delivery-box.png',
+]
 
 const materials = [
   { name: 'Silicone', desc: 'FDA/platinum-cured for pharma & cleanroom' },
@@ -216,11 +225,13 @@ export default function Inflatable() {
           <div className="container">
             <div className="section__head">
               <p className="section__eyebrow">GALLERY</p>
-              <h2 className="section__title">Inflatable Seals we’ve built</h2>
+              <h2 className="section__title">Inflatable Seals we've built</h2>
             </div>
-            <div className="gallery__grid">
-              {gallerySlots.map((g) => (
-                <ImageSlot key={g} tag={g} ratio="4/3" />
+            <div className="gallery-4col">
+              {galleryImages.map((img, i) => (
+                <div key={i} className="gallery-item">
+                  <img src={img} alt="Inflatable seal" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '12px' }} />
+                </div>
               ))}
             </div>
           </div>
