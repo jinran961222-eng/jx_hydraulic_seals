@@ -2940,7 +2940,11 @@ img {
   color: var(--body);
   margin: 0 0 14px;
 }
-.chart-intro__text p:last-child { margin-bottom: 0; }
+.chart-intro__text p:last-child {
+  margin-bottom: 0;
+  white-space: pre-line;
+  line-height: 1.9;
+}
 @media (max-width: 900px) {
   .chart-intro { grid-template-columns: 1fr; padding: 24px; gap: 24px; }
 }

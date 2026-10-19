@@ -39,7 +39,7 @@ function SizeTable({ cols, rows, searchPh }) {
 export default function MetricSizeChart({
   crumb, eyebrow, title, heroDesc, introTitle, introParas, chartTitle,
   cols, data, searchPh, tables, related, ctaTitle, ctaDesc,
-  introImage, introImageTitle, introImageParas,
+  introImage, introImageTitle, introImageParas, chartIntroParas,
 }) {
   return (
     <>
@@ -93,6 +93,7 @@ export default function MetricSizeChart({
               <p className="section__eyebrow">REFERENCE</p>
               <h2 className="section__title">{chartTitle}</h2>
             </div>
+            {chartIntroParas && chartIntroParas.map((p, i) => <p key={i} className="industry-col__p">{p}</p>)}
             {tables ? (
               tables.map((t, i) => (
                 <div key={i} style={{ marginBottom: i < tables.length - 1 ? '34px' : 0 }}>

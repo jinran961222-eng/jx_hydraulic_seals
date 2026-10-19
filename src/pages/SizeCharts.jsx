@@ -117,6 +117,12 @@ export function Nft47501() {
       related={related}
       ctaTitle="Need NF T 47-501 O-rings in the right compound?"
       ctaDesc="Send your size, cross-section or drawing — our engineers confirm the material, precision class, inspection grade and a path to production, usually within one business day."
+      introImage="https://i.postimg.cc/Y00xJZyj/bs.jpg"
+      introImageTitle="NF T 47-501 Metric O-Rings"
+      introImageParas={[
+        'NF T 47-501 is issued by the Association Française de Normalisation (French Standards Institute). It is very similar to ISO 3601-1 in both the sizes included and the size reference. The size reference codes are designated with a letter corresponding to each of 5 cross section groups (A-E), 4 digits indicating ID (rounded to 0.1 mm), a 2nd letter indicating Precision Class and a 3rd letter indicating Visual (inspection) Class. The Precision Class is indicated by the letter A (for Aerospace applications) or G (for General Purpose applications). The visual classes are N (1.0 AQL) and S (.65 AQL).',
+        'For a complete listing of all metric o-ring sizes, visit our Metric O-Ring Cross Reference Table.',
+      ]}
     />
   )
 }
@@ -140,6 +146,10 @@ export function Sms1586() {
       related={related}
       ctaTitle="Need SMS 1586 O-rings built to spec?"
       ctaDesc="Send us the ID, cross-section and group — our engineers confirm the compound, tooling and a path to production."
+      chartIntroParas={[
+        'SMS 1586 refers to Swedish Mechanical Standard for o-rings (Sveriges Mekanstandardisering). In this standard, O-Rings are simply identified by ID and C/S, similar to DIN 3771. Additionally, all SMS 1586 O-Rings are classified into two groups. The first group, intended for dynamic and static installations is indicated in our table by the letter D. The second group, intended mainly for static applications, is indicated with an S.',
+        'For a complete listing of all metric o-ring sizes, visit our Metric O-Ring Cross Reference Table.',
+      ]}
     />
   )
 }
@@ -232,6 +242,14 @@ export function Jis2401() {
       related={related}
       ctaTitle="Need JIS B 2401 O-rings in the right compound?"
       ctaDesc="Send your P, G, S or V series number, cross-section or drawing — our engineers confirm the material, hardness and a path to production, usually within one business day."
+      introImage="https://i.postimg.cc/Y00xJZyj/bs.jpg"
+      introImageTitle="JIS B 2401 Metric O-Rings Size Chart"
+      introImageParas={[
+        'JIS B 2401 is a Japanese Industrial Standard for O-Ring sizes. This standard, often referred to as "Japanese Metrics", is organized into four series, based on their application. The O-Rings in each section have ascending number codes to complete the size reference.',
+        'For a complete listing of all metric o-ring sizes, visit our Metric O-Ring Cross Reference Table.',
+        'Click on a Series below to view the size chart for that particular series, or scroll down to see the size chart for all JIS sizes sorted from smallest to largest, C/S then I.D.',
+        '☑ JIS: P Series – Moving (dynamic)\n☑ JIS: G Series – Fixed (static)\n☑ JIS: S Series – Special Sizes\n☑ JIS: V Series – Vacuum Flange',
+      ]}
     />
   )
 }
