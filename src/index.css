@@ -2777,7 +2777,17 @@ img {
 .rating-d { color: #c0392b; }
 .rating-na { color: #8a94a6; }
 
-.tol-table-wrap { overflow-x: auto; border-radius: 12px; }
+.tol-table-wrap {
+  overflow-x: auto;
+  overflow-y: auto;
+  max-height: 560px;
+  border-radius: 12px;
+}
+.tol-table-wrap thead th {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
 
 @media (max-width: 720px) {
   .chem-table .chem-name-col { min-width: 170px; }
