@@ -80,7 +80,6 @@ export default function Header() {
 
       <div className="header__inner container">
         <Link to="/" className="brand">
-          <span className="brand__mark">JX</span>
           <span className="brand__text">
             <strong>JX Hydraulic Seals</strong>
             <small>Chinese Rubber Corp</small>
