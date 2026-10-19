@@ -197,7 +197,7 @@ export default function Header() {
           <div className="item"
             onMouseEnter={() => setOpenMenu('industries')}
             onMouseLeave={() => setOpenMenu('')}>
-            <a href="#industries" className={cur('industries')} onClick={() => toggleMenu('industries')}>
+            <a href="/products" className={cur('industries')} onClick={() => toggleMenu('industries')}>
               Industries <span className="chev">▾</span>
             </a>
             <div className={`menu menu--wide ${openMenu === 'industries' ? 'is-open' : ''}`}>
