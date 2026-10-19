@@ -7,6 +7,7 @@ import Elastomers from './pages/Elastomers.jsx'
 import Aerospace from './pages/Aerospace.jsx'
 import Contact from './pages/Contact.jsx'
 import Orings from './pages/Orings.jsx'
+import StandardOrings from './pages/StandardOrings.jsx'
 import Oilseals from './pages/Oilseals.jsx'
 import Extruded from './pages/Extruded.jsx'
 import Inflatable from './pages/Inflatable.jsx'
@@ -51,6 +52,7 @@ export default function App() {
       <Route path="/industries/renewable-energy" element={<RenewableEnergy />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/products/o-rings" element={<Orings />} />
+      <Route path="/products/standard-o-rings" element={<StandardOrings />} />
       <Route path="/products/oil-seals" element={<Oilseals />} />
       <Route path="/products/extruded-rubber" element={<Extruded />} />
       <Route path="/products/inflatable-seals" element={<Inflatable />} />
