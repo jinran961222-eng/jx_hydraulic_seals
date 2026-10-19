@@ -30,7 +30,10 @@ const products = [
   { name: 'Custom PTFE Molded Products', desc: 'Bespoke machined/molded PTFE parts to your print.' },
 ]
 
-const gallerySlots = ['IMG-44', 'IMG-45', 'IMG-46']
+const galleryImages = [
+  'https://i.postimg.cc/X7z5Bv70/arc-ptfe-diaphragms-(1).jpg',
+  'https://i.postimg.cc/2yv5qCHC/ptfe-2.jpg',
+]
 
 const materials = [
   { name: 'PTFE', desc: 'Maximum chemical inertness & purity' },
@@ -185,11 +188,13 @@ export default function Pffe() {
           <div className="container">
             <div className="section__head">
               <p className="section__eyebrow">GALLERY</p>
-              <h2 className="section__title">PTFE Products we’ve built</h2>
+              <h2 className="section__title">PTFE Products we've built</h2>
             </div>
-            <div className="gallery__grid">
-              {gallerySlots.map((g) => (
-                <ImageSlot key={g} tag={g} ratio="4/3" />
+            <div className="gallery-2col">
+              {galleryImages.map((img, i) => (
+                <div key={i} className="gallery-item">
+                  <img src={img} alt="PTFE product" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '12px' }} />
+                </div>
               ))}
             </div>
           </div>
