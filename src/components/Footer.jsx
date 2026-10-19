@@ -11,12 +11,12 @@ export default function Footer() {
           </div>
           <div className="footer__links">
             <Link to="/">Home</Link>
-            <a href="#products">Products</a>
-            <a href="#materials">Knowledge</a>
-            <a href="#materials">Elastomers</a>
-            <a href="#industries">Industries</a>
-            <Link to="/">About Us</Link>
-            <Link to="/">Contact Us</Link>
+            <Link to="/products">Products</Link>
+            <Link to="/knowledge">Knowledge</Link>
+            <Link to="/elastomers">Elastomers</Link>
+            <Link to="/products">Industries</Link>
+            <Link to="/about">About Us</Link>
+            <Link to="/contact">Contact Us</Link>
           </div>
         </div>
         <p className="footer__copy">
