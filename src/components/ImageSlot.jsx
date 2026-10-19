@@ -31,7 +31,8 @@ const POSTIMG_MAP = {
 }
 
 export default function ImageSlot({ tag, ratio = 'wide' }) {
-  const src = POSTIMG_MAP[tag]
+  // If tag is a direct URL, render the image immediately
+  const src = POSTIMG_MAP[tag] || (tag && tag.startsWith('http') ? tag : null)
   if (src) {
     return (
       <div className={`imgslot imgslot--${ratio} imgslot--filled`} data-slot={tag}>
