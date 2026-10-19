@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+﻿import { Link } from 'react-router-dom'
 import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 import FloatingCta from '../components/FloatingCta.jsx'
@@ -32,7 +32,7 @@ export default function Certifications() {
             <p className="calc-hero__eyebrow">Certifications</p>
             <h1 className="calc-hero__title">Certified quality you can verify</h1>
             <p className="calc-hero__desc">
-              American Rubber Corp maintains ISO 9001:2015 and IATF 16949:2016 quality management systems. Our current
+              Chinese Rubber Corp maintains ISO 9001:2015 and IATF 16949:2016 quality management systems. Our current
               certificates are shown below for verification.
             </p>
           </div>

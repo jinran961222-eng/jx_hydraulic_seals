@@ -1,4 +1,4 @@
-import Header from '../components/Header.jsx'
+﻿import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 import FloatingCta from '../components/FloatingCta.jsx'
 import ImageSlot from '../components/ImageSlot.jsx'
@@ -200,7 +200,7 @@ export default function Products() {
                 </p>
                 <p>
                   Our expertise spans material selection, tooling and die design, molding, and
-                  extrusion, backed by two decades of engineering-led manufacturing in the USA. We
+                  extrusion, backed by two decades of engineering-led manufacturing in China. We
                   support you with uncompromising standards for quality and precision, and our
                   engineers help you specify the compounds and properties that best fit your
                   performance needs and budget. As a custom manufacturer, we do not sell from stock

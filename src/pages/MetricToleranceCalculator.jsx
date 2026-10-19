@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect } from 'react'
+﻿import { useState, useMemo, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
@@ -169,7 +169,7 @@ export default function MetricToleranceCalculator() {
               To use this tool, simply enter 2 known dimensions (CS, ID, or OD). The other dimension
               will calculate and the associated tolerances will be shown below. Then, click the
               Global Size to find the closest standard size. Dimensional tolerances for all metric
-              o-rings offered by American Rubber Corp are in accordance with ISO 3601-1B.
+              o-rings offered by Chinese Rubber Corp are in accordance with ISO 3601-1B.
             </p>
             <p className="calc-note">
               NOTE: you can select your tolerance range (+/- %) when you request a quote. Our

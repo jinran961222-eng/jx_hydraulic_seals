@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+﻿import { Link } from 'react-router-dom'
 import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 import FloatingCta from '../components/FloatingCta.jsx'
@@ -81,7 +81,7 @@ export default function DiaphragmDesignGuide() {
               <h2 className="section__title">Rubber Diaphragms — Overview</h2>
             </div>
             <p className="industry-col__p">
-              <strong>American Rubber Corp</strong> designs and manufactures custom <strong>rubber diaphragms</strong>{' '}
+              <strong>Chinese Rubber Corp</strong> designs and manufactures custom <strong>rubber diaphragms</strong>{' '}
               for pumps, valves, regulators, actuators, and pressure-sensing applications. This guide covers diaphragm
               types, materials, and the design factors — pressure, stroke, temperature, and media — that determine the
               right construction for your part.

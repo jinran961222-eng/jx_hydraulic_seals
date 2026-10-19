@@ -1,4 +1,4 @@
-import IndustryPage from '../components/IndustryPage.jsx'
+﻿import IndustryPage from '../components/IndustryPage.jsx'
 
 const PRODUCTS = {
   oilSeals: ['/products/oil-seals', 'Oil Seals'],
@@ -20,7 +20,7 @@ export function Automotive() {
     title="Automotive Rubber Components"
     heroDesc="Custom oil seals, O-rings, molded parts and weatherstrip engineered for the heat, oils, fuels, coolants and vibration of the drivetrain and chassis — built to your print under ISO 9001 and IATF 16949 quality, never pulled from a shelf."
     overviewTitle="Engineered for the road and the powertrain"
-    overviewPara="American Rubber Corp manufactures custom rubber components for automotive OEMs and tier suppliers where every seal has to survive years of heat cycling, fluid exposure and road vibration. We match the elastomer to your application — HNBR and FKM for hot engine oil and fuel, EPDM for coolant and weather sealing — and mold, extrude or die-cut each part to your drawing. Every component is validated before production under ISO 9001:2015 and IATF 16949:2016."
+    overviewPara="Chinese Rubber Corp manufactures custom rubber components for automotive OEMs and tier suppliers where every seal has to survive years of heat cycling, fluid exposure and road vibration. We match the elastomer to your application — HNBR and FKM for hot engine oil and fuel, EPDM for coolant and weather sealing — and mold, extrude or die-cut each part to your drawing. Every component is validated before production under ISO 9001:2015 and IATF 16949:2016."
     capabilities={[
       'Engine & transmission oil seals for hot-oil service',
       'Coolant, fuel & vacuum sealing compounds',
@@ -28,7 +28,7 @@ export function Automotive() {
       'Weatherstrip & body-sealing extruded profiles',
       'Custom molded O-rings, grommets & diaphragms',
       'First-article inspection, PPAP & material certs on request',
-      'ISO 9001:2015 & IATF 16949:2016 certified, Made in USA',
+      'ISO 9001:2015 & IATF 16949:2016 certified, Made in China',
     ]}
     products={[
       P('oilSeals', 'Rotary shaft and static oil seals in HNBR and FKM for engine, transmission and axle service.'),
@@ -67,7 +67,7 @@ export function OilGas() {
     title="Oil & Gas Rubber Components"
     heroDesc="Custom seals, O-rings, packers and molded components engineered for sour-gas exposure, high pressure and high temperature downhole and at the wellhead — built to your print in explosive-decompression-resistant compounds, never pulled from a shelf."
     overviewTitle="Engineered for sour service, pressure & heat"
-    overviewPara="American Rubber Corp manufactures custom rubber components for upstream, midstream and downstream oil & gas equipment where H2S, CO2, methane and downhole heat destroy the wrong elastomer. We match the compound to your service conditions — HNBR and FKM for oilfield fluids, FFKM for sour and high-temperature wells, PTFE where elastomers reach their limit — and mold, extrude or machine every seal to your drawing. Parts are engineered for rapid gas decompression and validated before production, under ISO 9001:2015 and IATF 16949:2016."
+    overviewPara="Chinese Rubber Corp manufactures custom rubber components for upstream, midstream and downstream oil & gas equipment where H2S, CO2, methane and downhole heat destroy the wrong elastomer. We match the compound to your service conditions — HNBR and FKM for oilfield fluids, FFKM for sour and high-temperature wells, PTFE where elastomers reach their limit — and mold, extrude or machine every seal to your drawing. Parts are engineered for rapid gas decompression and validated before production, under ISO 9001:2015 and IATF 16949:2016."
     capabilities={[
       'Sour-gas (H2S) & CO2 resistant compounds',
       'High-temperature, high-pressure downhole seals',
@@ -75,7 +75,7 @@ export function OilGas() {
       'Wellhead, valve, pump & BOP sealing components',
       'Custom O-rings, packers, diaphragms & molded parts',
       'Material certs, first-article inspection & PPAP on request',
-      'ISO 9001:2015 & IATF 16949:2016 certified, Made in USA',
+      'ISO 9001:2015 & IATF 16949:2016 certified, Made in China',
     ]}
     products={[
       P('oRings', 'AS568 and metric O-rings in FFKM, FKM and HNBR for sour-gas, high-pressure static and dynamic sealing.'),
@@ -114,7 +114,7 @@ export function MedicalPharma() {
     title="Medical & Pharmaceutical Rubber Components"
     heroDesc="Custom seals, tubing, diaphragms and molded parts engineered for fluid-path purity, repeated sterilization and biocompatibility — molded from FDA-grade, platinum-cured elastomers to your print, never pulled from a shelf."
     overviewTitle="Engineered for the fluid path"
-    overviewPara="American Rubber Corp manufactures custom rubber components for medical device and pharmaceutical OEMs where cleanliness, biocompatibility and lot-to-lot consistency are non-negotiable. We match the elastomer to your process — platinum-cured silicone for pump tubing and diaphragms, FKM and FFKM for aggressive CIP/SIP chemistries and fill lines — and mold, extrude or die-cut every part to your drawing under controlled conditions. Made to spec and validated before production, under ISO 9001:2015 and IATF 16949:2016."
+    overviewPara="Chinese Rubber Corp manufactures custom rubber components for medical device and pharmaceutical OEMs where cleanliness, biocompatibility and lot-to-lot consistency are non-negotiable. We match the elastomer to your process — platinum-cured silicone for pump tubing and diaphragms, FKM and FFKM for aggressive CIP/SIP chemistries and fill lines — and mold, extrude or die-cut every part to your drawing under controlled conditions. Made to spec and validated before production, under ISO 9001:2015 and IATF 16949:2016."
     capabilities={[
       'FDA-grade & USP Class VI capable compounds',
       'Platinum-cured (low-extractable) silicone molding',
@@ -122,7 +122,7 @@ export function MedicalPharma() {
       'CIP/SIP and autoclave-tolerant elastomers',
       'Custom seals, tubing, diaphragms & gaskets',
       'Material certs, traceability & first-article inspection',
-      'ISO 9001:2015 & IATF 16949:2016 certified, Made in USA',
+      'ISO 9001:2015 & IATF 16949:2016 certified, Made in China',
     ]}
     products={[
       P('oRings', 'AS568 and metric O-rings in platinum-cured silicone, FKM and FFKM for fluid-path and fill-line sealing.'),
@@ -161,7 +161,7 @@ export function FoodDairy() {
     title="Food & Dairy Rubber Components"
     heroDesc="Custom sanitary gaskets, seals, tubing and molded parts engineered for clean-in-place cycles, dairy fats and repeated wash-down — built to your print in FDA-compliant, 3-A minded compounds, never pulled from a shelf."
     overviewTitle="Clean, compliant seals built to your spec"
-    overviewPara="American Rubber Corp manufactures custom rubber components for food, dairy and beverage processing where hygiene and traceability are non-negotiable. We match the elastomer to your product contact, fats, sugars, CIP/SIP chemistry and temperature — from FDA-compliant silicone and EPDM for hot wash-down to nitrile and FKM for oils and aggressive cleaners — and mold, extrude or die-cut every part to your drawing. Each component is produced to your specification under ISO 9001:2015 and IATF 16949:2016, with material certifications on request."
+    overviewPara="Chinese Rubber Corp manufactures custom rubber components for food, dairy and beverage processing where hygiene and traceability are non-negotiable. We match the elastomer to your product contact, fats, sugars, CIP/SIP chemistry and temperature — from FDA-compliant silicone and EPDM for hot wash-down to nitrile and FKM for oils and aggressive cleaners — and mold, extrude or die-cut every part to your drawing. Each component is produced to your specification under ISO 9001:2015 and IATF 16949:2016, with material certifications on request."
     capabilities={[
       'FDA-compliant & 3-A minded product-contact compounds',
       'Sanitary gaskets, seals & tri-clamp profiles to spec',
@@ -169,7 +169,7 @@ export function FoodDairy() {
       'Extruded tubing, cord & custom sealing profiles',
       'Die-cut gaskets, tray liners & conveyor components',
       'Material certifications & traceability on request',
-      'ISO 9001:2015 & IATF 16949:2016 certified, Made in USA',
+      'ISO 9001:2015 & IATF 16949:2016 certified, Made in China',
     ]}
     products={[
       P('diecut', 'Sanitary gaskets and sealing washers die-cut in FDA-compliant sheet for fittings, covers and enclosures.'),
@@ -208,7 +208,7 @@ export function Marine() {
     title="Marine Rubber Components"
     heroDesc="Custom seals, gaskets and molded rubber parts engineered for salt water, ozone and constant immersion — built to your print under ISO 9001:2015 and IATF 16949:2016 quality, never pulled from a shelf."
     overviewTitle="Sealed against salt water and sun"
-    overviewPara="American Rubber Corp manufactures custom rubber components for marine and offshore equipment, where salt spray, ozone, UV and immersion attack every seal. We match the elastomer to your service conditions — from neoprene and EPDM for weather and ozone to nitrile for fuel and oil — and mold, extrude or die-cut each part to your drawing for hatches, pumps, valves and deck hardware. Every component is engineered, validated and made in the USA under ISO 9001:2015 and IATF 16949:2016."
+    overviewPara="Chinese Rubber Corp manufactures custom rubber components for marine and offshore equipment, where salt spray, ozone, UV and immersion attack every seal. We match the elastomer to your service conditions — from neoprene and EPDM for weather and ozone to nitrile for fuel and oil — and mold, extrude or die-cut each part to your drawing for hatches, pumps, valves and deck hardware. Every component is engineered, validated and made in China under ISO 9001:2015 and IATF 16949:2016."
     capabilities={[
       'Salt-water, ozone & UV resistant compounds',
       'Hatch, door & deck sealing profiles',
@@ -216,7 +216,7 @@ export function Marine() {
       'Corrosion-resistant rubber-to-metal bonded parts',
       'Custom O-rings, gaskets, diaphragms & inflatable seals',
       'First-article inspection & material certs on request',
-      'ISO 9001:2015 & IATF 16949:2016 certified, Made in USA',
+      'ISO 9001:2015 & IATF 16949:2016 certified, Made in China',
     ]}
     products={[
       P('oRings', 'AS568 and metric O-rings in neoprene, EPDM and nitrile for pump, valve and fitting sealing.'),
@@ -255,7 +255,7 @@ export function Defense() {
     title="Defense Rubber Components"
     heroDesc="Custom mil-spec seals, O-rings and rubber-to-metal bonded isolators engineered for ground vehicles, weapons platforms and field conditions — molded to your print under ISO 9001 and IATF 16949 quality, never pulled from a shelf."
     overviewTitle="Built for the mission envelope"
-    overviewPara="American Rubber Corp manufactures custom rubber components for defense programs where sealing and vibration control cannot fail in the field. We match the elastomer to your fuels, hydraulic fluids, temperature extremes and shock profile — from fluorosilicone for fuel-system sealing to FFKM for the most aggressive chemistries — and bond rubber to metal for mounts, isolators and armored hardware. Every part is molded, extruded or die-cut to your drawing and validated before production, under ISO 9001:2015 and IATF 16949:2016."
+    overviewPara="Chinese Rubber Corp manufactures custom rubber components for defense programs where sealing and vibration control cannot fail in the field. We match the elastomer to your fuels, hydraulic fluids, temperature extremes and shock profile — from fluorosilicone for fuel-system sealing to FFKM for the most aggressive chemistries — and bond rubber to metal for mounts, isolators and armored hardware. Every part is molded, extruded or die-cut to your drawing and validated before production, under ISO 9001:2015 and IATF 16949:2016."
     capabilities={[
       'Mil-spec O-rings, seals & gaskets to your drawing',
       'Rubber-to-metal bonded isolators, mounts & bumpers',
@@ -263,7 +263,7 @@ export function Defense() {
       'Extreme high/low temperature & shock-resistant elastomers',
       'Ground-vehicle & weapons-platform sealing components',
       'First-article inspection, PPAP & material certs on request',
-      'ISO 9001:2015 & IATF 16949:2016 certified, Made in USA',
+      'ISO 9001:2015 & IATF 16949:2016 certified, Made in China',
     ]}
     products={[
       P('oRings', 'AS568 and metric O-rings in FKM, fluorosilicone and FFKM for fuel, hydraulic and weapons-system sealing.'),
@@ -302,7 +302,7 @@ export function Agriculture() {
     title="Agriculture Rubber Components"
     heroDesc="Custom seals, gaskets, molded parts and extruded profiles engineered for the sun, spray chemicals, soil and vibration of ag machinery — built to your print under ISO 9001 and IATF 16949 quality, never pulled from a shelf."
     overviewTitle="Engineered for the field and the season"
-    overviewPara="American Rubber Corp manufactures custom rubber components for agricultural OEMs and equipment builders where parts have to survive UV, ozone, spray chemicals, dust and years of vibration in the field. We match the elastomer to your application — EPDM for weather and UV exposure, NBR for fuel and hydraulic oil, silicone for wide temperature swings — and mold, extrude or die-cut each part to your drawing. Every component is validated before production under ISO 9001:2015 and IATF 16949:2016."
+    overviewPara="Chinese Rubber Corp manufactures custom rubber components for agricultural OEMs and equipment builders where parts have to survive UV, ozone, spray chemicals, dust and years of vibration in the field. We match the elastomer to your application — EPDM for weather and UV exposure, NBR for fuel and hydraulic oil, silicone for wide temperature swings — and mold, extrude or die-cut each part to your drawing. Every component is validated before production under ISO 9001:2015 and IATF 16949:2016."
     capabilities={[
       'Weather-, UV- & ozone-resistant sealing compounds',
       'Sprayer, hose & fluid-handling seals and gaskets',
@@ -310,7 +310,7 @@ export function Agriculture() {
       'Cab, panel & enclosure weatherstrip profiles',
       'Anti-vibration mounts, bushings & grommets',
       'First-article inspection, PPAP & material certs on request',
-      'ISO 9001:2015 & IATF 16949:2016 certified, Made in USA',
+      'ISO 9001:2015 & IATF 16949:2016 certified, Made in China',
     ]}
     products={[
       P('oilSeals', 'Rotary shaft and static oil seals in NBR and FKM for gearboxes, axles and hydraulic drives.'),
@@ -349,7 +349,7 @@ export function Railways() {
     title="Railway & Transit Rubber Components"
     heroDesc="Custom door and glazing seals, anti-vibration mounts, gaskets and molded parts engineered for the weather, vibration and fire-safety demands of rail and transit vehicles — built to your print under ISO 9001 and IATF 16949 quality, never pulled from a shelf."
     overviewTitle="Engineered for the rails and the ride"
-    overviewPara="American Rubber Corp manufactures custom rubber components for railcar, locomotive and transit builders where parts have to survive decades of weather, vibration and daily duty cycles. We match the elastomer to your application — EPDM for door, window and weather sealing, neoprene and fire-retardant compounds for interiors and HVAC — and mold, extrude or die-cut each part to your drawing. Every component is validated before production under ISO 9001:2015 and IATF 16949:2016."
+    overviewPara="Chinese Rubber Corp manufactures custom rubber components for railcar, locomotive and transit builders where parts have to survive decades of weather, vibration and daily duty cycles. We match the elastomer to your application — EPDM for door, window and weather sealing, neoprene and fire-retardant compounds for interiors and HVAC — and mold, extrude or die-cut each part to your drawing. Every component is validated before production under ISO 9001:2015 and IATF 16949:2016."
     capabilities={[
       'Door, window & glazing weather seals in EPDM',
       'Anti-vibration mounts, bushings & isolators',
@@ -357,7 +357,7 @@ export function Railways() {
       'Fire-retardant compounds for rail interior standards',
       'Custom molded O-rings, grommets & diaphragms',
       'First-article inspection & material certs on request',
-      'ISO 9001:2015 & IATF 16949:2016 certified, Made in USA',
+      'ISO 9001:2015 & IATF 16949:2016 certified, Made in China',
     ]}
     products={[
       P('extruded', 'Door, window and glazing seals, gangway profiles and weatherstrip extruded to your section.'),
@@ -396,7 +396,7 @@ export function RenewableEnergy() {
     title="Renewable Energy Rubber Components"
     heroDesc="Custom seals, gaskets and molded parts engineered for the sun, wind and weather that solar and wind assets live in — built to your print in UV-, ozone- and temperature-stable elastomers, never pulled from a shelf."
     overviewTitle="Sealed against sun, wind and weather"
-    overviewPara="American Rubber Corp manufactures custom rubber components for solar, wind and energy-storage OEMs whose hardware must survive 20+ years of UV, ozone, moisture and thermal cycling outdoors. We match the elastomer to your exposure — EPDM for weather and ozone, silicone for wide temperature swings, FKM where fluids and heat combine — and mold, extrude or die-cut every part to your drawing. All work is engineered and validated under ISO 9001:2015 and IATF 16949:2016, made in the USA."
+    overviewPara="Chinese Rubber Corp manufactures custom rubber components for solar, wind and energy-storage OEMs whose hardware must survive 20+ years of UV, ozone, moisture and thermal cycling outdoors. We match the elastomer to your exposure — EPDM for weather and ozone, silicone for wide temperature swings, FKM where fluids and heat combine — and mold, extrude or die-cut every part to your drawing. All work is engineered and validated under ISO 9001:2015 and IATF 16949:2016, made in China."
     capabilities={[
       'UV-, ozone- & weather-resistant sealing compounds',
       'Solar panel frame, junction-box & connector seals',
@@ -404,7 +404,7 @@ export function RenewableEnergy() {
       'Wide-temperature elastomers for outdoor thermal cycling',
       'Custom O-rings, gaskets, diaphragms & extruded profiles',
       'Material certs, first-article inspection & PPAP on request',
-      'ISO 9001:2015 & IATF 16949:2016 certified, Made in USA',
+      'ISO 9001:2015 & IATF 16949:2016 certified, Made in China',
     ]}
     products={[
       P('oRings', 'AS568 and metric O-rings in EPDM, silicone and FKM for junction-box, connector and enclosure sealing.'),

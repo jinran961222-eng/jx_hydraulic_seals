@@ -1,4 +1,4 @@
-import Header from '../components/Header.jsx'
+﻿import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 import FloatingCta from '../components/FloatingCta.jsx'
 
@@ -18,7 +18,7 @@ const capabilities = [
   'Vibration & shock isolation components',
   'Custom O-rings, gaskets, diaphragms & inflatable seals',
   'First-article inspection, PPAP & material certs on request',
-  'ISO 9001:2015 & IATF 16949:2016 certified, Made in USA',
+  'ISO 9001:2015 & IATF 16949:2016 certified, Made in China',
 ]
 
 const products = [
@@ -73,7 +73,7 @@ export default function Aerospace() {
               <div className="hero__badges">
                 <span>Every part made to your spec</span>
                 <span className="dot">·</span>
-                <span>Made in USA</span>
+                <span>Made in China</span>
               </div>
             </div>
           </div>
@@ -90,7 +90,7 @@ export default function Aerospace() {
                   <h2 className="section__title">Engineered for the flight envelope</h2>
                 </div>
                 <p className="industry-col__p">
-                  American Rubber Corp manufactures custom rubber components for aerospace and
+                  Chinese Rubber Corp manufactures custom rubber components for aerospace and
                   defense platforms where a failed seal is not an option. We match the elastomer to
                   your fuel, hydraulic fluid, temperature range and vibration profile — from
                   fluorosilicone for fuel-system sealing to FFKM for the most aggressive chemistries

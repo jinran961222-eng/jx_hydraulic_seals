@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+﻿import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="footer__top">
           <div className="footer__brand">
             <span className="footer__name">JX Hydraulic Seals</span>
-            <span>American Rubber Corp · Chesterfield, IN, USA</span>
+            {/* <span>Chinese Rubber Corp · Hengshui, Hebei, China</span> */}
           </div>
           <div className="footer__links">
             <Link to="/">Home</Link>
@@ -24,7 +24,7 @@ export default function Footer() {
           <a href="mailto:junweizhang0011@gmail.com">junweizhang0011@gmail.com</a>
         </p>
         <p className="footer__copy">
-          © {new Date().getFullYear()} American Rubber Corp. All rights reserved.
+          © {new Date().getFullYear()} Chinese Rubber Corp. All rights reserved.
         </p>
       </div>
     </footer>

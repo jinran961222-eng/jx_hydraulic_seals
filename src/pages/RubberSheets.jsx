@@ -1,4 +1,4 @@
-import Header from '../components/Header.jsx'
+﻿import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 import FloatingCta from '../components/FloatingCta.jsx'
 import ImageSlot from '../components/ImageSlot.jsx'
@@ -36,7 +36,11 @@ const products = [
   { name: 'Para Floating Sheet', desc: 'Highly flame-resistant sheet that withstands high pressure.' },
 ]
 
-const gallerySlots = ['IMG-47', 'IMG-48', 'IMG-49']
+const galleryImages = [
+  'https://i.postimg.cc/Y0XW3r6M/arc-epdm-gaskets-seals.jpg',
+  'https://i.postimg.cc/ZKtRGyqX/rubber-5.jpg',
+  'https://i.postimg.cc/ydp1pkGV/draws.png',
+]
 
 const materials = [
   { name: 'SBR', desc: 'Low-cost abrasion & wear for long life' },
@@ -72,7 +76,7 @@ const inDepth = [
   {
     title: 'Custom Rubber Sheets and Coated Fabrics for Industrial Use',
     paragraphs: [
-      'American Rubber Corp is an engineering-led, Made in USA manufacturer of rubber sheets for industrial and general-purpose applications. With 20 years of experience, we produce rubber sheet in a range of grades to your specification, from general-purpose natural rubber to more technical grades such as Nitrile, EPDM, and Butyl rubber sheet, along with coated fabrics. Each grade is selected and produced to meet the mechanical, chemical, and environmental demands of your application.',
+      'Chinese Rubber Corp is an engineering-led, Made in China manufacturer of rubber sheets for industrial and general-purpose applications. With 20 years of experience, we produce rubber sheet in a range of grades to your specification, from general-purpose natural rubber to more technical grades such as Nitrile, EPDM, and Butyl rubber sheet, along with coated fabrics. Each grade is selected and produced to meet the mechanical, chemical, and environmental demands of your application.',
     ],
   },
   {
@@ -114,7 +118,7 @@ export default function RubberSheets() {
               <div className="hero__badges">
                 <span>Every part made to your spec</span>
                 <span className="dot">·</span>
-                <span>Made in USA</span>
+                <span>Made in China</span>
               </div>
             </div>
           </div>
@@ -200,11 +204,13 @@ export default function RubberSheets() {
           <div className="container">
             <div className="section__head">
               <p className="section__eyebrow">GALLERY</p>
-              <h2 className="section__title">Rubber Sheets &amp; Coated Fabrics we’ve built</h2>
+              <h2 className="section__title">Rubber Sheets &amp; Coated Fabrics we've built</h2>
             </div>
-            <div className="gallery__grid">
-              {gallerySlots.map((g) => (
-                <ImageSlot key={g} tag={g} ratio="4/3" />
+            <div className="gallery-3col">
+              {galleryImages.map((img, i) => (
+                <div key={i} className="gallery-item">
+                  <img src={img} alt="Rubber sheet or coated fabric" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '12px' }} />
+                </div>
               ))}
             </div>
           </div>

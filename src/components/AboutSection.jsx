@@ -1,8 +1,8 @@
-const sections = [
+﻿const sections = [
   {
     title: 'A Fully In-House Custom Rubber Components Manufacturer',
     paragraphs: [
-      'American Rubber Corp is an engineering-led manufacturer of custom rubber components, built to your design and specifications. We control every step of the process in-house, from compounding and mixing to extrusion and molding, so quality is engineered into the part rather than inspected in at the end. As a single-source partner, we guide each project through material selection, design, prototyping, and full production of custom rubber components made to print, never pulled from stock.',
+      'Chinese Rubber Corp is an engineering-led manufacturer of custom rubber components, built to your design and specifications. We control every step of the process in-house, from compounding and mixing to extrusion and molding, so quality is engineered into the part rather than inspected in at the end. As a single-source partner, we guide each project through material selection, design, prototyping, and full production of custom rubber components made to print, never pulled from stock.',
       'Our optimized, ISO 9001:2015 certified processes deliver high-performance rubber parts for smooth, reliable operation in demanding applications. We consult with you to identify the right compounds and properties for your technical, mechanical, electrical, and chemical requirements, producing economical sealing, tubing and hose, and rubber parts precisely tailored to the job.',
     ],
   },

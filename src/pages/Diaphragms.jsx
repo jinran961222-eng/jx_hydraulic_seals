@@ -1,4 +1,4 @@
-import Header from '../components/Header.jsx'
+﻿import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 import FloatingCta from '../components/FloatingCta.jsx'
 import ImageSlot from '../components/ImageSlot.jsx'
@@ -20,7 +20,7 @@ const capabilities = [
   'Engineered for extreme pressures and temperatures',
   'Designed for high-frequency pneumatic and hydraulic systems',
   'Optimized for long cycle life and reliability',
-  'ISO 9001:2015 & IATF 16949:2016 certified, Made in USA',
+  'ISO 9001:2015 & IATF 16949:2016 certified, Made in China',
 ]
 
 const products = [
@@ -73,7 +73,7 @@ const inDepth = [
   {
     title: 'Custom-Molded Rubber Diaphragms for Flow Control and Sealing',
     paragraphs: [
-      'Rubber diaphragms are versatile, flexible sealing components that deliver variable sealing in flow-control applications, making them one of the most valuable elements in any sealing system. As an engineering-led, Made in USA manufacturer with 20 years of experience, American Rubber Corp produces rubber diaphragms to your specification and to your print, using single and composite elastomers matched to the demands of each industry application. Every diaphragm is custom-to-spec, engineered to fit challenging shapes and configurations rather than pulled from a shelf.',
+      'Rubber diaphragms are versatile, flexible sealing components that deliver variable sealing in flow-control applications, making them one of the most valuable elements in any sealing system. As an engineering-led, Made in China manufacturer with 20 years of experience, Chinese Rubber Corp produces rubber diaphragms to your specification and to your print, using single and composite elastomers matched to the demands of each industry application. Every diaphragm is custom-to-spec, engineered to fit challenging shapes and configurations rather than pulled from a shelf.',
     ],
   },
   {
@@ -128,7 +128,7 @@ export default function Diaphragms() {
               <div className="hero__badges">
                 <span>Every part made to your spec</span>
                 <span className="dot">·</span>
-                <span>Made in USA</span>
+                <span>Made in China</span>
               </div>
             </div>
           </div>
@@ -151,7 +151,7 @@ export default function Diaphragms() {
                   add PTFE facings for chemical and abrasion resistance. Built for extreme pressures
                   and temperatures and long operating life, our diaphragms serve high-frequency
                   pneumatic and hydraulic systems where reliability is non-negotiable — every part
-                  custom-to-spec, Made in USA, under ISO 9001:2015 and IATF 16949:2016.
+                  custom-to-spec, Made in China, under ISO 9001:2015 and IATF 16949:2016.
                 </p>
                 <div className="stat-grid stat-grid--4">
                   {stats.map((s) => (

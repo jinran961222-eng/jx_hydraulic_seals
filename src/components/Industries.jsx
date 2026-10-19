@@ -1,4 +1,4 @@
-const industries = [
+﻿const industries = [
   'Oil & Gas', 'Automotive', 'Aerospace', 'Defense', 'Agriculture',
   'Rail & Transit', 'Marine', 'Renewable Energy', 'Pharmaceutical',
 ]

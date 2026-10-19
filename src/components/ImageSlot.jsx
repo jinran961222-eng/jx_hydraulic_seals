@@ -1,4 +1,4 @@
-// Reusable image placeholder. When a postimg URL is mapped for this tag,
+﻿// Reusable image placeholder. When a postimg URL is mapped for this tag,
 // render a real <img>; otherwise show the placeholder hint.
 const POSTIMG_MAP = {
   'IMG-23': 'https://i.postimg.cc/VLNjZ9QH/o-ring.jpg',

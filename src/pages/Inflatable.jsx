@@ -1,4 +1,4 @@
-import Header from '../components/Header.jsx'
+﻿import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 import FloatingCta from '../components/FloatingCta.jsx'
 import ImageSlot from '../components/ImageSlot.jsx'
@@ -79,7 +79,7 @@ const inDepth = [
   {
     title: 'Custom Inflatable Rubber Seals with Customizable Valve and Inlet Tube',
     paragraphs: [
-      'American Rubber Corp is a leading, Made in USA manufacturer of inflatable rubber seals with a customizable valve and inlet tube. Inflatable seals inflate to provide a contamination-proof seal across a wide range of applications and, unlike traditional elastomeric seals, can effectively seal irregular or misaligned surfaces to enhance sealing integrity. Their unique design allows them to inflate and form a tight barrier between the mounting and striking surfaces, requiring less force while ensuring a 100% seal, which makes them the ideal solution for demanding and unusual sealing applications. As an engineering-led manufacturer with 20 years of experience, we provide design consultation and material selection support, guiding you through critical parameters such as inflation height, deflation (relaxed-state) gap, operating pressure, and operating temperature. We produce non-reinforced inflatable seals, fabric-reinforced inflatable seals, and both custom and standard inflatable seals to your specification.',
+      'Chinese Rubber Corp is a leading, Made in China manufacturer of inflatable rubber seals with a customizable valve and inlet tube. Inflatable seals inflate to provide a contamination-proof seal across a wide range of applications and, unlike traditional elastomeric seals, can effectively seal irregular or misaligned surfaces to enhance sealing integrity. Their unique design allows them to inflate and form a tight barrier between the mounting and striking surfaces, requiring less force while ensuring a 100% seal, which makes them the ideal solution for demanding and unusual sealing applications. As an engineering-led manufacturer with 20 years of experience, we provide design consultation and material selection support, guiding you through critical parameters such as inflation height, deflation (relaxed-state) gap, operating pressure, and operating temperature. We produce non-reinforced inflatable seals, fabric-reinforced inflatable seals, and both custom and standard inflatable seals to your specification.',
     ],
   },
   {
@@ -139,7 +139,7 @@ export default function Inflatable() {
               <div className="hero__badges">
                 <span>Every part made to your spec</span>
                 <span className="dot">·</span>
-                <span>Made in USA</span>
+                <span>Made in China</span>
               </div>
             </div>
           </div>

@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+﻿import { Link } from 'react-router-dom'
 import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 import FloatingCta from '../components/FloatingCta.jsx'
@@ -245,7 +245,7 @@ export default function RmaToleranceChart() {
         <section className="section section--soft">
           <div className="container">
             <p className="industry-col__p">
-              <strong>American Rubber Corp</strong> manufactures custom molded rubber parts to RMA Class A1, A2, A3,
+              <strong>Chinese Rubber Corp</strong> manufactures custom molded rubber parts to RMA Class A1, A2, A3,
               and A4 tolerances, and extruded products to RMA Class E1, E2, E3, E4. We work with your ASME Y14.5 GD&amp;T
               drawings. ISO 9001:2015 + IATF 16949 certified.
             </p>

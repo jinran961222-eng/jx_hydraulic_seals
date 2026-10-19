@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+﻿import { Link } from 'react-router-dom'
 import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 import FloatingCta from '../components/FloatingCta.jsx'
@@ -108,7 +108,7 @@ export default function OilSealSizeChart() {
               <h2 className="section__title">Rotary oil seals in metric and imperial</h2>
             </div>
             <p className="industry-col__p">
-              <strong>American Rubber Corp</strong> manufactures custom and standard rubber <strong>rotary oil
+              <strong>Chinese Rubber Corp</strong> manufactures custom and standard rubber <strong>rotary oil
               seals</strong> (shaft seals) in metric and imperial sizes for automotive, industrial, hydraulic, and
               agricultural applications. Use the reference chart below to identify a standard size, then request a
               quote for your material and quantity.

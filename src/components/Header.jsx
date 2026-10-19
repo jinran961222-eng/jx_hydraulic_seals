@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from 'react'
+﻿import { useEffect, useState, useRef } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 
 export default function Header() {
@@ -73,7 +73,7 @@ export default function Header() {
           </div>
           <div>
             <span className="cert">ISO 9001:2015</span> &amp;{' '}
-            <span className="cert">IATF 16949:2016</span> &nbsp;·&nbsp; Chesterfield, IN, USA
+            <span className="cert">IATF 16949:2016</span> &nbsp;·&nbsp; Hengshui, Hebei, China
           </div>
         </div>
       </div>
@@ -83,7 +83,7 @@ export default function Header() {
           <span className="brand__mark">JX</span>
           <span className="brand__text">
             <strong>JX Hydraulic Seals</strong>
-            <small>American Rubber Corp</small>
+            <small>Chinese Rubber Corp</small>
           </span>
         </Link>
 

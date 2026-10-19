@@ -1,4 +1,4 @@
-import MetricSizeChart from '../components/MetricSizeChart.jsx'
+﻿import MetricSizeChart from '../components/MetricSizeChart.jsx'
 import { bs1806Cols, bs1806Data } from '../data/bs1806.js'
 import { bs4518Cols, bs4518Data } from '../data/bs4518.js'
 import { din3771Cols, din3771Data } from '../data/din3771.js'

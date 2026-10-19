@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+﻿import { Link } from 'react-router-dom'
 import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 import FloatingCta from '../components/FloatingCta.jsx'
@@ -30,7 +30,7 @@ export default function IndustryPage({
               <div className="hero__badges">
                 <span>Every part made to your spec</span>
                 <span className="dot">·</span>
-                <span>Made in USA</span>
+                <span>Made in China</span>
               </div>
             </div>
           </div>

@@ -1,4 +1,4 @@
-import Header from '../components/Header.jsx'
+﻿import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 import FloatingCta from '../components/FloatingCta.jsx'
 
@@ -26,7 +26,7 @@ export default function StandardOrings() {
               color — and chart plus a metric tolerance calculator for groove and gland dimensions.
             </p>
             <div className="calc-hero__badge">
-              Every part <strong>made to your spec</strong> · Made in USA
+              Every part <strong>made to your spec</strong> · Made in China
             </div>
           </div>
         </section>
@@ -52,7 +52,7 @@ export default function StandardOrings() {
                   Every standard we build to has a free, ungated size chart below, plus a metric
                   O-ring tolerance calculator for groove and gland dimensions. Need a size no
                   standard table lists? That's a custom O-ring — and we build those too. All
-                  standard and custom O-rings are made to spec. Made in USA. under ISO 9001:2015
+                  standard and custom O-rings are made to spec. Made in China. under ISO 9001:2015
                   and IATF 16949:2016 quality systems.
                 </p>
               </div>

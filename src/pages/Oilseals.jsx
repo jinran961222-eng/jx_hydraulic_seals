@@ -1,4 +1,4 @@
-import Header from '../components/Header.jsx'
+﻿import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 import FloatingCta from '../components/FloatingCta.jsx'
 import ImageSlot from '../components/ImageSlot.jsx'
@@ -19,7 +19,7 @@ const capabilities = [
   'Engineered to pressure, temperature, shaft speed and runout',
   'Fluid-compatibility matching across oils, fuels, grease and water',
   'Free Oil Seal Size Chart and cross-reference (ungated)',
-  'ISO 9001:2015 & IATF 16949:2016 certified, Made in USA',
+  'ISO 9001:2015 & IATF 16949:2016 certified, Made in China',
 ]
 
 const products = [
@@ -124,7 +124,7 @@ export default function Oilseals() {
               <div className="hero__badges">
                 <span>Every part made to your spec</span>
                 <span className="dot">·</span>
-                <span>Made in USA</span>
+                <span>Made in China</span>
               </div>
             </div>
           </div>
@@ -146,7 +146,7 @@ export default function Oilseals() {
                   an elastomer, most often nitrile, to a metal ring with a precision spring-tensioned
                   lip for reliable dynamic sealing, and we select the elastomer to the media — from
                   nitrile for general oils to PTFE for the widest temperature and chemical range.
-                  Every seal is custom-to-spec and Made in USA under ISO 9001:2015 and IATF
+                  Every seal is custom-to-spec and Made in China under ISO 9001:2015 and IATF
                   16949:2016, backed by a free size chart, cross-reference guide and catalog.
                 </p>
                 <div className="stat-grid stat-grid--4">

@@ -1,4 +1,4 @@
-import Header from '../components/Header.jsx'
+﻿import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 import FloatingCta from '../components/FloatingCta.jsx'
 import ImageSlot from '../components/ImageSlot.jsx'
@@ -20,7 +20,7 @@ const capabilities = [
   'Wide profile library: D, T, L, U-channel, cord, hose and fully custom',
   'Cut-to-length, notching and fabrication of extruded lengths',
   'Material selection and durometer tuning to application',
-  'ISO 9001:2015 & IATF 16949:2016 certified, Made in USA',
+  'ISO 9001:2015 & IATF 16949:2016 certified, Made in China',
 ]
 
 const products = [
@@ -77,7 +77,7 @@ const inDepth = [
   {
     title: 'Custom Extruded Rubber Profiles and Gaskets',
     paragraphs: [
-      'Extruded rubber profiles play a crucial role in countless applications across a wide range of sectors. They are rubber components produced by forcing a heated, softened rubber compound through a shaped die, yielding long, continuous sections with a consistent cross-section. This process makes it possible to produce complex shapes with high precision and efficiency, which is what makes extruded rubber so valuable for industrial use. Because every application is different, American Rubber Corp works with you to customize parts to your exact specification. As a Made in USA, engineering-led manufacturer with 20 years of experience, we produce runs of extruded rubber parts that range from simple rubber tubing to complex extrusions, cut to length or supplied in continuous reels.',
+      'Extruded rubber profiles play a crucial role in countless applications across a wide range of sectors. They are rubber components produced by forcing a heated, softened rubber compound through a shaped die, yielding long, continuous sections with a consistent cross-section. This process makes it possible to produce complex shapes with high precision and efficiency, which is what makes extruded rubber so valuable for industrial use. Because every application is different, Chinese Rubber Corp works with you to customize parts to your exact specification. As a Made in China, engineering-led manufacturer with 20 years of experience, we produce runs of extruded rubber parts that range from simple rubber tubing to complex extrusions, cut to length or supplied in continuous reels.',
     ],
   },
   {
@@ -118,12 +118,12 @@ export default function Extruded() {
               <p className="hero__desc">
                 We extrude rubber to your exact profile — continuous seals, cords, channels and
                 complex custom cross-sections drawn to your print. From CAD file to spliced,
-                vulcanized part, engineering-led and Made in USA.
+                vulcanized part, engineering-led and Made in China.
               </p>
               <div className="hero__badges">
                 <span>Every part made to your spec</span>
                 <span className="dot">·</span>
-                <span>Made in USA</span>
+                <span>Made in China</span>
               </div>
             </div>
           </div>

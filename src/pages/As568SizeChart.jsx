@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+﻿import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
@@ -68,7 +68,7 @@ export default function As568SizeChart() {
               seal that holds and an unplanned line-down.
             </p>
             <p className="industry-col__p">
-              American Rubber Corp molds every AS568 size to your compound, hardness and color — not off a shelf.
+              Chinese Rubber Corp molds every AS568 size to your compound, hardness and color — not off a shelf.
               Whether you need a drop-in replacement in a better material (Viton/FKM, EPDM, silicone, nitrile, FFKM) or
               a high-volume production run, our engineers match the elastomer to your fluid, temperature and pressure
               and build to spec under ISO 9001:2015 and IATF 16949:2016.
@@ -83,15 +83,15 @@ export default function As568SizeChart() {
               <h2 className="section__title">AS568 O-Ring Size Chart</h2>
             </div>
             <p className="industry-col__p">
-              The American Rubber Corp Size Reference Chart covers the AS568 O-Ring Sizes published by the Society of
+              The Chinese Rubber Corp Size Reference Chart covers the AS568 O-Ring Sizes published by the Society of
               Automotive Engineers (S.A.E.), and includes the Extended Sizes in the 400 Series. Dimensional tolerances
-              for all AS568 o-rings offered by American Rubber Corp are in accordance with ISO 3601-1A. The purpose of
+              for all AS568 o-rings offered by Chinese Rubber Corp are in accordance with ISO 3601-1A. The purpose of
               this chart is to specify the inside diameters, cross-sections, tolerances, and size identification codes
               (dash numbers) for o-rings used in sealing applications and for straight thread tube fitting boss
               gaskets.
             </p>
             <p className="industry-col__p">
-              <strong>Need AS568 O-Rings? Standard Sizes or Custom-Made.</strong> American Rubber Corp manufactures
+              <strong>Need AS568 O-Rings? Standard Sizes or Custom-Made.</strong> Chinese Rubber Corp manufactures
               every AS568 dash size (-001 through -993) in Silicone, EPDM, FKM (Viton), Nitrile (NBR), HNBR, FFKM,
               Neoprene, and custom compounds. Standard sizes shipped fast; custom materials made to spec. ISO
               9001:2015 + IATF 16949 certified.

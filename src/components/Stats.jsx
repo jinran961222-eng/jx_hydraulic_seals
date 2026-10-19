@@ -1,4 +1,4 @@
-const stats = [
+﻿const stats = [
   { value: '20', suffix: '+', label: 'Years', sub: 'Engineering custom rubber' },
   { value: 'ISO 9001 · IATF 16949', suffix: '', label: '', sub: 'Certified quality systems' },
   { value: '300', suffix: '+', label: '', sub: 'Oil & gas customers served' },

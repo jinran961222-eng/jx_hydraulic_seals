@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+﻿import { Link } from 'react-router-dom'
 import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 import FloatingCta from '../components/FloatingCta.jsx'
@@ -83,7 +83,7 @@ export default function CustomMoldingGuide() {
               <h2 className="section__title">Custom Rubber Molded Parts — Overview</h2>
             </div>
             <p className="industry-col__p">
-              <strong>American Rubber Corp</strong> manufactures <strong>custom molded rubber parts</strong> to your
+              <strong>Chinese Rubber Corp</strong> manufactures <strong>custom molded rubber parts</strong> to your
               drawings and specifications using compression, transfer, and injection molding. This guide covers the
               molding processes, dimensional tolerances, and materials so you can specify a part that is both
               manufacturable and cost-effective.

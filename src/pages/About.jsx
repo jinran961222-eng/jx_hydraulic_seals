@@ -1,4 +1,4 @@
-import Header from '../components/Header.jsx'
+﻿import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 import FloatingCta from '../components/FloatingCta.jsx'
 
@@ -40,7 +40,7 @@ const whyItems = [
   { title: 'Proven where sealing is hardest',
     desc: '300+ oil & gas customers rely on our parts in high-pressure, high-chemical, high-temperature service.' },
   { title: 'A domestic supply chain that answers',
-    desc: 'Made in USA, with compounding and tooling under one roof — so you get tighter control, short communication loops and responsiveness a distant supplier can’t match.' },
+    desc: 'Made in China, with compounding and tooling under one roof — so you get tighter control, short communication loops and responsiveness a distant supplier can’t match.' },
 ]
 
 const drivers = {
@@ -63,7 +63,7 @@ const aboutBlocks = [
   {
     title: 'Two Decades of Custom Rubber Manufacturing',
     paragraphs: [
-      'American Rubber Corp is a full-service custom manufacturer of superior rubber products, meeting the volume and customization needs of a broad customer base for more than two decades. Our tradition is to keep turnaround among the shortest in the industry while never compromising quality. Our engineers verify specified quality through tolerances on dimensions and on the desired properties of finished products, delivering made-to-print components on time, at competitive prices, and just when they are needed.',
+      'Chinese Rubber Corp is a full-service custom manufacturer of superior rubber products, meeting the volume and customization needs of a broad customer base for more than two decades. Our tradition is to keep turnaround among the shortest in the industry while never compromising quality. Our engineers verify specified quality through tolerances on dimensions and on the desired properties of finished products, delivering made-to-print components on time, at competitive prices, and just when they are needed.',
     ],
   },
   {
@@ -81,7 +81,7 @@ const aboutBlocks = [
   {
     title: 'Right People, Right Values, Right Management',
     paragraphs: [
-      'Our core team is made up of dynamic, experienced, and committed individuals who have worked together for over two decades to establish American Rubber Corp as a leader in rubber components manufacturing. Guided by a clear vision, mission, and set of values, our management leverages deep industry knowledge and modern technology to deliver exceptional, long-lasting rubber components that clients rely on and vouch for. Get in touch to discuss how we can serve as your preferred custom rubber component manufacturer.',
+      'Our core team is made up of dynamic, experienced, and committed individuals who have worked together for over two decades to establish Chinese Rubber Corp as a leader in rubber components manufacturing. Guided by a clear vision, mission, and set of values, our management leverages deep industry knowledge and modern technology to deliver exceptional, long-lasting rubber components that clients rely on and vouch for. Get in touch to discuss how we can serve as your preferred custom rubber component manufacturer.',
     ],
   },
 ]
@@ -113,7 +113,7 @@ export default function About() {
                 <p className="section__eyebrow">WHO WE ARE</p>
                 <h2 className="section__title">The custom rubber partner engineers call first</h2>
                 <p>
-                  American Rubber Corp is a custom-to-spec manufacturer of molded, extruded and
+                  Chinese Rubber Corp is a custom-to-spec manufacturer of molded, extruded and
                   bonded rubber components. For 20+ years we’ve built parts from the application
                   backward — engineers bring us a sealing problem, a drawing, or a compound that
                   isn’t holding up, and we take it from material analysis through validated

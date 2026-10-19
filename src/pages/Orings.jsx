@@ -1,4 +1,4 @@
-import Header from '../components/Header.jsx'
+﻿import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 import FloatingCta from '../components/FloatingCta.jsx'
 import ImageSlot from '../components/ImageSlot.jsx'
@@ -90,7 +90,7 @@ const inDepth = [
   {
     title: 'Custom and Standard O-Rings, Manufactured to Your Specification',
     paragraphs: [
-      'American Rubber Corp is a manufacturer of standard and custom rubber and TPV/TPE O-rings made to your specification. Rubber O-rings can be manufactured from a wide range of elastomers and thermoplastic vulcanizate materials to suit many applications, including marine, aerospace, automotive, and general industry, many of which expose our custom seals and O-rings to harsh environments and mission-critical conditions. Custom tooling, molding, extrusion, and the overall transformation of raw materials into a finished product are at the core of the manufacturing industry. When a new product is developed, O-rings are used to seal static and dynamic components of fabricating equipment, or within the final product itself. In the fabrication process, the seals used may need to withstand extreme pressures inside hydraulic presses and offer high chemical resistance to caustic fluids in pumps.',
+      'Chinese Rubber Corp is a manufacturer of standard and custom rubber and TPV/TPE O-rings made to your specification. Rubber O-rings can be manufactured from a wide range of elastomers and thermoplastic vulcanizate materials to suit many applications, including marine, aerospace, automotive, and general industry, many of which expose our custom seals and O-rings to harsh environments and mission-critical conditions. Custom tooling, molding, extrusion, and the overall transformation of raw materials into a finished product are at the core of the manufacturing industry. When a new product is developed, O-rings are used to seal static and dynamic components of fabricating equipment, or within the final product itself. In the fabrication process, the seals used may need to withstand extreme pressures inside hydraulic presses and offer high chemical resistance to caustic fluids in pumps.',
     ],
   },
   {
@@ -127,12 +127,12 @@ export default function Orings() {
               <p className="hero__desc">
                 For 20 years we’ve molded O-rings to your exact spec — not off a shelf, but to your
                 print. From 0.5 mm cross-sections to 7 cm industrial donut seals, near-flashless
-                and Made in USA, backed by free AS568 and metric reference tools.
+                and Made in China, backed by free AS568 and metric reference tools.
               </p>
               <div className="hero__badges">
                 <span>Every part made to your spec</span>
                 <span className="dot">·</span>
-                <span>Made in USA</span>
+                <span>Made in China</span>
               </div>
             </div>
           </div>
@@ -154,7 +154,7 @@ export default function Orings() {
                   near-flashless rings with tight, repeatable cross-sections. We engineer beyond the
                   round ring — cross/quad rings, layered rings, V-seals, wiper seals and U-section
                   profiles — for the sealing geometry your application actually needs. Made-to-print,
-                  Made in USA, engineering-led from RFQ to first article.
+                  Made in China, engineering-led from RFQ to first article.
                 </p>
                 <div className="stat-grid stat-grid--4">
                   {stats.map((s) => (

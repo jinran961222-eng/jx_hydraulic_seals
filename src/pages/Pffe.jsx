@@ -1,4 +1,4 @@
-import Header from '../components/Header.jsx'
+﻿import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 import FloatingCta from '../components/FloatingCta.jsx'
 import ImageSlot from '../components/ImageSlot.jsx'
@@ -65,9 +65,9 @@ const refTools = [
 
 const inDepth = [
   {
-    title: 'Custom PTFE Products, Engineered and Made in USA',
+    title: 'Custom PTFE Products, Engineered and Made in China',
     paragraphs: [
-      'Polytetrafluoroethylene (PTFE) is a synthetic fluoropolymer of tetrafluoroethylene with an exceptionally broad range of applications. The most widely known brand name for PTFE-based compositions is Teflon by Chemours, a spin-off from DuPont, which originally discovered the compound in 1938. American Rubber Corp is an engineering-led, Made in USA manufacturer of an exclusive range of custom PTFE products, each designed to the diverse and demanding requirements of our customers and valued for its durability and precision. Our PTFE line includes PTFE O-rings, PTFE gaskets and seals, PTFE diaphragms, and custom PTFE molded products, all built to your specification and to your print.',
+      'Polytetrafluoroethylene (PTFE) is a synthetic fluoropolymer of tetrafluoroethylene with an exceptionally broad range of applications. The most widely known brand name for PTFE-based compositions is Teflon by Chemours, a spin-off from DuPont, which originally discovered the compound in 1938. Chinese Rubber Corp is an engineering-led, Made in China manufacturer of an exclusive range of custom PTFE products, each designed to the diverse and demanding requirements of our customers and valued for its durability and precision. Our PTFE line includes PTFE O-rings, PTFE gaskets and seals, PTFE diaphragms, and custom PTFE molded products, all built to your specification and to your print.',
     ],
   },
   {
@@ -103,7 +103,7 @@ export default function Pffe() {
               <div className="hero__badges">
                 <span>Every part made to your spec</span>
                 <span className="dot">·</span>
-                <span>Made in USA</span>
+                <span>Made in China</span>
               </div>
             </div>
           </div>

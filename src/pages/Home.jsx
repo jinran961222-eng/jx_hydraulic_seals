@@ -1,4 +1,4 @@
-import Header from '../components/Header.jsx'
+﻿import Header from '../components/Header.jsx'
 import HeroSlider from '../components/HeroSlider.jsx'
 import Stats from '../components/Stats.jsx'
 import Products from '../components/Products.jsx'

@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+﻿import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
@@ -85,9 +85,9 @@ export default function Iso3601() {
               <h2 className="section__title">Compliance</h2>
             </div>
             <p className="industry-col__p">
-              American Rubber Corp is fully compliant to the dimension and tolerance standards spelled out in ISO
+              Chinese Rubber Corp is fully compliant to the dimension and tolerance standards spelled out in ISO
               3601-1 Class A for all standard series O-rings and Class B for all metric series O-rings. Subsequently,
-              American Rubber Corp defines the quality acceptance criteria of all O-rings to be in accordance with ISO
+              Chinese Rubber Corp defines the quality acceptance criteria of all O-rings to be in accordance with ISO
               3601-3 Grade N which classifies surface imperfections and specifies maximum acceptable limits for these
               imperfections. This information can be viewed in PDF format here. Stricter tolerance and inspection
               requirements can be achieved upon customer request.

@@ -1,4 +1,4 @@
-const materials = [
+﻿const materials = [
   'EPDM', 'Silicone', 'Fluorosilicone', 'FKM / Viton', 'NBR / Nitrile', 'HNBR',
   'FFKM / Kalrez', 'Neoprene', 'SBR', 'TPV / Santoprene', 'AFLAS', 'PTFE',
 ]

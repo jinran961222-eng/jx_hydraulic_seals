@@ -1,4 +1,4 @@
-import ImageSlot from './ImageSlot.jsx'
+﻿import ImageSlot from './ImageSlot.jsx'
 
 const products = [
   { name: 'Rubber Molded Parts', desc: 'Compression, transfer & injection molding.', img: 'https://i.postimg.cc/QCRXsvsy/elastomeric-molded-parts-500x500-1-e1641223603584.png' },

@@ -1,4 +1,4 @@
-import Header from '../components/Header.jsx'
+﻿import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 import FloatingCta from '../components/FloatingCta.jsx'
 import ImageSlot from '../components/ImageSlot.jsx'
@@ -74,7 +74,7 @@ const inDepth = [
   {
     title: 'Custom Die Cut and Knife Cut Flat Gaskets',
     paragraphs: [
-      'American Rubber Corporation (ARC) is a leading, Made in USA manufacturer of die cut gaskets and custom oscillating knife cut gaskets (flat gaskets) produced from both solid rubber and sponge rubber. As an engineering-led manufacturer with 20 years of experience, we work with you to design, prototype, and produce large production runs of custom-shaped die cut gaskets and flat O-rings, all made to your print. Our in-house capabilities let us cut gaskets from rubber sheet materials using an oscillating-head CNC cutter and router, die cutting (clicking), and drag-knife cutting, and we can mold flat gaskets instead when the shape and application call for it.',
+      'Chinese Rubber Corporation (ARC) is a leading, Made in China manufacturer of die cut gaskets and custom oscillating knife cut gaskets (flat gaskets) produced from both solid rubber and sponge rubber. As an engineering-led manufacturer with 20 years of experience, we work with you to design, prototype, and produce large production runs of custom-shaped die cut gaskets and flat O-rings, all made to your print. Our in-house capabilities let us cut gaskets from rubber sheet materials using an oscillating-head CNC cutter and router, die cutting (clicking), and drag-knife cutting, and we can mold flat gaskets instead when the shape and application call for it.',
     ],
   },
   {
@@ -141,7 +141,7 @@ export default function Diecut() {
               <div className="hero__badges">
                 <span>Every part made to your spec</span>
                 <span className="dot">·</span>
-                <span>Made in USA</span>
+                <span>Made in China</span>
               </div>
             </div>
           </div>

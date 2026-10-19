@@ -1,4 +1,4 @@
-import Header from '../components/Header.jsx'
+﻿import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 import FloatingCta from '../components/FloatingCta.jsx'
 import ImageSlot from '../components/ImageSlot.jsx'
@@ -19,7 +19,7 @@ const capabilities = [
   'High-volume capacity into the millions of parts per month',
   'Custom durometers, profiles and geometries to your print',
   'Compounds engineered for heat, abrasion, weather, fire and conductivity',
-  'ISO 9001:2015 & IATF 16949:2016 certified, Made in USA',
+  'ISO 9001:2015 & IATF 16949:2016 certified, Made in China',
 ]
 
 const products = [
@@ -78,7 +78,7 @@ const inDepth = [
   {
     title: 'Custom Rubber Molded Parts, Made to Your Print',
     paragraphs: [
-      'American Rubber Corp is a leading manufacturer of custom molded rubber components, with in-house injection molding, transfer molding, and compression molding capabilities. Based on your elastomer compound and the geometry of the rubber component, we select the best molding method while keeping quality, precision, and competitive pricing front and center. Every part is molded to your requirements rather than pulled from a shelf, and our custom molded rubber components are compounded in-house to achieve the mechanical, electrical, and thermal properties your application demands, including weather resistance, abrasion resistance, fire resistance, conductivity, heat resistance, and insulation.',
+      'Chinese Rubber Corp is a leading manufacturer of custom molded rubber components, with in-house injection molding, transfer molding, and compression molding capabilities. Based on your elastomer compound and the geometry of the rubber component, we select the best molding method while keeping quality, precision, and competitive pricing front and center. Every part is molded to your requirements rather than pulled from a shelf, and our custom molded rubber components are compounded in-house to achieve the mechanical, electrical, and thermal properties your application demands, including weather resistance, abrasion resistance, fire resistance, conductivity, heat resistance, and insulation.',
       'As a full-service rubber manufacturing group, we help clients build rubber products and industrial systems using deep expertise across a wide range of elastomer compounds. Rather than stocking finished parts, we maintain one of the largest catalogs of molds and dies, covering standard and commonly used custom sizes, so we can accelerate tooling and fulfill rush orders. Provide a CAD drawing of your rubber part and we will custom-make it to print.',
     ],
   },
@@ -126,7 +126,7 @@ export default function Molded() {
               <div className="hero__badges">
                 <span>Every part made to your spec</span>
                 <span className="dot">·</span>
-                <span>Made in USA</span>
+                <span>Made in China</span>
               </div>
             </div>
           </div>

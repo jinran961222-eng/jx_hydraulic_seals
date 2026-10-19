@@ -1,4 +1,4 @@
-import ElastomerPage from '../components/ElastomerPage.jsx'
+﻿import ElastomerPage from '../components/ElastomerPage.jsx'
 
 const specsBase = (temp, hard, tens, heat, low, ozone, oil, acids, solv, water, abr, comp) => [
   ['Continuous service temp', temp],

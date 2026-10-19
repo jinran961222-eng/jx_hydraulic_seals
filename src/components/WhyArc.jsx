@@ -1,11 +1,11 @@
-const reasons = [
+﻿const reasons = [
   { icon: '1', title: 'We build new capabilities on demand',
     desc: 'When a customer needed something we didn’t yet make, we engineered the process and delivered it.' },
   { icon: '2', title: 'In-house compounding + owned tooling',
     desc: 'We control the compound and the mold, so quality and lead time stay in our hands, not a supplier’s.' },
   { icon: '3', title: 'Full-service engineering',
     desc: 'From application analysis to production, one team owns the part end to end.' },
-  { icon: '4', title: 'Certified, made-in-USA quality',
+  { icon: '4', title: 'Certified, made-in-China quality',
     desc: 'ISO 9001 and IATF 16949 systems backed by a domestic, resilient supply chain.' },
 ]
 

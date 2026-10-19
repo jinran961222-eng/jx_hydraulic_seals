@@ -1,4 +1,4 @@
-const steps = [
+﻿const steps = [
   { num: '01', title: 'Application & material analysis',
     desc: 'We define the operating environment and the right elastomer.' },
   { num: '02', title: 'Compound development',
