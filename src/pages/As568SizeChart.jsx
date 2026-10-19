@@ -125,9 +125,9 @@ export default function As568SizeChart() {
               </div>
             </div>
 
-            <div className="chem-controls">
+            <div className="size-table-block">
               <input
-                className="search-input"
+                className="search-input size-search"
                 type="text"
                 placeholder="Search dash # (e.g. 214, 322)…"
                 value={query}

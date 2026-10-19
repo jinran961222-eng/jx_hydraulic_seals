@@ -2789,6 +2789,24 @@ img {
   z-index: 10;
 }
 
+/* Size table block - search on top, table below */
+.size-table-block {
+  margin-bottom: 20px;
+}
+.size-search {
+  display: block;
+  width: 100%;
+  max-width: 360px;
+  padding: 11px 16px;
+  border: 2px solid var(--navy);
+  border-radius: 10px;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+.size-table-block .tol-table {
+  width: 100%;
+}
+
 @media (max-width: 720px) {
   .chem-table .chem-name-col { min-width: 170px; }
 }

@@ -12,9 +12,9 @@ function SizeTable({ cols, rows, searchPh }) {
     return rows.filter((r) => r.some((c) => c.toLowerCase().includes(q)))
   }, [query, rows])
   return (
-    <div className="chem-controls">
+    <div className="size-table-block">
       <input
-        className="search-input"
+        className="search-input size-search"
         type="text"
         placeholder={searchPh || 'Search sizes…'}
         value={query}
