@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
@@ -12,12 +13,8 @@ const materials = [
     ],
     sections: [
       { title: 'Common Uses Of EPDM Material', bullets: ['Automotive braking and cooling system', 'Automotive Gaskets', 'Appliances washers, belt, grommet, O-Rings', 'Electrical insulation', 'Solar panel heat collector'] },
-      { title: 'Production Type of EPDM', bullets: [] },
-      { title: 'Advantages of EPDM', bullets: [] },
-    ],
-    extra: [
-      'EPDM parts can be produced in sulfur cure or peroxide cure. We choose curing as per customers application by keeping temperature, durometer, elongation, tensile strength, and compression sets of material in mind. Standard EPDM material are usually produce from sulfur cure in order to get excellent flexibility. Peroxide cured is recommended when high temperature resistances and low compression rate is required.',
-      'EPDM rubber compound performs very good in alcohols, automotive brake fluids, ketone, dilute acid and alkali, silicone oil and grease, steam to 350+F water.',
+      { title: 'Production Type of EPDM', bullets: ['EPDM parts can be produced in sulfur cure or peroxide cure. We choose curing as per customers application by keeping temperature, durometer, elongation, tensile strength, and compression sets of material in mind. Standard EPDM material are usually produce from sulfur cure in order to get excellent flexibility. Peroxide cured is recommended when high temperature resistances and low compression rate is required.'] },
+      { title: 'Advantages of EPDM', bullets: ['EPDM rubber compound performs very good in alcohols, automotive brake fluids, ketone, dilute acid and alkali, silicone oil and grease, steam to 350+F water.'] },
     ],
   },
   {
@@ -47,7 +44,7 @@ const materials = [
   {
     name: 'Hypalon (CSM)',
     body: [
-      'This elastomer is made by the polymerization of Chloroprene. It has excellent physical properties. It is moderately resistant to petroleum products, sunlight, ozone and heat. It is flame resistant and will not support combustion. Useful temperature range is -40° F to +275° F (-40° C to +135° C).',
+      'Hypalon is a chlorosulfonated polyethylene rubber with excellent resistance to ozone, weathering, oxygen, and heat. It has good resistance to oils, chemicals, and flame. It is commonly used in coatings, hoses, and industrial applications where weather resistance is critical. Useful temperature range is -40° F to +250° F.',
     ],
   },
   {
@@ -65,7 +62,7 @@ const materials = [
   {
     name: 'PTFE (Polytetrafluoroethylene)',
     body: [
-      'This is a synthetic fluoropolymer of tetrafluoroethylene and is known for being one of the most versatile plastics available. It is made by the free-radical polymerisation of many tetrafluoroethene molecules, and is suitable for a wide range of applications in industries as diverse as aerospace, the food and drink industry, pharmaceuticals and telecoms. PTFE is commonly known as Teflon™ (owned by Chemours) and offers remarkable nonstick properties in cookware applications such as kitchen pans and baking trays. PTFE is produced by AFT Fluorotec in rods or tubes of any size, or filled with glass, carbon, stainless steel or many other materials to increase wear resistance and strength, whatever your project or build, we are sure to have a material that will work for you.',
+      'This is a synthetic fluoropolymer of tetrafluoroethylene and is known for being one of the most versatile plastics available. It is made by the free-radical polymerisation of many tetrafluoroethene molecules, and is suitable for a wide range of applications in industries as diverse as aerospace, the food and drink industry, pharmaceuticals and telecoms. PTFE is commonly known as Teflon™ and offers remarkable nonstick properties. It is produced in rods or tubes of any size, or filled with glass, carbon, stainless steel or many other materials to increase wear resistance and strength.',
     ],
   },
   {
@@ -77,13 +74,13 @@ const materials = [
   {
     name: 'Hydrogenated acrylonitrile butadiene rubber (HNBR)',
     body: [
-      'A unique elastomer. It can be produced from conventional nitrile rubber by hydrogenation of the unsaturated bonds in the butadiene units of the polymer. The properties of hydrogenated nitrile rubber (HNBR) depend upon the acrylonitrile content and the degree of hydrogenation of the butadiene copolymer. HNBRs have better oil and chemical resistance than nitrile rubbers & can also withstand much higher temperatures. Like NBR, this type of elastomer has excellent resistance to oils and fuels but it also has excellent resistance to many chemicals, heat (steam / hot water) & ozone. The mechanical properties like tensile & tear strength, elongation, & abrasion resistance are also excellent. Furthermore, HNBRs have good dynamic behavior at elevated temperatures. Disadvantages include higher cost & limited resistance to aromatic oils & polar organic solvents, poor electrical properties, & poor flame resistance. The typical working temperature range is -25°C to +160°C (-40°F to +320°F). Special grades that are sulfur or peroxide cured have improved dynamic applications but also have a lower maximum application temperature. As with nitrile, many properties can be influenced by varying the acrylonitrile content in the rubber. High-nitrile HNBR elastomers have better resistance to mineral oils, whereas peroxide/sulfur cured HNBRs have the best compression set and heat resistance.',
+      'A unique elastomer. It can be produced from conventional nitrile rubber by hydrogenation of the unsaturated bonds in the butadiene units of the polymer. The properties of hydrogenated nitrile rubber (HNBR) depend upon the acrylonitrile content and the degree of hydrogenation of the butadiene copolymer. HNBRs have better oil and chemical resistance than nitrile rubbers & can also withstand much higher temperatures. Like NBR, this type of elastomer has excellent resistance to oils and fuels but it also has excellent resistance to many chemicals, heat (steam / hot water) & ozone. The typical working temperature range is -25°C to +160°C (-40°F to +320°F).',
     ],
   },
   {
     name: 'AFLAS',
     body: [
-      'AFLAS is a unique fluoroelastomer that has superior amine resistance & electrical insulation compared to conventional fluoroelastomers. It is highly suitable for critical applications where exceptional reliability is required. The molecular structure of AFLAS® gives it outstanding heat-resistance allowing it to be used continuously at 200°C. Its exceptional heat-resistance even enables it to withstand temperatures of 250°C. It has extremely low aromatizing properties compared to other rubber materials. It can be considered extremely effective for use in gaskets and packing on piping components for production lines, where lingering or transferred smells are a concern.',
+      'AFLAS is a unique fluoroelastomer that has superior amine resistance & electrical insulation compared to conventional fluoroelastomers. It is highly suitable for critical applications where exceptional reliability is required. The molecular structure of AFLAS® gives it outstanding heat-resistance allowing it to be used continuously at 200°C. Its exceptional heat-resistance even enables it to withstand temperatures of 250°C. It has extremely low aromatizing properties compared to other rubber materials.',
     ],
   },
 ]
@@ -96,6 +93,8 @@ const related = [
 ]
 
 export default function MaterialSelectionGuide() {
+  const [openIdx, setOpenIdx] = useState(0)
+
   return (
     <>
       <Header />
@@ -120,29 +119,43 @@ export default function MaterialSelectionGuide() {
         </section>
 
         <section className="section">
-          <div className="container">
+          <div className="container container--narrow">
             <div className="section__head">
               <p className="section__eyebrow">ELASTOMERS THAT WE OFFER</p>
               <h2 className="section__title">Rubber material selection guide</h2>
             </div>
-            <div className="about__body">
-              {materials.map((m) => (
-                <div key={m.name} className="about__block">
-                  <h3>{m.name}</h3>
-                  {m.body.map((p, i) => <p key={i}>{p}</p>)}
-                  {m.sections && m.sections.map((s) => (
-                    <div key={s.title} className="about__group">
-                      <h4>{s.title}</h4>
-                      {s.bullets.length > 0 && (
-                        <ul className="about__bullets">
-                          {s.bullets.map((b) => <li key={b}>{b}</li>)}
-                        </ul>
-                      )}
-                    </div>
-                  ))}
-                  {m.extra && m.extra.map((p, i) => <p key={`e${i}`}>{p}</p>)}
-                </div>
-              ))}
+
+            <div className="accordion">
+              {materials.map((m, i) => {
+                const open = openIdx === i
+                return (
+                  <div key={m.name} className={`accordion__item ${open ? 'accordion__item--open' : ''}`}>
+                    <button
+                      className="accordion__btn"
+                      onClick={() => setOpenIdx(open ? -1 : i)}
+                      aria-expanded={open}
+                    >
+                      <span>{m.name}</span>
+                      <span className="accordion__arrow">{open ? '−' : '+'}</span>
+                    </button>
+                    {open && (
+                      <div className="accordion__body">
+                        {m.body.map((p, j) => <p key={j}>{p}</p>)}
+                        {m.sections && m.sections.map((s) => (
+                          <div key={s.title} className="accordion__group">
+                            <h4>{s.title}</h4>
+                            {s.bullets.length > 0 && (
+                              <ul>
+                                {s.bullets.map((b) => <li key={b}>{b}</li>)}
+                              </ul>
+                            )}
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                )
+              })}
             </div>
           </div>
         </section>

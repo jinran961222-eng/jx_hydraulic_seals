@@ -128,7 +128,7 @@ export default function ChemicalCompatibility() {
                     ? filtered.map((row) => (
                         <tr key={row[0]}>
                           <td className="chem-name-col">{row[0]}</td>
-                          {row.slice(1).map((r, i) => <td key={i}><span className={`rating ${ratingClass(r)}`}>{r || '–'}</span></td>)}
+                          {row.slice(1).map((r, i) => <td key={i} className={`chem-cell chem-cell--${r?.toLowerCase()}`}><span className={`rating ${ratingClass(r)}`}>{r || '–'}</span></td>)}
                         </tr>
                       ))
                     : chemSections.map((s) => (
@@ -174,12 +174,15 @@ function FragmentRows({ sec }) {
   return (
     <>
       <tr className="chem-sec-row" id={`sec-${sec.label}`}>
-        <td colSpan={chemColumns.length + 1}>{sec.label}</td>
+        <td colSpan={chemColumns.length + 1}>
+          <span className="chem-sec-badge">{sec.label}<em>{rows.length}</em></span>
+          <a href="#top" className="chem-sec-top">↑ top</a>
+        </td>
       </tr>
       {rows.map((row) => (
         <tr key={row[0]}>
           <td className="chem-name-col">{row[0]}</td>
-          {row.slice(1).map((r, i) => <td key={i}><span className={`rating ${ratingClass(r)}`}>{r || '–'}</span></td>)}
+          {row.slice(1).map((r, i) => <td key={i} className={`chem-cell chem-cell--${r?.toLowerCase()}`}><span className={`rating ${ratingClass(r)}`}>{r || '–'}</span></td>)}
         </tr>
       ))}
     </>
