@@ -1558,6 +1558,8 @@ img {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  text-decoration: none;
+  color: inherit;
 }
 
 .product-card__media--lg {

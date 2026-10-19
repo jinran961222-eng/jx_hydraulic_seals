@@ -79,18 +79,18 @@ export default function Products() {
           <div className="container">
             <div className="products-page__grid">
               {products.map((p) => (
-                <article key={p.name} className="product-card product-card--lg">
+                <Link key={p.name} to={p.to} className="product-card product-card--lg">
                   <div className="product-card__media product-card__media--lg">
                     <ImageSlot tag={p.img} ratio="square" />
                   </div>
                   <div className="product-card__body">
                     <h2 className="product-card__name">{p.name}</h2>
                     <p className="product-card__desc">{p.desc}</p>
-                    <Link to={p.to} className="product-card__link">
+                    <span className="product-card__link">
                       Explore <span className="arrow">→</span>
-                    </Link>
+                    </span>
                   </div>
-                </article>
+                </Link>
               ))}
             </div>
           </div>
