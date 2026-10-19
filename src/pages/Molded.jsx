@@ -35,7 +35,13 @@ const products = [
   { name: 'Die-Cut & Fabricated Parts', desc: 'Custom die-cut and fabricated rubber components for gaskets and seals.' },
 ]
 
-const gallerySlots = ['IMG-41', 'IMG-42', 'IMG-43']
+const galleryImages = [
+  'https://i.postimg.cc/Mpg1NphZ/arc-bellows-convoluted-boots.jpg',
+  'https://i.postimg.cc/PxTvnpyg/arc-rubber-to-metal-bonded.jpg',
+  'https://i.postimg.cc/wxFLHVCT/arc-extruded-profiles-grommets.jpg',
+  'https://i.postimg.cc/3R1488bj/customrubber-3.jpg',
+  'https://i.postimg.cc/k4s6JJhD/customrubber-1.jpg',
+]
 
 const materials = [
   { name: 'Silicone', desc: 'Wide temperature, weather & heat resistance' },
@@ -205,11 +211,13 @@ export default function Molded() {
           <div className="container">
             <div className="section__head">
               <p className="section__eyebrow">GALLERY</p>
-              <h2 className="section__title">Rubber Molded Parts we’ve built</h2>
+              <h2 className="section__title">Rubber Molded Parts we've built</h2>
             </div>
-            <div className="gallery__grid">
-              {gallerySlots.map((g) => (
-                <ImageSlot key={g} tag={g} ratio="4/3" />
+            <div className="gallery-4col">
+              {galleryImages.map((img, i) => (
+                <div key={i} className="gallery-item">
+                  <img src={img} alt="Molded rubber part" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '12px' }} />
+                </div>
               ))}
             </div>
           </div>
