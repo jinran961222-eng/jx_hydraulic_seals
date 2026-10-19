@@ -102,7 +102,7 @@ export default function Knowledge() {
                 Interactive tool — enter a size and get metric O-ring groove dimensions and
                 tolerances instantly.
               </p>
-              <a href="#contact" className="product-card__link">
+              <a href="https://wa.me/8618831866682?text=Hello%2C%20I%27m%20interested%20in%20your%20rubber%20products.%20I%27d%20like%20to%20get%20more%20information%20and%20a%20quotation.%20Could%20you%20please%20share%20your%20product%20catalog%2C%20specifications%2C%20and%20prices%3F%20Thank%20you%21" target="_blank" className="product-card__link">
                 Open calculator <span className="arrow">→</span>
               </a>
             </div>
@@ -118,7 +118,7 @@ export default function Knowledge() {
             </div>
             <div className="charts__grid">
               {sizeCharts.map((c) => (
-                <a key={c} href="#contact" className="chart-link">
+                <a key={c} href="https://wa.me/8618831866682?text=Hello%2C%20I%27m%20interested%20in%20your%20rubber%20products.%20I%27d%20like%20to%20get%20more%20information%20and%20a%20quotation.%20Could%20you%20please%20share%20your%20product%20catalog%2C%20specifications%2C%20and%20prices%3F%20Thank%20you%21" target="_blank" className="chart-link">
                   {c} <span className="arrow">→</span>
                 </a>
               ))}
@@ -135,7 +135,7 @@ export default function Knowledge() {
             </div>
             <div className="tools__grid">
               {guides.map((g) => (
-                <a key={g.name} href="#contact" className="tool-card">
+                <a key={g.name} href="https://wa.me/8618831866682?text=Hello%2C%20I%27m%20interested%20in%20your%20rubber%20products.%20I%27d%20like%20to%20get%20more%20information%20and%20a%20quotation.%20Could%20you%20please%20share%20your%20product%20catalog%2C%20specifications%2C%20and%20prices%3F%20Thank%20you%21" target="_blank" className="tool-card">
                   <div className="tool-card__top">
                     <h3>{g.name}</h3>
                     <span className="tool-card__arrow">→</span>
@@ -159,14 +159,14 @@ export default function Knowledge() {
               <div className="catalog-card">
                 <h3>Pneumatic Seals Catalog</h3>
                 <p className="catalog-card__meta">10-page PDF · opens in new tab</p>
-                <a href="#contact" className="product-card__link">
+                <a href="https://wa.me/8618831866682?text=Hello%2C%20I%27m%20interested%20in%20your%20rubber%20products.%20I%27d%20like%20to%20get%20more%20information%20and%20a%20quotation.%20Could%20you%20please%20share%20your%20product%20catalog%2C%20specifications%2C%20and%20prices%3F%20Thank%20you%21" target="_blank" className="product-card__link">
                   View / download <span className="arrow">→</span>
                 </a>
               </div>
               <div className="catalog-card">
                 <h3>Rotary &amp; Oil Seals Catalog</h3>
                 <p className="catalog-card__meta">12-page PDF · opens in new tab</p>
-                <a href="#contact" className="product-card__link">
+                <a href="https://wa.me/8618831866682?text=Hello%2C%20I%27m%20interested%20in%20your%20rubber%20products.%20I%27d%20like%20to%20get%20more%20information%20and%20a%20quotation.%20Could%20you%20please%20share%20your%20product%20catalog%2C%20specifications%2C%20and%20prices%3F%20Thank%20you%21" target="_blank" className="product-card__link">
                   View / download <span className="arrow">→</span>
                 </a>
               </div>
@@ -182,7 +182,7 @@ export default function Knowledge() {
                 <div className="catalog-card__body">
                   <h3>Company Brochure 2022</h3>
                   <p className="catalog-card__meta">10-page PDF · opens in new tab</p>
-                  <a href="#contact" className="product-card__link">
+                  <a href="https://wa.me/8618831866682?text=Hello%2C%20I%27m%20interested%20in%20your%20rubber%20products.%20I%27d%20like%20to%20get%20more%20information%20and%20a%20quotation.%20Could%20you%20please%20share%20your%20product%20catalog%2C%20specifications%2C%20and%20prices%3F%20Thank%20you%21" target="_blank" className="product-card__link">
                     View / download <span className="arrow">→</span>
                   </a>
                 </div>
@@ -192,7 +192,7 @@ export default function Knowledge() {
                 <p className="catalog-card__meta">
                   View our ISO 9001:2015 and IATF 16949:2016 certificates.
                 </p>
-                <a href="#contact" className="product-card__link">
+                <a href="https://wa.me/8618831866682?text=Hello%2C%20I%27m%20interested%20in%20your%20rubber%20products.%20I%27d%20like%20to%20get%20more%20information%20and%20a%20quotation.%20Could%20you%20please%20share%20your%20product%20catalog%2C%20specifications%2C%20and%20prices%3F%20Thank%20you%21" target="_blank" className="product-card__link">
                   View certificates <span className="arrow">→</span>
                 </a>
               </div>
@@ -207,7 +207,7 @@ export default function Knowledge() {
             <p className="cta-band__desc">
               Our engineers will help you size, select and specify — send us the application.
             </p>
-            <a href="#contact" className="btn btn--yellow">Request a Quote →</a>
+            <a href="https://wa.me/8618831866682?text=Hello%2C%20I%27m%20interested%20in%20your%20rubber%20products.%20I%27d%20like%20to%20get%20more%20information%20and%20a%20quotation.%20Could%20you%20please%20share%20your%20product%20catalog%2C%20specifications%2C%20and%20prices%3F%20Thank%20you%21" target="_blank" className="btn btn--yellow">Request a Quote →</a>
           </div>
         </section>
 

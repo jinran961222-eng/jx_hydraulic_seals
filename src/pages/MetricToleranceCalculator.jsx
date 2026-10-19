@@ -132,8 +132,8 @@ export default function MetricToleranceCalculator() {
               confidence — ARC molds custom O-rings built to these tolerances.
             </p>
             <div className="calc-hero__actions">
-              <a href="#contact" className="btn btn--yellow">Request a Quote </a>
-              <a href="#contact" className="btn btn--ghost">Custom O-Rings →</a>
+              <a href="https://wa.me/8618831866682?text=Hello%2C%20I%27m%20interested%20in%20your%20rubber%20products.%20I%27d%20like%20to%20get%20more%20information%20and%20a%20quotation.%20Could%20you%20please%20share%20your%20product%20catalog%2C%20specifications%2C%20and%20prices%3F%20Thank%20you%21" target="_blank" className="btn btn--yellow">Request a Quote </a>
+              <a href="https://wa.me/8618831866682?text=Hello%2C%20I%27m%20interested%20in%20your%20rubber%20products.%20I%27d%20like%20to%20get%20more%20information%20and%20a%20quotation.%20Could%20you%20please%20share%20your%20product%20catalog%2C%20specifications%2C%20and%20prices%3F%20Thank%20you%21" target="_blank" className="btn btn--ghost">Custom O-Rings →</a>
             </div>
           </div>
         </section>
@@ -299,10 +299,10 @@ export default function MetricToleranceCalculator() {
           <div className="container">
             <p className="section__eyebrow">RELATED PRODUCTS &amp; MATERIALS</p>
             <div className="related-tags">
-              <a href="#contact" className="related-tag">Custom O-Rings</a>
-              <a href="#contact" className="related-tag">Standard O-Rings</a>
-              <a href="#contact" className="related-tag">AS568 Size Chart</a>
-              <a href="#contact" className="related-tag">O-ring materials</a>
+              <a href="https://wa.me/8618831866682?text=Hello%2C%20I%27m%20interested%20in%20your%20rubber%20products.%20I%27d%20like%20to%20get%20more%20information%20and%20a%20quotation.%20Could%20you%20please%20share%20your%20product%20catalog%2C%20specifications%2C%20and%20prices%3F%20Thank%20you%21" target="_blank" className="related-tag">Custom O-Rings</a>
+              <a href="https://wa.me/8618831866682?text=Hello%2C%20I%27m%20interested%20in%20your%20rubber%20products.%20I%27d%20like%20to%20get%20more%20information%20and%20a%20quotation.%20Could%20you%20please%20share%20your%20product%20catalog%2C%20specifications%2C%20and%20prices%3F%20Thank%20you%21" target="_blank" className="related-tag">Standard O-Rings</a>
+              <a href="https://wa.me/8618831866682?text=Hello%2C%20I%27m%20interested%20in%20your%20rubber%20products.%20I%27d%20like%20to%20get%20more%20information%20and%20a%20quotation.%20Could%20you%20please%20share%20your%20product%20catalog%2C%20specifications%2C%20and%20prices%3F%20Thank%20you%21" target="_blank" className="related-tag">AS568 Size Chart</a>
+              <a href="https://wa.me/8618831866682?text=Hello%2C%20I%27m%20interested%20in%20your%20rubber%20products.%20I%27d%20like%20to%20get%20more%20information%20and%20a%20quotation.%20Could%20you%20please%20share%20your%20product%20catalog%2C%20specifications%2C%20and%20prices%3F%20Thank%20you%21" target="_blank" className="related-tag">O-ring materials</a>
             </div>
           </div>
         </section>
@@ -315,7 +315,7 @@ export default function MetricToleranceCalculator() {
               Send your drawing, sample or service conditions — our engineers confirm the compound,
               tooling and a path to production.
             </p>
-            <a href="#contact" className="btn btn--yellow">Request a Quote →</a>
+            <a href="https://wa.me/8618831866682?text=Hello%2C%20I%27m%20interested%20in%20your%20rubber%20products.%20I%27d%20like%20to%20get%20more%20information%20and%20a%20quotation.%20Could%20you%20please%20share%20your%20product%20catalog%2C%20specifications%2C%20and%20prices%3F%20Thank%20you%21" target="_blank" className="btn btn--yellow">Request a Quote →</a>
           </div>
         </section>
       </main>

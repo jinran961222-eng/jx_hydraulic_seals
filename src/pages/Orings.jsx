@@ -172,7 +172,7 @@ export default function Orings() {
                 </div>
                 <p className="industry-cta">
                   Have a print or a spec in mind?{' '}
-                  <a href="#contact" className="inline-link">Request a quote →</a>
+                  <a href="https://wa.me/8618831866682?text=Hello%2C%20I%27m%20interested%20in%20your%20rubber%20products.%20I%27d%20like%20to%20get%20more%20information%20and%20a%20quotation.%20Could%20you%20please%20share%20your%20product%20catalog%2C%20specifications%2C%20and%20prices%3F%20Thank%20you%21" target="_blank" className="inline-link">Request a quote →</a>
                 </p>
               </div>
 
@@ -199,7 +199,7 @@ export default function Orings() {
             </div>
             <div className="tools__grid">
               {products.map((p) => (
-                <a key={p.name} href="#contact" className="tool-card">
+                <a key={p.name} href="https://wa.me/8618831866682?text=Hello%2C%20I%27m%20interested%20in%20your%20rubber%20products.%20I%27d%20like%20to%20get%20more%20information%20and%20a%20quotation.%20Could%20you%20please%20share%20your%20product%20catalog%2C%20specifications%2C%20and%20prices%3F%20Thank%20you%21" target="_blank" className="tool-card">
                   <div className="tool-card__top">
                     <h3>{p.name}</h3>
                     <span className="tool-card__arrow">→</span>
@@ -238,11 +238,11 @@ export default function Orings() {
             <p className="industry-col__p">
               Free, ungated O-ring size charts and a tolerance calculator — AS568 and every major
               metric standard. Building to standard sizes? See{' '}
-              <a href="#contact" className="inline-link">Standard O-Rings</a>.
+              <a href="https://wa.me/8618831866682?text=Hello%2C%20I%27m%20interested%20in%20your%20rubber%20products.%20I%27d%20like%20to%20get%20more%20information%20and%20a%20quotation.%20Could%20you%20please%20share%20your%20product%20catalog%2C%20specifications%2C%20and%20prices%3F%20Thank%20you%21" target="_blank" className="inline-link">Standard O-Rings</a>.
             </p>
             <div className="charts__grid">
               {sizeCharts.map((c) => (
-                <a key={c} href="#contact" className="chart-link">
+                <a key={c} href="https://wa.me/8618831866682?text=Hello%2C%20I%27m%20interested%20in%20your%20rubber%20products.%20I%27d%20like%20to%20get%20more%20information%20and%20a%20quotation.%20Could%20you%20please%20share%20your%20product%20catalog%2C%20specifications%2C%20and%20prices%3F%20Thank%20you%21" target="_blank" className="chart-link">
                   {c} <span className="arrow">→</span>
                 </a>
               ))}
@@ -304,7 +304,7 @@ export default function Orings() {
             </div>
             <div className="tools__grid">
               {refTools.map((t) => (
-                <a key={t.name} href="#contact" className="tool-card">
+                <a key={t.name} href="https://wa.me/8618831866682?text=Hello%2C%20I%27m%20interested%20in%20your%20rubber%20products.%20I%27d%20like%20to%20get%20more%20information%20and%20a%20quotation.%20Could%20you%20please%20share%20your%20product%20catalog%2C%20specifications%2C%20and%20prices%3F%20Thank%20you%21" target="_blank" className="tool-card">
                   <div className="tool-card__top">
                     <h3>{t.name}</h3>
                     <span className="tool-card__arrow">→</span>
@@ -324,7 +324,7 @@ export default function Orings() {
               Send your drawing, sample or service conditions — our engineers confirm the compound,
               tooling and a path to production.
             </p>
-            <a href="#contact" className="btn btn--yellow">Request a Quote →</a>
+            <a href="https://wa.me/8618831866682?text=Hello%2C%20I%27m%20interested%20in%20your%20rubber%20products.%20I%27d%20like%20to%20get%20more%20information%20and%20a%20quotation.%20Could%20you%20please%20share%20your%20product%20catalog%2C%20specifications%2C%20and%20prices%3F%20Thank%20you%21" target="_blank" className="btn btn--yellow">Request a Quote →</a>
           </div>
         </section>
 

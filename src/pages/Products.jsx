@@ -64,7 +64,7 @@ export default function Products() {
                 through production. Choose a family to explore, or send us your part.
               </p>
               <div className="hero__actions">
-                <a href="#contact" className="btn btn--yellow">Request a Quote →</a>
+                <a href="https://wa.me/8618831866682?text=Hello%2C%20I%27m%20interested%20in%20your%20rubber%20products.%20I%27d%20like%20to%20get%20more%20information%20and%20a%20quotation.%20Could%20you%20please%20share%20your%20product%20catalog%2C%20specifications%2C%20and%20prices%3F%20Thank%20you%21" target="_blank" className="btn btn--yellow">Request a Quote →</a>
               </div>
             </div>
           </div>
@@ -100,7 +100,7 @@ export default function Products() {
             </div>
             <div className="tools__grid">
               {tools.map((t) => (
-                <a key={t.name} href="#contact" className="tool-card">
+                <a key={t.name} href="https://wa.me/8618831866682?text=Hello%2C%20I%27m%20interested%20in%20your%20rubber%20products.%20I%27d%20like%20to%20get%20more%20information%20and%20a%20quotation.%20Could%20you%20please%20share%20your%20product%20catalog%2C%20specifications%2C%20and%20prices%3F%20Thank%20you%21" target="_blank" className="tool-card">
                   <div className="tool-card__top">
                     <h3>{t.name}</h3>
                     <span className="tool-card__arrow">→</span>
@@ -125,7 +125,7 @@ export default function Products() {
             </div>
             <div className="spec-cta__actions">
               <a href="#materials" className="btn btn--ghost btn--ghost-navy">Browse Materials</a>
-              <a href="#contact" className="btn btn--ghost btn--ghost-navy">Chemical Compatibility</a>
+              <a href="https://wa.me/8618831866682?text=Hello%2C%20I%27m%20interested%20in%20your%20rubber%20products.%20I%27d%20like%20to%20get%20more%20information%20and%20a%20quotation.%20Could%20you%20please%20share%20your%20product%20catalog%2C%20specifications%2C%20and%20prices%3F%20Thank%20you%21" target="_blank" className="btn btn--ghost btn--ghost-navy">Chemical Compatibility</a>
             </div>
           </div>
         </section>
@@ -138,7 +138,7 @@ export default function Products() {
               Send your drawing or application — you’ll get a fast, engineered quote from a real
               rubber engineer.
             </p>
-            <a href="#contact" className="btn btn--yellow">Request a Quote →</a>
+            <a href="https://wa.me/8618831866682?text=Hello%2C%20I%27m%20interested%20in%20your%20rubber%20products.%20I%27d%20like%20to%20get%20more%20information%20and%20a%20quotation.%20Could%20you%20please%20share%20your%20product%20catalog%2C%20specifications%2C%20and%20prices%3F%20Thank%20you%21" target="_blank" className="btn btn--yellow">Request a Quote →</a>
           </div>
         </section>
 
