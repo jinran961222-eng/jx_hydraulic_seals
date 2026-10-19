@@ -58,12 +58,17 @@ export default function Epdm() {
           <div className="container">
             <p className="calc-hero__eyebrow">SEALING MATERIAL</p>
             <h1 className="calc-hero__title">EPDM</h1>
-            <p className="calc-hero__desc">
+            <p className="calc-hero__lede">
               Ethylene Propylene Diene Monomer — the go-to for weather, ozone, steam and brake-fluid service,
-              but not petroleum oils. A saturated-backbone elastomer with outstanding ozone, UV, weather and
-              polar-fluid resistance — with one hard limit: petroleum oils.
+              but not petroleum oils.
             </p>
-            <p className="calc-hero__temp">Service temp <strong>-58°F to +302°F (-50°C to +150°C)</strong></p>
+            <p className="calc-hero__lede">
+              A saturated-backbone elastomer with outstanding ozone, UV, weather and polar-fluid resistance —
+              with one hard limit: petroleum oils.
+            </p>
+            <p className="calc-hero__temp">
+              Service temp <strong>-58°F to +302°F (-50°C to +150°C)</strong>
+            </p>
             <div className="calc-hero__actions">
               <a href="#contact" className="btn btn--yellow">Request a Quote</a>
               <Link to="/elastomers" className="btn btn--ghost">All Elastomers →</Link>
@@ -71,116 +76,86 @@ export default function Epdm() {
           </div>
         </section>
 
-        {/* Overview */}
+        {/* Overview - two column layout */}
         <section className="section">
           <div className="container">
-            <div className="section__head">
-              <p className="section__eyebrow">OVERVIEW</p>
-              <h2 className="section__title">What EPDM is best at</h2>
-            </div>
-            <p className="industry-col__p">
-              EPDM offers excellent resistance to ozone, UV, weathering and polar fluids; peroxide-cured grades
-              push heat and compression-set performance higher. Its defining limitation is near-total
-              incompatibility with petroleum oils, fuels and mineral-oil greases.
-            </p>
-            <div className="section__subtitle">Standout resistance</div>
-            <div className="materials-chip-grid">
-              {resistanceStandout.map((r) => (
-                <div key={r} className="material-chip"><strong>{r}</strong></div>
-              ))}
-            </div>
-            <div className="section__subtitle">Also strong in</div>
-            <div className="materials-chip-grid">
-              {resistanceStrong.map((r) => (
-                <div key={r} className="material-chip"><strong>{r}</strong></div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Industries + Approvals */}
-        <section className="section section--soft">
-          <div className="container">
-            <div className="section__head">
-              <p className="section__eyebrow">INDUSTRIES WE SERVE</p>
-            </div>
-            <div className="industry-tags">
-              {industries.map((i) => <span key={i} className="industry-tag">{i}</span>)}
-            </div>
-            <p className="industry-approvals__eyebrow">QUALITY &amp; APPROVALS — ON REQUEST</p>
-            <div className="approval-tags">
-              {approvals.map((a) => <span key={a} className="approval-tag">{a}</span>)}
-            </div>
-            <p className="industry-cta">
-              Need EPDM parts to spec?{' '}
-              <a href="#contact" className="inline-link">Request a quote →</a>
-            </p>
-          </div>
-        </section>
-
-        {/* Specs */}
-        <section className="section">
-          <div className="container">
-            <div className="section__head">
-              <p className="section__eyebrow">TYPICAL PROPERTIES</p>
-              <h2 className="section__title">EPDM performance at a glance</h2>
-            </div>
-            <div className="tol-table-wrap">
-              <table className="tol-table tol-table--spec">
-                <thead>
-                  <tr><th>Property</th><th>Typical Value</th></tr>
-                </thead>
-                <tbody>
-                  {specs.map((s) => (
-                    <tr key={s[0]}><td>{s[0]}</td><td>{s[1]}</td></tr>
+            <div className="overview-grid">
+              <div className="overview-left">
+                <div className="section__head">
+                  <p className="section__eyebrow">OVERVIEW</p>
+                  <h2 className="section__title">What EPDM is best at</h2>
+                </div>
+                <p className="industry-col__p">
+                  EPDM offers excellent resistance to ozone, UV, weathering and polar fluids; peroxide-cured grades
+                  push heat and compression-set performance higher. Its defining limitation is near-total
+                  incompatibility with petroleum oils, fuels and mineral-oil greases.
+                </p>
+                <div className="section__subtitle">Standout resistance</div>
+                <div className="materials-chip-grid">
+                  {resistanceStandout.map((r) => (
+                    <div key={r} className="material-chip material-chip--good"><strong>{r}</strong></div>
                   ))}
-                </tbody>
-              </table>
+                </div>
+                <div className="section__subtitle">Also strong in</div>
+                <div className="materials-chip-grid">
+                  {resistanceStrong.map((r) => (
+                    <div key={r} className="material-chip material-chip--info"><strong>{r}</strong></div>
+                  ))}
+                </div>
+                <div className="section__subtitle">Industries we serve</div>
+                <div className="industry-tags">
+                  {industries.map((i) => <span key={i} className="industry-tag">{i}</span>)}
+                </div>
+                <div className="section__subtitle">Quality & approvals — on request</div>
+                <div className="approval-tags">
+                  {approvals.map((a) => <span key={a} className="approval-tag">{a}</span>)}
+                </div>
+              </div>
+              <div className="overview-right">
+                <div className="spec-card">
+                  {specs.map((s) => (
+                    <div key={s[0]} className="spec-row">
+                      <span className="spec-label">{s[0]}</span>
+                      <span className="spec-value">{s[1]}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
             </div>
-            <p className="industry-col__p">
-              Typical published ranges — final properties depend on the specific ARC compound, cure system and
-              fillers. Request a compound-specific data sheet for design values.
-            </p>
           </div>
         </section>
 
-        {/* Where it's used */}
+        {/* Where it's used - 4 cards row */}
         <section className="section section--soft">
           <div className="container">
             <div className="section__head">
-              <p className="section__eyebrow">WHERE IT’S USED</p>
+              <p className="section__eyebrow">WHERE IT'S USED</p>
               <h2 className="section__title">Typical applications by industry</h2>
             </div>
-            {applications.map((a) => (
-              <div key={a.industry} style={{ marginBottom: 18 }}>
-                <div className="section__subtitle">{a.industry}</div>
-                <ul className="app-list">
-                  {a.items.map((it) => <li key={it}>{it}</li>)}
-                </ul>
-              </div>
-            ))}
+            <div className="apps-grid">
+              {applications.map((a) => (
+                <div key={a.industry} className="app-card">
+                  <h4>{a.industry}</h4>
+                  <p>{a.items[0]}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </section>
 
-        {/* Choose / Alternative */}
+        {/* Choose / Alternative - two columns with icons */}
         <section className="section">
           <div className="container">
-            <div className="industry-split">
+            <div className="industry-split guidance-grid">
               <div className="industry-col">
-                <div className="section__head">
-                  <p className="section__eyebrow">GUIDANCE</p>
-                  <h2 className="section__title">Choose EPDM when</h2>
-                </div>
-                <ul className="app-list">
+                <h3 className="guidance-title">Choose EPDM when</h3>
+                <ul className="guidance-list guidance-list--check">
                   {chooseWhen.map((c) => <li key={c}>{c}</li>)}
                 </ul>
               </div>
               <div className="industry-col">
-                <div className="section__head">
-                  <p className="section__eyebrow">GUIDANCE</p>
-                  <h2 className="section__title">Consider an alternative when</h2>
-                </div>
-                <ul className="app-list">
+                <h3 className="guidance-title">Consider an alternative when</h3>
+                <ul className="guidance-list guidance-list--cross">
                   {alternative.map((c) => <li key={c}>{c}</li>)}
                 </ul>
               </div>
@@ -188,19 +163,18 @@ export default function Epdm() {
           </div>
         </section>
 
-        {/* Design references */}
+        {/* Design references - 3 cards row */}
         <section className="section section--soft">
           <div className="container">
             <div className="section__head">
-              <p className="section__eyebrow">DESIGN REFERENCES</p>
-              <h2 className="section__title">Design references for EPDM</h2>
+              <p className="section__eyebrow">DESIGN REFERENCES FOR EPDM</p>
             </div>
-            <div className="tools__grid">
+            <div className="refs-grid">
               {references.map((r) => (
-                <Link key={r.label} to={r.to} className="tool-card">
-                  <div className="tool-card__top">
-                    <h3>{r.label}</h3>
-                    <span className="tool-card__arrow">→</span>
+                <Link key={r.label} to={r.to} className="ref-card">
+                  <div className="ref-card__top">
+                    <h4>{r.label}</h4>
+                    <span className="ref-card__arrow">→</span>
                   </div>
                   <p>{r.desc}</p>
                 </Link>

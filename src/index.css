@@ -2975,3 +2975,172 @@ img {
   .chart-intro { grid-template-columns: 1fr; padding: 24px; gap: 24px; }
 }
 
+/* EPDM Overview - two column layout */
+.overview-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 48px;
+  align-items: start;
+}
+.overview-left .section__subtitle {
+  margin-top: 24px;
+  margin-bottom: 10px;
+}
+.spec-card {
+  background: #f8fafc;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 8px 0;
+}
+.spec-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  border-bottom: 1px solid #eef2f7;
+}
+.spec-row:last-child { border-bottom: none; }
+.spec-label {
+  font-size: 14.5px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.spec-value {
+  font-size: 14.5px;
+  font-weight: 700;
+  color: var(--navy);
+}
+.material-chip--good {
+  background: #e6f4e6;
+  color: #1c7c3c;
+  border: 1px solid #c8e6c9;
+}
+.material-chip--info {
+  background: #e3f2fd;
+  color: #1565c0;
+  border: 1px solid #bbdefb;
+}
+@media (max-width: 900px) {
+  .overview-grid { grid-template-columns: 1fr; gap: 32px; }
+}
+
+/* Applications grid - 4 cards */
+.apps-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 24px;
+}
+.app-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 22px 20px;
+  box-shadow: 0 4px 16px rgba(13,34,64,.06);
+}
+.app-card h4 {
+  font-family: var(--font-head);
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--ink);
+  margin: 0 0 10px;
+}
+.app-card p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--body);
+  margin: 0;
+}
+
+/* Guidance grid - choose / alternative */
+.guidance-grid {
+  gap: 60px;
+}
+.guidance-title {
+  font-family: var(--font-head);
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--ink);
+  margin: 0 0 18px;
+}
+.guidance-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.guidance-list li {
+  position: relative;
+  padding-left: 28px;
+  margin-bottom: 12px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--body);
+}
+.guidance-list--check li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #1c7c3c;
+  font-weight: 800;
+  font-size: 16px;
+}
+.guidance-list--cross li::before {
+  content: '✕';
+  position: absolute;
+  left: 0;
+  color: #c0392b;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+/* References grid - 3 cards */
+.refs-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 24px;
+}
+.ref-card {
+  display: block;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 22px 24px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+.ref-card:hover {
+  border-color: var(--yellow);
+  box-shadow: 0 6px 20px rgba(13,34,64,.08);
+}
+.ref-card__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.ref-card__top h4 {
+  font-family: var(--font-head);
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--ink);
+  margin: 0;
+}
+.ref-card__arrow {
+  color: var(--yellow-deep);
+  font-weight: 800;
+  font-size: 18px;
+}
+.ref-card p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--body);
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .apps-grid { grid-template-columns: 1fr 1fr; }
+  .refs-grid { grid-template-columns: 1fr; }
+  .guidance-grid { grid-template-columns: 1fr; gap: 36px; }
+}
+
