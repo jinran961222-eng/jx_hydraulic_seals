@@ -31,7 +31,15 @@ const products = [
   { name: 'Fluid Seals', desc: 'General sealing against oils, fuels, water and other fluids.' },
 ]
 
-const gallerySlots = ['IMG-26', 'IMG-27', 'IMG-28']
+const galleryImages = [
+  'https://i.postimg.cc/LszgWBtB/arc-rotary-shaft-seal-group.jpg',
+  'https://i.postimg.cc/76n75Mb5/arc-dual-lip-oil-seal-tc.jpg',
+  'https://i.postimg.cc/pTR5MhkL/arc-single-lip-oil-seal-sc.jpg',
+  'https://i.postimg.cc/J7KZmq9K/arc-exclusion-deflector-seal.jpg',
+  'https://i.postimg.cc/90X9ZRq8/arc-encased-oil-seal-wiping-fins.jpg',
+  'https://i.postimg.cc/cHzWMPK6/oil-seal-(1).jpg',
+  'https://i.postimg.cc/rydRXkNV/oil-seal-1.jpg',
+]
 
 const materials = [
   { name: 'NBR / Nitrile', desc: 'Most common lip — oil & fuel resistance' },
@@ -110,7 +118,7 @@ export default function Oilseals() {
               <h1 className="hero__title">Oil Seals</h1>
               <p className="hero__desc">
                 We manufacture custom oil seals engineered for the exact shaft, speed, pressure and
-                fluid your equipment sees. When a shaft is leaking and stock seals won’t hold, our
+                fluid your equipment sees. When a shaft is leaking and stock seals won't hold, our
                 engineers solve it — built to your print, never pulled from a bin.
               </p>
               <div className="hero__badges">
@@ -133,7 +141,7 @@ export default function Oilseals() {
                 </div>
                 <p className="industry-col__p">
                   ARC designs and molds custom oil seals — rotary shaft, fabric-reinforced,
-                  heavy-duty, high-pressure, grease and fluid seals — matched to each application’s
+                  heavy-duty, high-pressure, grease and fluid seals — matched to each application's
                   pressure, temperature, shaft speed, runout and fluid compatibility. Our seals bond
                   an elastomer, most often nitrile, to a metal ring with a precision spring-tensioned
                   lip for reliable dynamic sealing, and we select the elastomer to the media — from
@@ -201,11 +209,13 @@ export default function Oilseals() {
           <div className="container">
             <div className="section__head">
               <p className="section__eyebrow">GALLERY</p>
-              <h2 className="section__title">Oil Seals we’ve built</h2>
+              <h2 className="section__title">Oil Seals we've built</h2>
             </div>
-            <div className="gallery__grid">
-              {gallerySlots.map((g) => (
-                <ImageSlot key={g} tag={g} ratio="4/3" />
+            <div className="gallery-4col">
+              {galleryImages.map((img, i) => (
+                <div key={i} className="gallery-item">
+                  <img src={img} alt="Oil seal" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '12px' }} />
+                </div>
               ))}
             </div>
           </div>
@@ -246,7 +256,7 @@ export default function Oilseals() {
         <section className="section section--soft">
           <div className="container">
             <div className="section__head">
-              <p className="section__eyebrow">WHERE IT’S USED</p>
+              <p className="section__eyebrow">WHERE IT'S USED</p>
               <h2 className="section__title">Typical applications</h2>
             </div>
             <ul className="app-list">
