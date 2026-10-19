@@ -39,13 +39,17 @@ const products = [
 
 const tools = [
   { name: 'O-Ring Size Calculator',
-    desc: 'Groove dimensions and tolerances for metric O-rings, instantly.' },
+    desc: 'Groove dimensions and tolerances for metric O-rings, instantly.',
+    to: '/products/standard-o-rings/metric-o-ring-tolerances-calculator' },
   { name: 'AS568 O-Ring Size Chart',
-    desc: 'Standard inch O-ring sizes and cross-reference.' },
+    desc: 'Standard inch O-ring sizes and cross-reference.',
+    to: '/products/standard-o-rings/as568-o-ring-size-chart' },
   { name: 'Custom Molding Guide',
-    desc: 'Processes, tolerances and design guidance for molded parts.' },
+    desc: 'Processes, tolerances and design guidance for molded parts.',
+    to: '/products/custom-rubber-molded-parts/custom-molding-guide' },
   { name: 'Oil Seal Size Chart',
-    desc: 'Shaft and bore sizing for rotary and static oil seals.' },
+    desc: 'Shaft and bore sizing for rotary and static oil seals.',
+    to: '/products/oil-seals/oil-seal-size-chart' },
 ]
 
 export default function Products() {
@@ -100,13 +104,13 @@ export default function Products() {
             </div>
             <div className="tools__grid">
               {tools.map((t) => (
-                <a key={t.name} href="https://wa.me/8618831866682?text=Hello%2C%20I%27m%20interested%20in%20your%20rubber%20products.%20I%27d%20like%20to%20get%20more%20information%20and%20a%20quotation.%20Could%20you%20please%20share%20your%20product%20catalog%2C%20specifications%2C%20and%20prices%3F%20Thank%20you%21" target="_blank" className="tool-card">
+                <Link key={t.name} to={t.to} className="tool-card">
                   <div className="tool-card__top">
                     <h3>{t.name}</h3>
                     <span className="tool-card__arrow">→</span>
                   </div>
                   <p>{t.desc}</p>
-                </a>
+                </Link>
               ))}
             </div>
           </div>
@@ -124,8 +128,8 @@ export default function Products() {
               </p>
             </div>
             <div className="spec-cta__actions">
-              <a href="#materials" className="btn btn--ghost btn--ghost-navy">Browse Materials</a>
-              <a href="https://wa.me/8618831866682?text=Hello%2C%20I%27m%20interested%20in%20your%20rubber%20products.%20I%27d%20like%20to%20get%20more%20information%20and%20a%20quotation.%20Could%20you%20please%20share%20your%20product%20catalog%2C%20specifications%2C%20and%20prices%3F%20Thank%20you%21" target="_blank" className="btn btn--ghost btn--ghost-navy">Chemical Compatibility</a>
+              <Link to="/elastomers" className="btn btn--ghost btn--ghost-navy">Browse Materials</Link>
+              <Link to="/chemical-compatibility" className="btn btn--ghost btn--ghost-navy">Chemical Compatibility</Link>
             </div>
           </div>
         </section>

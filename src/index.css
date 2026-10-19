@@ -222,14 +222,14 @@ img {
 .brand__text strong {
   font-family: var(--font-head);
   font-weight: 800;
-  font-size: 15px;
+  font-size: 20px;
   color: #fff;
   letter-spacing: 0.4px;
   transition: color 0.3s;
 }
 
 .brand__text small {
-  font-size: 11px;
+  font-size: 13px;
   color: #a9bfd6;
   font-weight: 600;
   transition: color 0.3s;
@@ -1609,6 +1609,8 @@ img {
   border-radius: var(--radius);
   padding: 24px 26px;
   transition: box-shadow 0.2s, transform 0.2s;
+  text-decoration: none;
+  color: inherit;
 }
 
 .tool-card:hover {
