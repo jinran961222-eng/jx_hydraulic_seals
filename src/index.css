@@ -101,6 +101,20 @@ img {
   z-index: 0;
 }
 
+/* Filled image slot: show real image instead of placeholder */
+.imgslot--filled {
+  background: #eef3f9;
+  border: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.imgslot--filled img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 /* On dark hero sections, keep the placeholder translucent so the navy
    gradient + grid background show through instead of a solid light block. */
 .hero .imgslot--cover {

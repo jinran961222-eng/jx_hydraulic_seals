@@ -1,7 +1,7 @@
 import ImageSlot from './ImageSlot.jsx'
 
 const products = [
-  { name: 'Rubber Molded Parts', desc: 'Compression, transfer & injection molding.', img: 'IMG-04' },
+  { name: 'Rubber Molded Parts', desc: 'Compression, transfer & injection molding.', img: 'https://i.postimg.cc/4xK2W5xD/3e9d4acb442e2d46ebd907eae64f7b1c.jpg' },
   { name: 'Rubber Diaphragms', desc: 'Homogeneous & fabric-reinforced membranes.', img: 'IMG-05' },
   { name: 'Oil Seals', desc: 'Rotary & static shaft sealing to spec.', img: 'IMG-06' },
   { name: 'O-Rings', desc: 'Custom & standard sizes in any elastomer.', img: 'IMG-07' },
