@@ -261,14 +261,7 @@ export default function MetricToleranceCalculator() {
               </div>
 
               <div className="oring-diagram">
-                <svg viewBox="0 0 200 200" className="oring-diagram__svg">
-                  <circle cx="100" cy="100" r="86" fill="none" stroke="var(--navy)" strokeWidth="14" />
-                  <circle cx="100" cy="100" r="86" fill="none" stroke="var(--navy)" strokeWidth="14" opacity="0.25" />
-                  <line x1="14" y1="100" x2="186" y2="100" stroke="var(--yellow-deep)" strokeWidth="2" strokeDasharray="4 3" />
-                  <line x1="100" y1="14" x2="100" y2="186" stroke="var(--navy)" strokeWidth="2" strokeDasharray="4 3" />
-                </svg>
-                <p className="oring-diagram__label">CROSS SECTION (CS)</p>
-                <p className="oring-diagram__label">INSIDE DIAMETER (ID)</p>
+                <img src="https://i.postimg.cc/LsVhjX4G/standard.jpg" alt="O-Ring Cross Section and Inside Diameter" className="oring-diagram__img" />
               </div>
             </div>
 
