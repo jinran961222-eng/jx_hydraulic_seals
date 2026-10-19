@@ -32,7 +32,12 @@ const products = [
   { name: 'Flat O-Rings', desc: 'Flat/washer-style O-ring gaskets cut to bore and OD spec.' },
 ]
 
-const gallerySlots = ['IMG-35', 'IMG-36', 'IMG-37']
+const galleryImages = [
+  'https://i.postimg.cc/Y0XW3r6M/arc-epdm-gaskets-seals.jpg',
+  'https://i.postimg.cc/4Ndt3cG1/arc-precision-orings-static-seals.jpg',
+  'https://i.postimg.cc/x1LdjjXy/diecut.jpg',
+  'https://i.postimg.cc/tCxqDRN0/Flat-Rubber-Gaskets0422.jpg',
+]
 
 const materials = [
   { name: 'Silicone', desc: 'Wide temp, FDA/medical, weather/ozone' },
@@ -222,11 +227,13 @@ export default function Diecut() {
           <div className="container">
             <div className="section__head">
               <p className="section__eyebrow">GALLERY</p>
-              <h2 className="section__title">Die-Cut Gaskets we’ve built</h2>
+              <h2 className="section__title">Die-Cut Gaskets we've built</h2>
             </div>
-            <div className="gallery__grid">
-              {gallerySlots.map((g) => (
-                <ImageSlot key={g} tag={g} ratio="4/3" />
+            <div className="gallery-4col">
+              {galleryImages.map((img, i) => (
+                <div key={i} className="gallery-item">
+                  <img src={img} alt="Die-cut gasket" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '12px' }} />
+                </div>
               ))}
             </div>
           </div>
