@@ -68,8 +68,8 @@ export default function Header() {
       <div className="topbar">
         <div className="container topbar__inner">
           <div>
-            Tel: <a href="tel:+13175488455">+1 (317) 548-8455</a> &nbsp;·&nbsp;{' '}
-            <a href="mailto:info@americanrubbercorp.com">info@americanrubbercorp.com</a>
+            Tel: <a href="tel:+8618831866682">+86 188 3186 6682</a> &nbsp;·&nbsp;{' '}
+            <a href="mailto:junweizhang0011@gmail.com">junweizhang0011@gmail.com</a>
           </div>
           <div>
             <span className="cert">ISO 9001:2015</span> &amp;{' '}

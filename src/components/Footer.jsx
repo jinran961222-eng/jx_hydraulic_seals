@@ -20,8 +20,8 @@ export default function Footer() {
           </div>
         </div>
         <p className="footer__copy">
-          Tel: <a href="tel:+13175488455">+1 (317) 548-8455</a> ·{' '}
-          <a href="mailto:info@americanrubbercorp.com">info@americanrubbercorp.com</a>
+          Tel: <a href="tel:+8618831866682">+86 188 3186 6682</a> ·{' '}
+          <a href="mailto:junweizhang0011@gmail.com">junweizhang0011@gmail.com</a>
         </p>
         <p className="footer__copy">
           © {new Date().getFullYear()} American Rubber Corp. All rights reserved.

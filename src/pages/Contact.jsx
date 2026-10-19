@@ -3,8 +3,8 @@ import Footer from '../components/Footer.jsx'
 import FloatingCta from '../components/FloatingCta.jsx'
 
 const infoItems = [
-  { label: 'CALL', value: '+1 (317) 548-8455' },
-  { label: 'EMAIL', value: 'info@americanrubbercorp.com' },
+  { label: 'CALL', value: '+86 188 3186 6682' },
+  { label: 'EMAIL', value: 'junweizhang0011@gmail.com' },
   { label: 'VISIT', value: '1136 Dilts Street, Chesterfield, IN 46017' },
   { label: 'HOURS', value: 'Mon-Fri, 9:00 AM – 5:00 PM ET' },
   { label: 'CERTIFIED', value: 'ISO 9001:2015 & IATF 16949:2016' },
