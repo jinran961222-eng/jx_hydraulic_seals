@@ -33,7 +33,16 @@ export default function Header() {
   const cur = (key) => `nav__link${active === key ? ' nav__link--cur' : ''}`
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.pageYOffset > 60)
+    const onScroll = () => {
+      const y = window.pageYOffset
+      // Hysteresis: collapse past 100px, only expand again below 40px.
+      // This dead zone stops the sticky header from flickering at the threshold.
+      setScrolled((cur) => {
+        if (!cur && y > 100) return true
+        if (cur && y < 40) return false
+        return cur
+      })
+    }
     window.addEventListener('scroll', onScroll, { passive: true })
     onScroll()
     return () => window.removeEventListener('scroll', onScroll)
