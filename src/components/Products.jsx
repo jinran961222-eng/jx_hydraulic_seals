@@ -1,15 +1,15 @@
 import ImageSlot from './ImageSlot.jsx'
 
 const products = [
-  { name: 'Rubber Molded Parts', desc: 'Compression, transfer & injection molding.', img: 'https://i.postimg.cc/4xK2W5xD/3e9d4acb442e2d46ebd907eae64f7b1c.jpg' },
-  { name: 'Rubber Diaphragms', desc: 'Homogeneous & fabric-reinforced membranes.', img: 'IMG-05' },
-  { name: 'Oil Seals', desc: 'Rotary & static shaft sealing to spec.', img: 'IMG-06' },
-  { name: 'O-Rings', desc: 'Custom & standard sizes in any elastomer.', img: 'IMG-07' },
-  { name: 'Extruded Rubber', desc: 'Custom profiles, cords and tubing.', img: 'IMG-08' },
-  { name: 'PTFE Products', desc: 'Low-friction, chemical-resistant parts.', img: 'IMG-09' },
-  { name: 'Inflatable Seals', desc: 'Pressure-actuated sealing solutions.', img: 'IMG-10' },
-  { name: 'Die-Cut Gaskets', desc: 'Tight-tolerance flat sealing parts.', img: 'IMG-11' },
-  { name: 'Rubber Sheets & Coated Fabrics', desc: 'Sheet stock & coated textiles.', img: 'IMG-12' },
+  { name: 'Rubber Molded Parts', desc: 'Compression, transfer & injection molding.', img: 'https://i.postimg.cc/QCRXsvsy/elastomeric-molded-parts-500x500-1-e1641223603584.png' },
+  { name: 'Rubber Diaphragms', desc: 'Homogeneous & fabric-reinforced membranes.', img: 'https://i.postimg.cc/hjXvBLTg/product-range-new-2.jpg' },
+  { name: 'Oil Seals', desc: 'Rotary & static shaft sealing to spec.', img: 'https://i.postimg.cc/cHzWMPK6/oil-seal-(1).jpg' },
+  { name: 'O-Rings', desc: 'Custom & standard sizes in any elastomer.', img: 'https://i.postimg.cc/sgJv9Dsb/o-rings.jpg' },
+  { name: 'Extruded Rubber', desc: 'Custom profiles, cords and tubing.', img: 'https://i.postimg.cc/HxFxsr9c/product-range-new-6.jpg' },
+  { name: 'PTFE Products', desc: 'Low-friction, chemical-resistant parts.', img: 'https://i.postimg.cc/hvxGJK2b/ptfe.jpg' },
+  { name: 'Inflatable Seals', desc: 'Pressure-actuated sealing solutions.', img: 'https://i.postimg.cc/3RN7G3xk/Inflatable-seal.jpg' },
+  { name: 'Die-Cut Gaskets', desc: 'Tight-tolerance flat sealing parts.', img: 'https://i.postimg.cc/XJYNgwQq/die-cut.jpg' },
+  { name: 'Rubber Sheets & Coated Fabrics', desc: 'Sheet stock & coated textiles.', img: 'https://i.postimg.cc/GhCL7wMN/sheets-2.jpg' },
 ]
 
 export default function Products() {
