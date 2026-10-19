@@ -34,7 +34,13 @@ const products = [
   { name: 'T- & L-Seals', desc: 'T-section and L-section profiles for all-round and single-direction sealing.' },
 ]
 
-const gallerySlots = ['IMG-29', 'IMG-30', 'IMG-31']
+const galleryImages = [
+  'https://i.postimg.cc/wxFLHVCT/arc-extruded-profiles-grommets.jpg',
+  'https://i.postimg.cc/Y0XW3r6M/arc-epdm-gaskets-seals.jpg',
+  'https://i.postimg.cc/FKBFDY89/Rubber-Hose.webp',
+  'https://i.postimg.cc/mgVg1XSt/Rubber-Extrusion-Profile.jpg',
+  'https://i.postimg.cc/prvwZx2J/Spliced-Vulcanized-Gaskets.jpg',
+]
 
 const materials = [
   { name: 'EPDM', desc: 'Weather, ozone & water (door/window)' },
@@ -201,11 +207,13 @@ export default function Extruded() {
           <div className="container">
             <div className="section__head">
               <p className="section__eyebrow">GALLERY</p>
-              <h2 className="section__title">Extruded Rubber we’ve built</h2>
+              <h2 className="section__title">Extruded Rubber we've built</h2>
             </div>
-            <div className="gallery__grid">
-              {gallerySlots.map((g) => (
-                <ImageSlot key={g} tag={g} ratio="4/3" />
+            <div className="gallery-4col">
+              {galleryImages.map((img, i) => (
+                <div key={i} className="gallery-item">
+                  <img src={img} alt="Extruded rubber" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '12px' }} />
+                </div>
               ))}
             </div>
           </div>
