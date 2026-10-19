@@ -2,26 +2,39 @@ import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 import FloatingCta from '../components/FloatingCta.jsx'
 import ImageSlot from '../components/ImageSlot.jsx'
+import { Link } from 'react-router-dom'
 
 const products = [
-  { name: 'Rubber Molded Parts', img: 'IMG-14',
-    desc: 'Grommets, bumpers, bonded and mil-spec parts — compression, transfer and injection molded to your drawing.' },
-  { name: 'Rubber Diaphragms', img: 'IMG-15',
-    desc: 'Rolling, flat, homogeneous and fabric-reinforced diaphragms for pumps, valves, actuators and regulators.' },
-  { name: 'Oil Seals', img: 'IMG-16',
-    desc: 'Custom and standard rotary and static shaft seals, engineered to your shaft, bore and media.' },
-  { name: 'Rubber O-Rings', img: 'IMG-17',
-    desc: 'AS568 and custom O-rings in any elastomer, including FFKM — sized and compounded to your service.' },
-  { name: 'Extruded Rubber', img: 'IMG-18',
-    desc: 'Profiles, cords, strips, U/D/P channels and edge trim, extruded to your section and tolerance.' },
-  { name: 'PTFE Products', img: 'IMG-19',
-    desc: 'PTFE-encapsulated O-rings, backup rings, seals and specialty low-friction components.' },
-  { name: 'Inflatable Seals', img: 'IMG-20',
-    desc: 'Pressure-actuated pneumatic seals for doors, hatches, cleanrooms and process equipment.' },
-  { name: 'Die-Cut Gaskets', img: 'IMG-21',
-    desc: 'Precision die-cut gaskets, washers and flat seals from sheet stock and coated fabrics.' },
-  { name: 'Rubber Sheets & Coated Fabrics', img: 'IMG-22',
-    desc: 'Sheet stock and rubber-coated fabrics in multiple compounds for gaskets, liners and barriers.' },
+  { name: 'Rubber Molded Parts', img: 'https://i.postimg.cc/QCRXsvsy/elastomeric-molded-parts-500x500-1-e1641223603584.png',
+    desc: 'Grommets, bumpers, bonded and mil-spec parts — compression, transfer and injection molded to your drawing.',
+    to: '/products/custom-rubber-molded-parts' },
+  { name: 'Rubber Diaphragms', img: 'https://i.postimg.cc/hjXvBLTg/product-range-new-2.jpg',
+    desc: 'Rolling, flat, homogeneous and fabric-reinforced diaphragms for pumps, valves, actuators and regulators.',
+    to: '/products/rubber-diaphragms' },
+  { name: 'Oil Seals', img: 'https://i.postimg.cc/cHzWMPK6/oil-seal-(1).jpg',
+    desc: 'Custom and standard rotary and static shaft seals, engineered to your shaft, bore and media.',
+    to: '/products/oil-seals' },
+  { name: 'Custom O-Rings', img: 'https://i.postimg.cc/sgJv9Dsb/o-rings.jpg',
+    desc: 'Custom O-rings in any elastomer, including FFKM — any ID, cross-section, hardness and color, molded to your spec.',
+    to: '/products/o-rings' },
+  { name: 'Standard O-Rings', img: 'https://i.postimg.cc/sgJv9Dsb/o-rings.jpg',
+    desc: 'AS568 and metric standard-size O-rings, with free size charts and a tolerance calculator.',
+    to: '/products/standard-o-rings' },
+  { name: 'Extruded Rubber', img: 'https://i.postimg.cc/HxFxsr9c/product-range-new-6.jpg',
+    desc: 'Profiles, cords, strips, U/D/P channels and edge trim, extruded to your section and tolerance.',
+    to: '/products/extruded-rubber' },
+  { name: 'PTFE Products', img: 'https://i.postimg.cc/hvxGJK2b/ptfe.jpg',
+    desc: 'PTFE-encapsulated O-rings, backup rings, seals and specialty low-friction components.',
+    to: '/products/ptfe-products' },
+  { name: 'Inflatable Seals', img: 'https://i.postimg.cc/3RN7G3xk/Inflatable-seal.jpg',
+    desc: 'Pressure-actuated pneumatic seals for doors, hatches, cleanrooms and process equipment.',
+    to: '/products/inflatable-seals' },
+  { name: 'Die-Cut Gaskets', img: 'https://i.postimg.cc/XJYNgwQq/die-cut.jpg',
+    desc: 'Precision die-cut gaskets, washers and flat seals from sheet stock and coated fabrics.',
+    to: '/products/die-cut-gaskets' },
+  { name: 'Rubber Sheets & Coated Fabrics', img: 'https://i.postimg.cc/GhCL7wMN/sheets-2.jpg',
+    desc: 'Sheet stock and rubber-coated fabrics in multiple compounds for gaskets, liners and barriers.',
+    to: '/rubber-sheets-native' },
 ]
 
 const tools = [
@@ -69,9 +82,9 @@ export default function Products() {
                   <div className="product-card__body">
                     <h2 className="product-card__name">{p.name}</h2>
                     <p className="product-card__desc">{p.desc}</p>
-                    <a href="#contact" className="product-card__link">
+                    <Link to={p.to} className="product-card__link">
                       Explore <span className="arrow">→</span>
-                    </a>
+                    </Link>
                   </div>
                 </article>
               ))}
