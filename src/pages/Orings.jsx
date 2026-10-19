@@ -33,7 +33,12 @@ const products = [
   { name: 'U-Section Seals', desc: 'U-shaped cross-section for pressure-energized, single-direction sealing.' },
 ]
 
-const gallerySlots = ['IMG-23', 'IMG-24', 'IMG-25']
+const galleryImages = [
+  'https://i.postimg.cc/4Ndt3cG1/arc-precision-orings-static-seals.jpg',
+  'https://i.postimg.cc/sD7Bx48Z/o-ring.jpg',
+  'https://i.postimg.cc/vHf1TtjF/oring.jpg',
+  'https://i.postimg.cc/P5HCw8sV/oring-1.jpg',
+]
 
 const sizeCharts = [
   'O-Ring Size Calculator',
@@ -211,11 +216,13 @@ export default function Orings() {
           <div className="container">
             <div className="section__head">
               <p className="section__eyebrow">GALLERY</p>
-              <h2 className="section__title">Rubber O-Rings we’ve built</h2>
+              <h2 className="section__title">Rubber O-Rings we've built</h2>
             </div>
-            <div className="gallery__grid">
-              {gallerySlots.map((g) => (
-                <ImageSlot key={g} tag={g} ratio="4/3" />
+            <div className="gallery-4col">
+              {galleryImages.map((img, i) => (
+                <div key={i} className="gallery-item">
+                  <img src={img} alt="O-ring" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '12px' }} />
+                </div>
               ))}
             </div>
           </div>
