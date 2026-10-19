@@ -189,13 +189,17 @@ export function Generic() {
         'This chart lists common metric O-ring sizes — inside diameter (ID) and cross-section (CS) in millimeters — that fall outside any single formal standard yet share established tooling. Engineers and buyers searching for generic metric O-ring sizes, metric O-ring dimensions, or a metric O-ring size chart use it to match a groove or mating bore to a known ID/CS pair, confirm that tooling already exists, and avoid the lead time and cost of a fully custom mold.',
         'Give us the ID, cross-section, and application and ARC manufactures the seal made-to-spec in your chosen compound — from NBR, EPDM, and FKM to silicone and HNBR — with material selected for temperature, pressure, and chemical exposure. As a US manufacturer certified to ISO 9001:2015 and IATF 16949:2016, we confirm tooling and return a fast, accurate quote so your build stays on schedule.',
       ]}
-      chartTitle="Generic Metric O-Ring Size Chart"
+      chartTitle="Generic Metric O-Rings"
       cols={genericCols}
       data={genericData}
       searchPh="Search an ID, CS or reference…"
       related={related}
       ctaTitle="Need a metric O-ring built to spec?"
       ctaDesc="Send us your inside diameter, cross-section, and compound and our engineers will confirm tooling and quote your part."
+      chartIntroParas={[
+        'This chart shows all of the most common metric sizes that may or may not match up with any of the international standard sizes. We are able to supply most of these sizes, as most factories have established tooling on these generic metric sizes.',
+        'For a complete listing of all metric o-ring sizes, visit our Metric O-Ring Cross Reference Table.',
+      ]}
     />
   )
 }

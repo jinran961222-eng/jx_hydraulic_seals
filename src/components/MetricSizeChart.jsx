@@ -89,11 +89,16 @@ export default function MetricSizeChart({
 
         <section className="section section--soft">
           <div className="container">
+            {chartIntroParas && (
+              <div className="chart-intro-block">
+                <h2 className="chart-intro-block__title">{chartTitle}</h2>
+                {chartIntroParas.map((p, i) => <p key={i} className="industry-col__p">{p}</p>)}
+              </div>
+            )}
             <div className="section__head">
               <p className="section__eyebrow">REFERENCE</p>
-              <h2 className="section__title">{chartTitle}</h2>
+              <h2 className="section__title">{chartIntroParas ? chartTitle + ' Size Chart' : chartTitle}</h2>
             </div>
-            {chartIntroParas && chartIntroParas.map((p, i) => <p key={i} className="industry-col__p">{p}</p>)}
             {tables ? (
               tables.map((t, i) => (
                 <div key={i} style={{ marginBottom: i < tables.length - 1 ? '34px' : 0 }}>
