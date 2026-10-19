@@ -1070,7 +1070,16 @@ img {
 }
 
 .cta-band > .container {
-  max-width: 1100px;
+  background: linear-gradient(135deg, #0d2240, #16375f);
+  border-radius: 16px;
+  padding: 44px 48px;
+  box-shadow: 0 12px 32px rgba(13,34,64,.12);
+  color: #fff;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px),
+    linear-gradient(135deg, #0d2240, #16375f);
+  background-size: 32px 32px, 32px 32px, 100% 100%;
 }
 
 .cta-band h2 {
@@ -1088,17 +1097,32 @@ img {
   margin: 0 0 24px;
 }
 
-/* Make every cta-band look like a dark card */
-.cta-band {
-  background: var(--bg-soft);
+.cta-band .btn--yellow {
+  margin-top: 8px;
 }
 
-.cta-band > .container {
+/* Home page - two separate cards */
+.cta-band--home > .container {
+  background: transparent;
+  box-shadow: none;
+  padding: 0;
+  background-image: none;
+}
+
+.cta-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.cta-card {
   background: linear-gradient(135deg, #0d2240, #16375f);
   border-radius: 16px;
   padding: 44px 48px;
-  box-shadow: 0 12px 32px rgba(13,34,64,.12);
   color: #fff;
+  box-shadow: 0 12px 32px rgba(13,34,64,.12);
   background-image:
     linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px),
@@ -1106,13 +1130,59 @@ img {
   background-size: 32px 32px, 32px 32px, 100% 100%;
 }
 
-.cta-band .btn--yellow {
-  margin-top: 8px;
+.cta-card__eyebrow {
+  font-family: var(--font-head);
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-size: 12px;
+  color: var(--yellow);
+  margin-bottom: 16px;
+}
+
+.cta-card__title {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 1.2;
+  margin: 0 0 18px;
+  max-width: 600px;
+}
+
+.cta-card__desc {
+  color: #c9d6e6;
+  font-size: 15.5px;
+  line-height: 1.7;
+  max-width: 680px;
+  margin: 0;
+}
+
+.cta-card--action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.cta-card__heading {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 800;
+  margin: 0 0 10px;
+}
+
+.cta-card__sub {
+  color: #c9d6e6;
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 0;
+  max-width: 560px;
 }
 
 @media (max-width: 768px) {
-  .cta-band > .container { padding: 32px 28px; }
-  .cta-band h2 { font-size: 24px; }
+  .cta-band > .container, .cta-card { padding: 32px 28px; }
+  .cta-card__title { font-size: 26px; }
+  .cta-card--action { flex-direction: column; align-items: flex-start; }
 }
 
 /* ---------- About ---------- */

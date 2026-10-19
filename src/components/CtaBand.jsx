@@ -1,6 +1,6 @@
 export default function CtaBand() {
   return (
-    <section className="cta-band">
+    <section className="cta-band cta-band--home">
       <div className="container">
         <div className="cta-cards">
           <div className="cta-card">
