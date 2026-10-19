@@ -31,7 +31,12 @@ const products = [
   { name: 'Metal-Bonded Diaphragms', desc: 'Bonded to metal inserts — studs, washers, threaded nuts — for direct assembly mounting.' },
 ]
 
-const gallerySlots = ['IMG-38', 'IMG-39', 'IMG-40']
+const galleryImages = [
+  'https://i.postimg.cc/X7z5Bv70/arc-ptfe-diaphragms-(1).jpg',
+  'https://i.postimg.cc/zDRv2kqx/rubber.jpg',
+  'https://i.postimg.cc/3JXRYJ4Z/rubber-diaphagrams2.jpg',
+  'https://i.postimg.cc/VNYzYqyW/image-1-1.jpg',
+]
 
 const materials = [
   { name: 'NBR / Nitrile', desc: 'Oil & fuel resistance for hydraulic duty' },
@@ -208,11 +213,13 @@ export default function Diaphragms() {
           <div className="container">
             <div className="section__head">
               <p className="section__eyebrow">GALLERY</p>
-              <h2 className="section__title">Rubber Diaphragms we’ve built</h2>
+              <h2 className="section__title">Rubber Diaphragms we've built</h2>
             </div>
-            <div className="gallery__grid">
-              {gallerySlots.map((g) => (
-                <ImageSlot key={g} tag={g} ratio="4/3" />
+            <div className="gallery-4col">
+              {galleryImages.map((img, i) => (
+                <div key={i} className="gallery-item">
+                  <img src={img} alt="Diaphragm" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '12px' }} />
+                </div>
               ))}
             </div>
           </div>
