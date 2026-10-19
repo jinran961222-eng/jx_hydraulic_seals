@@ -35,6 +35,12 @@ export function Bs1806() {
       related={related}
       ctaTitle="Need BS 1806 O-rings built to spec?"
       ctaDesc="Send your dash number, dimensions or drawing and our engineers confirm the size, compound and tooling for production."
+      introImage="https://i.postimg.cc/Y00xJZyj/bs.jpg"
+      introImageTitle="BS 1806 Metric Size Chart"
+      introImageParas={[
+        'The BS 1806 O-Ring size guide was issued by the British Standards Institution and lists all Imperial standard sizes. This standard includes all of the 5 main cross section groups in AS568 plus several sizes that are "between" AS568 Sizes. BS 1806 has been superseded by BS ISO 3601, however, since BS 1806 is still widely referenced in certain industries / regions of the world, it is still relevant for cross reference purposes.',
+        'For a complete listing of all metric o-ring sizes, visit our Metric O-Ring Cross Reference Table.',
+      ]}
     />
   )
 }
@@ -58,6 +64,12 @@ export function Bs4518() {
       related={related}
       ctaTitle="Need BS 4518 O-rings built to spec?"
       ctaDesc="Send us the size code, ID and cross-section — our engineers confirm the compound, tooling and a path to production."
+      introImage="https://i.postimg.cc/Y00xJZyj/bs.jpg"
+      introImageTitle="BS 4518 Metric O-Rings"
+      introImageParas={[
+        'Issued by the British Standards Institution, Standard BS 4518 identifies British Standard metric sizes. The size code for these O-Rings is a four digit number indicating the O-Ring I.D. in tenths of millimeters followed by a hyphen and two digits indicating the O-Ring Cross Section, also in tenths of a millimeter.',
+        'For a complete listing of all metric o-ring sizes, visit our Metric O-Ring Cross Reference Table.',
+      ]}
     />
   )
 }

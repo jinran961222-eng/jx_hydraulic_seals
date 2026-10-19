@@ -98,26 +98,31 @@ export default function As568SizeChart() {
             </p>
 
             <h3 className="section__subtitle">AS568 Series at a Glance</h3>
-            <div className="tol-table-wrap">
-              <table className="tol-table">
-                <thead>
-                  <tr>
-                    <th>Series</th>
-                    <th>CS Inches</th>
-                    <th>Tolerance</th>
-                    <th>CS Frac.</th>
-                    <th>CS MM</th>
-                    <th>ID Range</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {series.map((s) => (
-                    <tr key={s[0]}>
-                      {s.map((c, i) => <td key={i}>{c}</td>)}
+            <div className="as568-glance">
+              <div className="tol-table-wrap as568-glance__table">
+                <table className="tol-table">
+                  <thead>
+                    <tr>
+                      <th>Series</th>
+                      <th>CS Inches</th>
+                      <th>Tolerance</th>
+                      <th>CS Frac.</th>
+                      <th>CS MM</th>
+                      <th>ID Range</th>
                     </tr>
-                  ))}
-                </tbody>
-              </table>
+                  </thead>
+                  <tbody>
+                    {series.map((s) => (
+                      <tr key={s[0]}>
+                        {s.map((c, i) => <td key={i}>{c}</td>)}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              <div className="as568-glance__img">
+                <img src="https://i.postimg.cc/LsVhjX4G/standard.jpg" alt="O-Ring Cross Section and Inside Diameter" />
+              </div>
             </div>
 
             <div className="chem-controls">

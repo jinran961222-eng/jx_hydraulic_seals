@@ -39,6 +39,7 @@ function SizeTable({ cols, rows, searchPh }) {
 export default function MetricSizeChart({
   crumb, eyebrow, title, heroDesc, introTitle, introParas, chartTitle,
   cols, data, searchPh, tables, related, ctaTitle, ctaDesc,
+  introImage, introImageTitle, introImageParas,
 }) {
   return (
     <>
@@ -69,6 +70,22 @@ export default function MetricSizeChart({
             {introParas.map((p, i) => <p key={i} className="industry-col__p">{p}</p>)}
           </div>
         </section>
+
+        {introImage && (
+          <section className="section">
+            <div className="container">
+              <div className="chart-intro">
+                <div className="chart-intro__img">
+                  <img src={introImage} alt={introImageTitle || 'O-Ring diagram'} />
+                </div>
+                <div className="chart-intro__text">
+                  <h2 className="chart-intro__title">{introImageTitle}</h2>
+                  {introImageParas && introImageParas.map((p, i) => <p key={i}>{p}</p>)}
+                </div>
+              </div>
+            </div>
+          </section>
+        )}
 
         <section className="section section--soft">
           <div className="container">
