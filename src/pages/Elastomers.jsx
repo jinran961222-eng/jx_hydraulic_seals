@@ -1,32 +1,33 @@
 ﻿import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 import FloatingCta from '../components/FloatingCta.jsx'
+import { Link } from 'react-router-dom'
 
 const materials = [
   { name: 'EPDM', range: '-58°F to +302°F', chem: 'Ethylene Propylene Diene Monomer',
-    desc: 'The go-to for weather, ozone, steam and brake-fluid service, but not petroleum oils.' },
+    desc: 'The go-to for weather, ozone, steam and brake-fluid service, but not petroleum oils.', link: '/elastomers/epdm' },
   { name: 'Silicone (VMQ)', range: '-67°F to +392°F', chem: 'Silicone Elastomer',
-    desc: 'The widest temperature range in a flexible elastomer, plus clean and inert grades.' },
+    desc: 'The widest temperature range in a flexible elastomer, plus clean and inert grades.', link: '/elastomers/silicone' },
   { name: 'Fluorosilicone (FVMQ)', range: '-67°F to +350°F', chem: 'Fluorosilicone Elastomer',
-    desc: 'Silicone’s temperature range with added fuel and oil resistance — the aerospace fuel-system elastomer.' },
+    desc: 'Silicone’s temperature range with added fuel and oil resistance — the aerospace fuel-system elastomer.', link: '/elastomers/fluorosilicone' },
   { name: 'FKM (Viton)', range: '-4°F to +400°F', chem: 'Fluoroelastomer',
-    desc: 'The industry standard for high-heat, oil, fuel and chemical resistance in a true elastomer.' },
+    desc: 'The industry standard for high-heat, oil, fuel and chemical resistance in a true elastomer.', link: '/elastomers/fkm-viton' },
   { name: 'NBR (Nitrile)', range: '-40°F to +250°F', chem: 'Acrylonitrile-Butadiene Rubber',
-    desc: 'The workhorse oil and fuel seal — best value for hydraulics and petroleum service.' },
+    desc: 'The workhorse oil and fuel seal — best value for hydraulics and petroleum service.', link: '/elastomers/nbr-nitrile' },
   { name: 'HNBR', range: '-40°F to +300°F', chem: 'Hydrogenated Nitrile Rubber',
-    desc: 'Nitrile’s oil resistance with much higher heat, strength and abrasion life.' },
+    desc: 'Nitrile’s oil resistance with much higher heat, strength and abrasion life.', link: '/elastomers/hnbr' },
   { name: 'FFKM (Kalrez)', range: '+5°F to +500°F', chem: 'Perfluoroelastomer',
-    desc: 'Near-universal chemical resistance plus extreme heat — for the harshest sealing environments.' },
+    desc: 'Near-universal chemical resistance plus extreme heat — for the harshest sealing environments.', link: '/elastomers/ffkm-kalrez' },
   { name: 'Neoprene (CR)', range: '-40°F to +250°F', chem: 'Chloroprene Rubber',
-    desc: 'A balanced all-rounder with good weather, moderate oil and excellent marine/refrigerant compatibility.' },
+    desc: 'A balanced all-rounder with good weather, moderate oil and excellent marine/refrigerant compatibility.', link: '/elastomers/neoprene' },
   { name: 'SBR', range: '-40°F to +212°F', chem: 'Styrene-Butadiene Rubber',
-    desc: 'Low-cost, abrasion-resistant general-purpose rubber for non-oil, indoor service.' },
+    desc: 'Low-cost, abrasion-resistant general-purpose rubber for non-oil, indoor service.', link: '/elastomers/sbr' },
   { name: 'TPV (Santoprene)', range: '-76°F to +275°F', chem: 'Thermoplastic Vulcanizate',
-    desc: 'Rubber-like sealing in a recyclable, moldable thermoplastic — ideal for weatherseals and overmolding.' },
+    desc: 'Rubber-like sealing in a recyclable, moldable thermoplastic — ideal for weatherseals and overmolding.', link: '/elastomers/tpv-santoprene' },
   { name: 'AFLAS (TFE-P)', range: '+14°F to +446°F', chem: 'Tetrafluoroethylene-Propylene Elastomer',
-    desc: 'The oilfield/steam specialist — outstanding resistance to bases, amines, H₂S and steam.' },
+    desc: 'The oilfield/steam specialist — outstanding resistance to bases, amines, H₂S and steam.', link: '/elastomers/aflas' },
   { name: 'PTFE', range: '-328°F to +500°F', chem: 'Polytetrafluoroethylene (thermoplastic fluoropolymer)',
-    desc: 'Virtually universal chemical inertness and the widest temperature range — a rigid fluoropolymer, not a true elastomer.' },
+    desc: 'Virtually universal chemical inertness and the widest temperature range — a rigid fluoropolymer, not a true elastomer.', link: '/elastomers/ptfe' },
 ]
 
 const aboutBlocks = [
@@ -90,17 +91,17 @@ export default function Elastomers() {
           <div className="container">
             <div className="elastomers__grid">
               {materials.map((m) => (
-                <div key={m.name} className="elastomer-card">
+                <Link to={m.link} key={m.name} className="elastomer-card">
                   <div className="elastomer-card__head">
                     <h3>{m.name}</h3>
                     <span className="elastomer-card__range">{m.range}</span>
                   </div>
                   <p className="elastomer-card__chem">{m.chem}</p>
                   <p className="elastomer-card__desc">{m.desc}</p>
-                  <a href="https://wa.me/8618831866682?text=Hello%2C%20I%27m%20interested%20in%20your%20rubber%20products.%20I%27d%20like%20to%20get%20more%20information%20and%20a%20quotation.%20Could%20you%20please%20share%20your%20product%20catalog%2C%20specifications%2C%20and%20prices%3F%20Thank%20you%21" target="_blank" className="product-card__link">
+                  <span className="product-card__link">
                     View material <span className="arrow">→</span>
-                  </a>
-                </div>
+                  </span>
+                </Link>
               ))}
             </div>
           </div>

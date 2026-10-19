@@ -1882,6 +1882,9 @@ img {
   border-radius: var(--radius);
   padding: 26px;
   transition: box-shadow 0.2s, transform 0.2s;
+  text-decoration: none;
+  color: inherit;
+  display: block;
 }
 
 .elastomer-card:hover {
