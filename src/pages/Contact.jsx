@@ -1,8 +1,8 @@
-﻿
-import Header from '../components/Header.jsx'
+﻿import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 import FloatingCta from '../components/FloatingCta.jsx'
 import { useState } from 'react'
+import usePageSEO from '../hooks/usePageSEO.js'
 
 const infoItems = [
   { label: 'CALL', value: '+86 188 3186 6682' },
@@ -20,6 +20,12 @@ const includeList = [
 ]
 
 export default function Contact() {
+  usePageSEO({
+    title: 'Contact Us | Request a Quote',
+    description: 'Contact JX Hydraulic Seals for custom rubber seal quotes. Phone: +86 188 3186 6682. Email: junweizhang0011@gmail.com. Located in Hengshui, Hebei, China.',
+    keywords: 'contact rubber seal manufacturer, request a quote, rubber seals china, custom seals quote'
+  })
+
   const [formData, setFormData] = useState({
     name: '',
     company: '',

@@ -3,6 +3,7 @@ import Footer from '../components/Footer.jsx'
 import FloatingCta from '../components/FloatingCta.jsx'
 import ImageSlot from '../components/ImageSlot.jsx'
 import { Link } from 'react-router-dom'
+import usePageSEO from '../hooks/usePageSEO.js'
 
 const products = [
   { name: 'Rubber Molded Parts', img: 'https://i.postimg.cc/QCRXsvsy/elastomeric-molded-parts-500x500-1-e1641223603584.png',
@@ -53,6 +54,12 @@ const tools = [
 ]
 
 export default function Products() {
+  usePageSEO({
+    title: 'Custom Rubber Products & Seals Catalog',
+    description: 'Explore our full range of custom rubber products: O-Rings, Oil Seals, Molded Rubber Parts, PTFE Seals, Gaskets, Diaphragms, Extruded Profiles, Inflatable Seals & more. Request a quote.',
+    keywords: 'rubber products catalog, custom o-rings, oil seals manufacturer, molded rubber parts, ptfe seals, rubber gaskets, rubber diaphragms, extruded rubber profiles'
+  })
+
   return (
     <>
       <Header />

@@ -1,6 +1,7 @@
 ﻿import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 import FloatingCta from '../components/FloatingCta.jsx'
+import usePageSEO from '../hooks/usePageSEO.js'
 
 const whoStats = [
   { value: '20', suffix: '+', label: 'Years manufacturing rubber' },
@@ -87,6 +88,12 @@ const aboutBlocks = [
 ]
 
 export default function About() {
+  usePageSEO({
+    title: 'About Us | Custom Rubber Seal Manufacturer',
+    description: 'Learn about JX Hydraulic Seals (Chinese Rubber Corp), a leading custom rubber seals manufacturer with 20+ years of experience. ISO 9001 & IATF 16949 certified.',
+    keywords: 'about rubber seal manufacturer, chinese rubber company, custom seals manufacturer, rubber manufacturing china'
+  })
+
   return (
     <>
       <Header />
